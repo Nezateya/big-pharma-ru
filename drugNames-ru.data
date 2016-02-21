@@ -1,0 +1,229 @@
+{
+	"endings":[
+		{
+			"id":"getridof",
+			"endings":["-Ease","-No-More","-Away"," Catcher"," Beater"," Stomper"," Buster"," Bane", " Crusher", " Punisher", " Soother", " Relief", " Reliever"]
+		},
+		{
+			"id":"reduce",
+			"endings":[" Reducer"," Decreaser"," Relief", " Reliever", "-Mate", " Helper", "-Ease", " Buddy"]
+		},
+		{
+			"id":"increase",
+			"endings":[" Increaser"," Creator"," Amplifier", " Enlarger", " Strengthener", " Augmenter", " Improver"]
+		}
+	
+	],
+	
+	"addons":[" Max"," Pro"," 2.0"," Maxi", " Plus", " Xtreme", " Extra", " XL", " Ultra", " Ultimate", " Elite", " Power", " +", " Intense", " Supreme"],
+	"starts":[
+		{
+			"id":"cough",
+			"names":["Cough","Chesty Cough"],
+			"endType":"getridof"
+		},
+		{
+			"id":"painkiller",
+			"names":["Pain","Ache"],
+			"endType":"getridof"
+		},
+		{
+			"id":"migraine",
+			"names":["Headache","Migraine"],
+			"endType":"getridof"
+		},
+		{
+			"id":"antiseizure",
+			"names":["Seizure","Shake"],
+			"endType":"getridof"
+		},
+		{
+			"id":"anesthetic",
+			"names":["Sleep","Sleepy Time","Awake-away","Time to sleep","Unconscious"]
+		},
+		{
+			"id":"hypertension",
+			"names":["Blood Pressure", "Hypertension"],
+			"endType":"reduce"
+		},
+		{
+			"id":"angina",
+			"names":["Angina"],
+			"endType":"getridof"
+		},
+		{
+			"id":"stroke",
+			"names":["Stroke"],
+			"endType":"getridof"
+		},
+		{
+			"id":"sicklecell",
+			"names":["Sickle Cell"],
+			"endType":"reduce"
+		},
+		{
+			"id":"antidepressants",
+			"names":["Cheer","Smile","Positivity","Happiness"],
+			"endType":"increase"
+		},
+		{
+			"id":"adhd",
+			"names":["ADHD"],
+			"endType":"reduce"
+		},
+		{
+			"id":"bipoladisorder",
+			"names":["Bipola"],
+			"endType":"reduce"
+		},
+		{
+			"id":"schizophrenia",
+			"names":["Schizophrenia"],
+			"endType":"reduce"
+		},
+		{
+			"id":"alzheimers",
+			"names":["Alzheimer's"],
+			"endType":"reduce"
+		},
+		{
+			"id":"antihistamine",
+			"names":["Allergy", "Histamine"],
+			"endType":"getridof"
+		},
+		{
+			"id":"insomnia",
+			"names":["Help You Sleep","Snore More","Snooze-A-Doodle-Doo","Nap More","Snooze More", "Sleep More", "Help You Snore", "Super Snooze", "Unbroken Sleep", "Soft Slumber", "Slumber Pal", "Slumber Buddy","Snooze Buddy", "Snore Buddy", "Snore Pal", "Wide Asleep","Sleep Friend"]
+		},
+		{
+			"id":"anxiety",
+			"names":["Anxiety","Stress"],
+			"endType":"reduce"
+		},
+		{
+			"id":"asthma",
+			"names":["Breathe","Asthma","A-Attack"],
+			"endType":"reduce"
+		},
+		{
+			"id":"bronchitis",
+			"names":["Bronchitis"],
+			"endType":"getridof"
+		},
+		{
+			"id":"tuberculosis",
+			"names":["Tuberculosis"],
+			"endType":"getridof"
+		},
+		{
+			"id":"rash",
+			"names":["Rash","Itch","Flake"],
+			"endType":"getridof"
+		},
+		{
+			"id":"acne",
+			"names":["Zit","Spot","Acne","Pimple"],
+			"endType":"getridof"
+		},
+		{
+			"id":"hairloss",
+			"names":["Hair","Mane","Braid","Locks","Fur","Curls","Tresses","Fuzz"],
+			"endType":"increase"
+		},
+		{
+			"id":"cold",
+			"names":["Cold","Sniffles","Sore Throat"],
+			"endType":"getridof"
+		},
+		{
+			"id":"antibiotics",
+			"names":["Infection","Bacteria","Biotica"],
+			"endType":"getridof"
+		},
+		{
+			"id":"antimalarial",
+			"names":["Mozzi","Mosquito","Malaria"],
+			"endType":"getridof"
+		},
+		{
+			"id":"aids",
+			"names":["AIDS"],
+			"endType":"reduce"
+		},
+		{
+			"id":"hiv",
+			"names":["HIV Vaccine","The HIV Vaccine","HIV Universal Vaccine","The HIV Jab"]
+		},
+		{
+			"id":"acidreflux",
+			"names":["Stomach Pain","Acid","Reflux"],
+			"endType":"getridof"
+		},
+		{
+			"id":"gastroenteritis",
+			"names":["Ulcer","Ulcero","Stomach Sore"],
+			"endType":"getridof"
+		},
+		{
+			"id":"appetite",
+			"names":["Nibble","Snack","Appetite","Munch","Eat"],
+			"endType":"getridof"
+		},
+		{
+			"id":"boweldisease",
+			"names":["Bowel Disease","Bowel Issues","Bowel Problems"],
+			"endType":"getridof"
+		},
+		{
+			"id":"diabetes",
+			"names":["Diabeto","Diabetes"],
+			"endType":"reduce"
+		},
+		{
+			"id":"hyperthyroidism",
+			"names":["HyperThy","Hyperthyroidism"],
+			"endType":"reduce"
+		},
+		{
+			"id":"cancersymptoms",
+			"names":["Cancer"],
+			"endType":"reduce"
+		},
+		{
+			"id":"multiplesclerosis",
+			"names":["Multiple Sclerosis"],
+			"endType":"reduce"
+		},
+		{
+			"id":"cancervaccine",
+			"names":["Cancer Vaccine","Universal Cancer Jab","Universal Cancer Vaccine","The C Jab", "The C Vaccine"]
+		},
+		{
+			"id":"gout",
+			"names":["Gout"],
+			"endType":"getridof"
+		},
+		{
+			"id":"liverdisease",
+			"names":["Liver Disease","Liver Trouble"],
+			"endType":"getridof"
+		},
+		{
+			"id":"warts",
+			"names":["Wart","Warty Growth","Flaky Wart","Fungal Wart"],
+			"endType":"getridof"
+		},
+		{
+			"id":"femalecontraceptive",
+			"names":["Female Contraceptive","Preg-Away","Preg-Attack","Preg-No-More","Pregnancy Stopper","Preg Buster","Halt-a-Preg","Pregnancy Shield","P-Shield"]
+		},
+		{
+			"id":"erectiledysfunction",
+			"names":["Longer Love","Longer Lover","Extended Pleasure","Functional Love","Love Bandit","Duration Plus","Erectile Function","Love Boost","Erecto","Erecto Boost","Bumper Erecto","Erection Ignite","Erection Igniter","Erecto Passion"]
+		},
+		{
+			"id":"malecontraceptive",
+			"names":["Shootablanx","Seed-away","Spermocine","Spermacide","Sperm Stopper", "Sperm Shield", "Sperm Block","Stoppa Sperm","Sperm Defense","Antisperm"]
+		}
+	]
+}

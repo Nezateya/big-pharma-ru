@@ -1,0 +1,1888 @@
+[
+	// Language
+	{"code":"thislanguage","text":"English"}, // The language of this particular strings file, in the native form. E.g. strings-de.data => Deutsch, strings-fr.data => Français.
+	
+	// General
+	{"code":"?","text":"???"},
+
+	// Colors
+	{"code":"W","text":"^cffff"},
+	{"code":"GREY","text":"^C9CB6C1FF"},
+	{"code":"EFF","text":"^cff0f"},
+	{"code":"MAC","text":"^C84F0FFFF"},
+	{"code":"FIN","text":"^c7f7f"},
+	{"code":"NUM","text":"^CCE66FFFF"},
+	{"code":"REA","text":"^CCDC4FFFF"},
+	{"code":"G","text":"^c0f0f"},
+	{"code":"Y","text":"^cffcf"},
+	{"code":"R","text":"^cf00f"},
+	{"code":"ING","text":"^CCE84FFFF"},
+	{"code":"TAB","text":"^CBFD8FFFF"},
+	{"code":"GOODSTUFF","text":"^cffcf"},
+	{"code":"LTBLUE","text":"^CC1E6F2FF"},
+	{"code":"TITLE","text":"^C4EFECBFF"},
+	{"code":"LIST","text":"^CA1EDDCFF"},
+	{"code":"NOTE","text":"^CD3D3D3FF"},
+	{"code":"BPBLUE","text":"^C64CBF9FF"},
+	
+	// Effect levels
+	{"code":"eff0","text":"^C9EFF9EFF"},
+	{"code":"eff1","text":"^C40EFECFF"},
+	{"code":"eff2","text":"^CD39EFFFF"},
+	{"code":"eff3","text":"^CFFD56DFF"},
+	{"code":"eff4","text":"^CFFFF84FF"},
+	{"code":"effbad","text":"^CFF7F7CFF"},
+	{"code":"effbadhalf","text":"^CFF7F7C88"},
+
+	// Notifications alert dialogs
+	{"code":"cannotbuildmachinenexttoanother","text":"Equipment inputs and outputs must be connected by Belts."},
+	{"code":"insufficientfunds","text":"Insufficient funds."},
+	{"code":"insufficientupgradepoints","text":"Insufficient upgrade points."},
+	
+	// Random
+	{"code":"and","text":"and"},
+	{"code":"or","text":"or"},
+	
+	// Advisors
+	{"code":"random","text":"Random"},
+	{"code":"leonard","text":"Leonard"},
+	{"code":"jenny","text":"Jenny"},
+	{"code":"chan","text":"Chan"},
+	{"code":"sasha","text":"Sasha"},
+	{"code":"orion","text":"Orion"},
+	{"code":"penny","text":"Penny"},
+	{"code":"barclay","text":"Barclay"},
+	{"code":"tess","text":"Tess"},
+	{"code":"company.leonard","text":"Wizzbang Developments"},
+	{"code":"company.jenny","text":"Expedite Medicine"},
+	{"code":"company.chan","text":"Katana Tech"},
+	{"code":"company.sasha","text":"Cooperative Care"},
+	{"code":"company.orion","text":"Excalibur Pharmaceuticals"},
+	{"code":"company.penny","text":"Medicorp"},
+	{"code":"company.barclay","text":"Barclay Industries"},
+	{"code":"company.tess","text":"Gamma Group"},
+	
+	// SPLASH SCREEN
+	{"code":"download","text":"DOWNLOAD"},
+	{"code":"later","text":"LATER"},
+	{"code":"loading","text":"Loading..."},
+	{"code":"thereisanupdate","text":"There is an update: {0} ({1})"},
+	{"code":"downloading","text":"Downloading: {0} ({1})"},
+	{"code":"downloadingprogress","text":"Downloading: {0},{1} ({2})"},
+	{"code":"downloadingprogresssimple","text":"Downloading: "},
+	{"code":"downloadfinished","text":"Download finished"},
+	{"code":"unpacking","text":"Unpacking: {0} ({1})"},
+	{"code":"unpackingfinished","text":"Unpacking finished"},
+	{"code":"restarting","text":"Restarting..."},
+	
+	// MAIN MENU
+	{"code":"mainmenuversion","text":"Version: {0}"},
+	{"code":"mainmenunewgame","text":"New Game"},
+	{"code":"mainmenuloadgame","text":"Load Game"},
+	{"code":"mainmenuoptions","text":"Options"},
+	{"code":"mainmenuexit","text":"Exit"},
+	{"code":"mainmenucontinuelastgame","text":"Continue Last Game"},
+	{"code":"mainmenumods","text":"Mods"},
+	
+	// IN GAME MENU
+	{"code":"returntogame","text":"RETURN TO GAME"},
+	
+	// MODDING
+	{"code":"modstitle","text":"MODS"},
+	{"code":"loadmodconfirm","text":"LOAD MOD?"},
+	{"code":"loadmodconfirmtext","text":"Restart game with this mod installed?"},
+	{"code":"revertedToVanillaTitle","text":"MOD REVERTED"},
+	{"code":"revertedToVanilla","text":"Error encountered while installing mod. Reverted to basic game.\nError in file: {0}"},
+	{"code":"currentlyinstalled","text":" (installed)"},
+	{"code":"unloadmods","text":"UNLOAD CURRENT"},
+	{"code":"unloadmodconfirm","text":"UNLOAD MOD?"},
+	{"code":"unloadmodconfirmtext","text":"Restart game with no mods installed?"},
+	
+	// COMPANY INCORPORATION DIALOG
+	{"code":"incorporateTitle","text":"COMPANY INCORPORATION CERTIFICATE"},
+	{"code":"incorporate","text":"INCORPORATE"},
+	{"code":"companycolors","text":"COMPANY COLORS"},
+	{"code":"companyadvisor","text":"CHIEF EXECUTIVE OFFICER"},
+	{"code":"companyname","text":"COMPANY NAME"},
+	{"code":"nameyourcompany","text":"NAME YOUR COMPANY"},
+	
+	// CUSTOM GAME DIALOG
+	{"code":"startgame","text":"START GAME"},
+	{"code":"importcustom","text":"IMPORT"},
+	{"code":"exportcustom","text":"EXPORT"},
+	{"code":"difficultycolon","text":"DIFFICULTY:"},
+	
+	// CUSTOM SETTINGS
+	/// competitors
+	{"code":"competitors","text":"Competitors"},
+	{"code":"veryeasy","text":"Very easy"},
+	{"code":"easy","text":"Easy"},
+	{"code":"normal","text":"Normal"},
+	{"code":"hard","text":"Hard"},
+	{"code":"veryhard","text":"Very hard"},
+	/// ingredients
+	{"code":"ingredientsettings","text":"Ingredient Settings"},
+	{"code":"locationsIncluded","text":"Locations included"},
+	{"code":"hovertext.locationsIncluded","text":"Which location types will be included in the game. Ingredients will be automatically distributed between them to give a good game."},
+	{"code":"numberOfIngredients","text":"Number of ingredients"},
+	{"code":"hovertext.numberOfIngredients","text":"The total number of ingredients in the game including starting ingredients."},
+	{"code":"numberOfStartingIngredients","text":"Number of starting ingredients"},
+	{"code":"hovertext.numberOfStartingIngredients","text":"The number of ingredients each player starts with."},
+	{"code":"maxCatalystLevel","text":"Max catalyst level"},
+	{"code":"hovertext.maxCatalystLevel","text":"The maximum level of catalyst included in the game."},
+	{"code":"numberOfCatalysts","text":"Number of catalysts"},
+	{"code":"hovertext.numberOfCatalysts","text":"The number of catalysts included in the game. Catalysts will be distributed automatically based on this and the maximum catalyst level. There will be more low level catalysts than high level catalysts."},
+	{"code":"numberOfSideEffects","text":"Number of side effects"},
+	{"code":"hovertext.numberOfSideEffects","text":"The number of non-catalyst side-effects to include in addition to the catalysts."},
+	/// game settings
+	{"code":"gamesettings","text":"Game Settings"},
+	{"code":"mapSize","text":"Map size"},
+	{"code":"hovertext.mapSize","text":"The size of the map. Large maps are more likely to include large buildings."},
+	{"code":"eventFrequency","text":"Event frequency"},
+	{"code":"hovertext.eventFrequency","text":"The frequency of random events which affect cure demand."},
+	{"code":"cureMarketSize","text":"Cure market size"},
+	{"code":"hovertext.cureMarketSize","text":"The size of the cure market. This percentage is directly applied to the 'Number of sufferers' statistic of each cure. A smaller market will saturate quicker and will decrease quicker in response to permanent cures."},
+	{"code":"loanInterestFactor","text":"Loan interest rates"},
+	{"code":"hovertext.loanInterestFactor","text":"This setting affects the rates of interest offered to you with loans. Higher interest rates make it easier to spiral into debt and encourage players to repay loans early."},
+	{"code":"cureMarginBonus","text":"Cure profit margins"},
+	{"code":"hovertext.cureMarginBonus","text":"This setting is the most direct way to change the difficulty and length of the game. High cure margins make it easier to make money, quicker. Low margins make it more difficult to make a profit and will make for a slower paced game. Low margins force the player to look for 'good deals' and focus on cures which are in high demand."},
+	{"code":"exploreSpeed","text":"Exploration speed"},
+	{"code":"hovertext.exploreSpeed","text":"This setting determines how long it takes to explore a location. This in turn affects the cost of exploration because salaries are collected daily. To create a faster paced game without decreasing difficulty, try increasing exploration speed and explorer salaries."},
+	{"code":"researchSpeed","text":"Research speed"},
+	{"code":"hovertext.researchSpeed","text":"This setting determines how long it takes to research a project. This in turn affects the cost of research because salaries are collected daily. To create a faster paced game without decreasing difficulty, try increasing research speed and scientist salaries."},
+	{"code":"testingSpeed","text":"Analyzer speed"},
+	{"code":"hovertext.testingSpeed","text":"This setting determines how many drugs must be analyzed before the max-strength concentration is revealed."},
+	{"code":"startingMoney","text":"Starting money"},
+	{"code":"hovertext.startingMoney","text":"The amount of money each player starts with."},
+	{"code":"startingLoan","text":"Starting loan"},
+	{"code":"hovertext.startingLoan","text":"The amount of loan the player starts with. AI competitors are not affected."},
+	{"code":"patentSpeed","text":"Patent speed"},
+	{"code":"hovertext.patentSpeed","text":"This setting determines how long it takes to complete a patent."},
+	{"code":"patentCost","text":"Patent cost"},
+	{"code":"hovertext.patentCost","text":"This setting determines how much it costs to apply for a patent."},
+	{"code":"plotCost","text":"Plot cost"},
+	{"code":"hovertext.plotCost","text":"This setting determines how much it costs to expand your factory."},
+	{"code":"researchSalaries","text":"Scientist salaries"},
+	{"code":"hovertext.researchSalaries","text":"The amount it costs per day to employ a Scientist."},
+	{"code":"researchHireCost","text":"Scientist hire cost"},
+	{"code":"hovertext.researchHireCost","text":"The one-time cost of hiring a Scientist."},
+	{"code":"explorerSalaries","text":"Explorer salaries"},
+	{"code":"hovertext.explorerSalaries","text":"The amount it costs per day to employ an Explorer."},
+	{"code":"explorerHireCost","text":"Explorer hire cost"},
+	{"code":"hovertext.explorerHireCost","text":"The one-time cost of hiring an Explorer."},
+	{"code":"ingredientPrices","text":"Ingredient prices"},
+	{"code":"hovertext.ingredientPrices","text":"Determines the cost of ingredients imported into your factory. Low ingredient prices make the game generally easier, but in particular, they make the use of catalysts less cost-prohibitive. The converse is also true."},
+	{"code":"processCosts","text":"Process costs"},
+	{"code":"hovertext.processCosts","text":"Determines the basic process cost of all machines, reductions in process cost from upgrades are left unchanged. A lower setting makes for a generally easier game while making upgrades more effective. The converse is also true."},
+	{"code":"buildCosts","text":"Build costs"},
+	{"code":"hovertext.buildCosts","text":"Determines the build cost of all machines. A higher setting will make a longer, more capital intensive game. A low setting will make for a faster game where factory space is the main limiting factor."},
+	{"code":"researchAccrualSpeed","text":"Research upgrade point accrual speed"},
+	{"code":"hovertext.researchAccrualSpeed","text":"Determines the rate at which research upgrade points accrue. A lower setting will make it more cost-effective to research new technologies than to upgrade existing ones. The converse is also true."},
+	{"code":"explorationAccrualSpeed","text":"Ingredient upgrade point accrual speed"},
+	{"code":"hovertext.explorationAccrualSpeed","text":"Determines the rate at which ingredient upgrade points accrue. A lower setting will make it more cost-effective to explore for new locations than to upgrade existing ones. The converse is also true."},
+	{"code":"cureRate","text":"Cure rate"},
+	{"code":"hovertext.cureRate","text":"The rate at which treatments permanently cure patients."},
+	{"code":"infectionRate","text":"Infection rate"},
+	{"code":"hovertext.infectionRate","text":"The rate at which demand for cures which treat infectious diseases increases over time. A higher setting actually makes for an easier game because it makes these cures more profitable, earlier."},
+	// victory conditions
+	{"code":"victoryconditions","text":"Victory Conditions"},
+	{"code":"dropdown.totalRevenue","text":"Total revenue"},
+	{"code":"dropdown.operatingProfit","text":"Operating profit"},
+	{"code":"dropdown.productProfit","text":"Products with profit"},
+	{"code":"dropdown.beforeYears","text":"Within years"},
+	{"code":"dropdown.productValue","text":"Products with value"},
+	{"code":"dropdown.productLevel","text":"Products with level"},
+	{"code":"dropdown.minCureRating","text":"Min cure rating"},
+	{"code":"dropdown.totalProducts","text":"Total products"},
+	{"code":"dropdown.noLoan","text":"Pay off loan"},
+	{"code":"products","text":"{0} products"},
+	{"code":"level","text":"Level {0}"},
+	// disabled research
+	{"code":"disabledresearch","text":"Disabled Research"},
+	{"code":"startingresearch","text":"Starting Research"},
+	
+	// SLIDER VALUES
+	{"code":"few","text":"Few"},
+	{"code":"normal","text":"Normal"},
+	{"code":"many","text":"Many"},
+	{"code":"low","text":"Low"},
+	{"code":"normal","text":"Normal"},
+	{"code":"high","text":"High"},
+	{"code":"veryhigh","text":"Very high"},
+	{"code":"small","text":"Small"},
+	{"code":"large","text":"Large"},
+	{"code":"verylarge","text":"Very large"},
+	{"code":"verythin","text":"Very thin"},
+	{"code":"thin","text":"Thin"},
+	{"code":"standard","text":"Standard"},
+	{"code":"wide","text":"Wide"},
+	{"code":"verywide","text":"Very wide"},
+	{"code":"uptodesert","text":"Up to desert"},
+	{"code":"uptoarctic","text":"Up to arctic"},
+	{"code":"uptoocean","text":"Up to ocean"},
+	
+	// IMPORT CUSTOM GAME DIALOG
+	{"code":"importcustomgametitle","text":"Import Custom Game Settings"},
+	{"code":"loadmapconfirm","text":"LOAD MAP?"},
+	{"code":"loadmapconfirmtext","text":"Load map settings into custom game?"},
+	
+	// EXPORT CUSTOM GAME DIALOG
+	{"code":"exportcustomgametitle","text":"Export Custom Game Settings"},
+	{"code":"overwritemapconfirm","text":"OVERWRITE?"},
+	{"code":"overwritemapconfirmtext","text":"Are you sure you want to overwrite these saved settings?"},
+	{"code":"mapsuccess","text":"Custom game settings saved to "},
+	{"code":"customgametitle","text":"Title"},
+	{"code":"customgamedesc","text":"Description"},
+	{"code":"needtofillintitleanddesc","text":"Fill in title and description before saving."},
+	
+	
+	// GAME BAR
+	{"code":"unlimited","text":"UNLIMITED"},
+	
+	// TABS
+	{"code":"productiontab","text":"PRODUCTION"},
+	{"code":"ingredientstab","text":"INGREDIENTS"},
+	{"code":"curestab","text":"CURES"},
+	{"code":"researchtab","text":"RESEARCH"},
+	{"code":"companytab","text":"COMPANY"},
+	
+	// DIALOG MESSAGE TITLES
+	{"code":"newproduct","text":"New Product"},
+	{"code":"ingredientdiscovered","text":"Ingredient Discovered"},
+	{"code":"researchcomplete","text":"Research Complete"},
+	{"code":"newaiproducttitle","text":"New Competitor Product"},
+	{"code":"testingcomplete","text":"Analysis Complete"},
+	
+	// NEW PRODUCT DIALOG
+	{"code":"whatisyourproductcalled","text":"What is your product called?"},
+	{"code":"name","text":"NAME"},
+	{"code":"forget","text":"FORGET"},
+	
+	// RENAME PRODUCT
+	{"code":"clicktorename","text":"Click to rename"},
+	{"code":"renameproduct","text":"RENAME PRODUCT"},
+	
+	// NEW INGREDIENT DIALOG
+	{"code":"gotoingredients","text":"GOTO INGREDIENTS"},
+	
+	// NEW RESEARCH DIALOG
+	{"code":"gotoresearch","text":"GOTO RESEARCH"},
+	
+	// PRODUCT NO LONGER PROFITABLE
+	{"code":"productnolongerprofitabletitle","text":"Product no longer profitable"},
+	{"code":"productnolongerprofitable1","text":"The following product is no longer profitable."},
+	{"code":"productnolongerprofitable2","text":"At current market conditions it has a net value of {0}."},
+	
+	// NEW AI PRODUCT DIALOG
+	{"code":"newaiproductnoncompete","text":"One of our competitors, {0}, has released a new product, {1}."},
+	{"code":"newaiproductcompete","text":"One of our competitors, {0}, has released a new product, {1}.\n\nThis new product is in direct competition with our product, {2}."},
+	{"code":"newaiproductcompetepatent","text":"One of our competitors, {0}, has released a new product, {1}.\n\nIf this new product was patented it would prevent us from selling our product, {2}."},
+	{"code":"gotocompany","text":"GOTO COMPANY"},
+	
+	// TESTING DIALOG
+	{"code":"testingcompletetext","text":"Good news! You have performed sufficient testing on effect, {0}, to discover its &GOODSTUFF>Max Strength&W> concentration."},
+	{"code":"testingexplanationsideeffect","text":"To avoid strong side-effects, choose a final drug concentration as far away from the &GOODSTUFF>Max Strength&W> concentration as possible."},
+	{"code":"testingexplanationcure","text":"To maximise the efficacy of this cure, choose a final drug concentration as close to the &GOODSTUFF>Max Strength&W> concentration as possible."},
+	
+	// CANNOT SELL PATENTED PRODUCT
+	{"code":"cannotsellproduct","text":"Cannot sell product!"},
+	{"code":"thefollowingproductcannot","text":"The following product cannot be sold due to a competitor's patent:"},
+	{"code":"thepatentowned","text":"The patent, owned by {0}, covers any &BPBLUE>{1}&W> with the following set of active effects: {2}&W>\n\nIt expires in {3}."},
+	
+	// PATENT COMPLETE
+	{"code":"patentcomplete","text":"Patent Complete"},
+	{"code":"yourlawyers","text":"Your lawyers have completed a new patent!\n\nIt covers any &BPBLUE>{0}&W> with the following set of active effects: {1}&W>\n\nIt expires in {2}."},
+	{"code":"ok","text":"OK"},
+	
+	// PATENT COMPLETE AI
+	{"code":"patentcompleteai","text":"{0} completes new patent"},
+	{"code":"ailawyers","text":"{0} have completed a new patent!\n\nIt covers any &BPBLUE>{1}&W> with the following set of active effects: {2}&W>\n\nIt expires in {3}."},
+	
+	// PATENT CANCELLED
+	{"code":"patentcancelled","text":"Patent cancelled!"},
+	{"code":"patentcancelledtext","text":"{0} have completed a rival patent forcing you to cancel your own application.\n\nIt covers any &BPBLUE>{1}&W> with the following set of active effects: {2}&W>\n\nYou have been issued with a 50% refund."},
+	
+	
+	// SAVE/LOAD DIALOGS
+	{"code":"savegame","text":"SAVE GAME"},
+	{"code":"loadgame","text":"LOAD GAME"},
+	{"code":"save","text":"SAVE"},
+	{"code":"load","text":"LOAD"},
+	{"code":"saveerror","text":"Error saving game to: "},
+	{"code":"savesuccess","text":"Game saved to: "},
+	{"code":"yes","text":"YES"},
+	{"code":"no","text":"NO"},
+	{"code":"overwriteconfirm","text":"OVERWRITE SAVE?"},
+	{"code":"overwriteconfirmtext","text":"Are you sure you want to overwrite this save game?"},
+	{"code":"deleteconfirm","text":"DELETE SAVE?"},
+	{"code":"deleteconfirmtext","text":"Are you sure you want to delete this save game?"},
+	{"code":"loadconfirm","text":"LOAD GAME?"},
+	{"code":"loadconfirmtext","text":"You will lose any unsaved progress if you continue. Load game?"},
+	{"code":"saveinfolabels","text":"Date and time:\n\nScenario:\nChallenge:\nDuration:\n\nGame date:\nCash:"},
+	{"code":"saveinfolabelswithmod","text":"Date and time:\n\nMod:\n\nScenario:\nChallenge:\nDuration:\n\nGame date:\nCash:"},
+	{"code":"invalidsave","text":"This save was made with an old version of Big Pharma and is now invalid. Sorry!"},
+	{"code":"hourabbreviation","text":"h"},
+	{"code":"minuteabbreviation","text":"m"},
+	{"code":"changevideosettings","text":"Change video settings from main menu."},
+	{"code":"invalidsavemodnone","text":"This save requires no mod to be installed in order to load."},
+	{"code":"invalidsavemoddif","text":"This save requires the '{0}' mod to be installed in order to load."},
+	{"code":"errorloadingsavegame","text":"Error loading game."},
+	
+	// OPTIONS DIALOG
+	{"code":"optionstitle","text":"OPTIONS"},
+	{"code":"gameplay","text":"GAME SETTINGS"},
+	{"code":"controls","text":"CONTROLS"},
+	{"code":"video","text":"VIDEO"},
+	{"code":"audio","text":"AUDIO"},
+	{"code":"other","text":"Other"},
+	{"code":"applychanges","text":"APPLY CHANGES"},
+	{"code":"on","text":"On"},
+	{"code":"off","text":"Off"},
+	
+	// GAME SETTINGS
+	{"code":"changefrommainmenu","text":"Change from main menu"},
+	{"code":"currencySymbol","text":"Currency symbol:"},
+	{"code":"currencySeparator","text":"Thousands separator:"},
+	{"code":"comma","text":"Comma"},
+	{"code":"apostrophe","text":"Apostrophe"},
+	{"code":"space","text":"Space"},
+	{"code":"fullstop","text":"Full stop"},
+	{"code":"language","text":"Language:"},
+	
+	{"code":"runinbackground","text":"Run in background:"},
+	{"code":"productneedsname","text":"When product needs name:"},
+	{"code":"onProductPatented","text":"When product blocked due to patent:"},
+	{"code":"waitforuser","text":"Wait for user"},
+	{"code":"autopauseandfocus","text":"Auto pause and focus"},
+	{"code":"autoname","text":"Auto name"},
+	{"code":"newAiProductMessage","text":"Message when AI launches new product:"},
+	{"code":"newAiPatentMessage","text":"Message when AI completes patent:"},
+	{"code":"worldEventsMessage","text":"Message on new world event:"},
+	{"code":"selectevents","text":"Player products only"},
+	{"code":"wallDecals","text":"Wall decals:"},
+	{"code":"machineInstructions","text":"Build tool instructions:"},
+	{"code":"competeRisk","text":"If in competition with player product"},
+	{"code":"patentRisk","text":"If identical to player product"},
+	{"code":"announcerLanguage","text":"Announcer Language:"},
+	{"code":"autosave","text":"Autosave interval:"},
+	{"code":"minutes","text":"Minutes"},
+	{"code":"autosavefilename","text":"Autosave"},
+	{"code":"autosavenotification","text":"Autosaved..."},
+	
+	// VIDEO
+	{"code":"resolution","text":"Resolution:"},
+	{"code":"display","text":"Display:"},
+	{"code":"fullscreen","text":"Fullscreen"},
+	{"code":"windowed","text":"Windowed"},
+	{"code":"borderless","text":"Borderless"},
+	{"code":"customCursor","text":"Dynamic cursor:"},
+	{"code":"animatedTabTransitions","text":"Animated tab transitions:"},
+	
+	// AUDIO
+	{"code":"factoryvolume","text":"Factory Volume"},
+	{"code":"guivolume","text":"GUI Volume"},
+	{"code":"musicvolume","text":"Music Volume"},
+	{"code":"announcervolume","text":"Announcer Volume"},
+	
+	// CONTROLS
+	{"code":"mousebuttontopan","text":"Mouse button to pan:"},
+	{"code":"right","text":"Right"},
+	{"code":"middle","text":"Middle"},
+	{"code":"none","text":"None"},
+	{"code":"rotatemousewheel","text":"Rotate machines with mouse wheel:"},
+	{"code":"edgescrolling","text":"Edge scrolling:"},
+	{"code":"edgeScrollSensitivity","text":"Edge scroll sensitivity:"},
+	{"code":"keyScrollSensitivity","text":"Key scroll sensitivity:"},
+	
+	// NOT YET IMPLEMENTED CONTROLS:
+	{"code":"toggleMouseWheelZoomDirection","text":"Toggle mouse wheel zoom direction:"},
+	{"code":"toggleMouseWheelScrollDirection","text":"Toggle mouse wheel scroll direction:"},
+	{"code":"toggleMouseWheelRotateDirection","text":"Toggle mouse wheel rotate direction:"},
+	// NOT YET IMPLEMENTED HOVER:
+	{"code":"competitorProductExists","text":"The following products compete directly with this product:"},
+	
+	// CUSTOM GAME - All cures visible.
+	
+	// KEY BINDINGS
+	{"code":"keybindings","text":"Key Bindings"},
+	{"code":"up.label","text":"Move up"},
+	{"code":"down.label","text":"Move down"},
+	{"code":"left.label","text":"Move left"},
+	{"code":"right.label","text":"Move right"},
+	{"code":"zoom_in.label","text":"Zoom in"},
+	{"code":"zoom_out.label","text":"Zoom out"},
+	{"code":"rotate_anticlockwise.label","text":"Rotate machine anticlockwise"},
+	{"code":"rotate_clockwise.label","text":"Rotate machine clockwise"},
+	{"code":"manual_belt.label","text":"Tool modifier"},
+	{"code":"belt_tool.label","text":"Select Belt tool"},
+	{"code":"basic.label","text":"Open Basic toolbar"},
+	{"code":"advanced.label","text":"Open Advanced toolbar"},
+	{"code":"auxiliary.label","text":"Open Auxiliary toolbar"},
+	{"code":"makers.label","text":"Open Makers toolbar"},
+	{"code":"paint_tool.label","text":"Open Paint toolbar"},
+	{"code":"delete_tool.label","text":"Delete tool"},
+	{"code":"pos1.label","text":"Select machine in position 1"},
+	{"code":"pos2.label","text":"Select machine in position 2"},
+	{"code":"pos3.label","text":"Select machine in position 3"},
+	{"code":"pos4.label","text":"Select machine in position 4"},
+	{"code":"pos5.label","text":"Select machine in position 5"},
+	{"code":"pos6.label","text":"Select machine in position 6"},
+	{"code":"pos7.label","text":"Select machine in position 7"},
+	{"code":"pos8.label","text":"Select machine in position 8"},
+	{"code":"pos9.label","text":"Select machine in position 9"},
+	{"code":"pos10.label","text":"Select machine in position 10"},
+	{"code":"pos11.label","text":"Select machine in position 11"},
+	{"code":"pos12.label","text":"Select machine in position 12"},
+	{"code":"pos13.label","text":"Select machine in position 13"},
+	{"code":"pos14.label","text":"Select machine in position 14"},
+	{"code":"pos15.label","text":"Select machine in position 15"},
+	{"code":"pos16.label","text":"Select machine in position 16"},
+	{"code":"pos17.label","text":"Select machine in position 17"},
+	{"code":"pos18.label","text":"Select machine in position 18"},
+	{"code":"pos19.label","text":"Select machine in position 19"},
+	{"code":"pos20.label","text":"Select machine in position 20"},
+	{"code":"pause.label","text":"Pause"},
+	{"code":"normal.label","text":"Normal"},
+	{"code":"fast_forward.label","text":"Fast-forward"},
+	{"code":"toggle_pause.label","text":"Toggle between last speed and pause"},
+	{"code":"switch_production.label","text":"Switch to Production tab"},
+	{"code":"switch_ingredients.label","text":"Switch to Ingredients tab"},
+	{"code":"switch_cures.label","text":"Switch to Cures tab"},
+	{"code":"switch_research.label","text":"Switch to Research tab"},
+	{"code":"switch_company.label","text":"Switch to Company tab"},
+	{"code":"print_screen.label","text":"Capture screenshot"},
+	{"code":"print_screen_no_gui.label","text":"Capture screenshot no GUI"},
+	
+	// Machines
+	{"code":"evaporator","text":"Evaporator"},
+	{"code":"evaporatordesc","text":"&GREY>Increases &W>Concentration&GREY> by &W>1&GREY>."},
+	{"code":"dissolver","text":"Dissolver"},
+	{"code":"dissolverdesc","text":"&GREY>Decreases &W>Concentration&GREY> by &W>1&GREY>."},
+	{"code":"agglomerator","text":"Agglomerator"},
+	{"code":"agglomeratordesc","text":"&GREY>Increases &W>Concentration&GREY> by &W>3&GREY>."},
+	{"code":"ioniser","text":"Ioniser"},
+	{"code":"ioniserdesc","text":"&GREY>Decreases &W>Concentration&GREY> by &W>3&GREY>."},
+	{"code":"cooler","text":"Cryogenic Condenser"},
+	{"code":"coolerdesc","text":"&GREY>Doubles &W>Concentration&GREY>."},
+	{"code":"autoclave","text":"Autoclave"},
+	{"code":"autoclavedesc","text":"&GREY>Halves &W>Concentration&GREY>."},
+	{"code":"chromatograph","text":"Chromatograph"},
+	{"code":"chromatographdesc","text":"&GREY>For &W>Concentrations&GREY> between 1 and 10, increases &W>Concentration&GREY> by 10.\n\nFor &W>Concentrations&GREY> between 11 and 20, decreases &W>Concentration&GREY> by 10."},
+	{"code":"uv_curer","text":"Ultraviolet Curer"},
+	{"code":"uv_curerdesc","text":"&GREY>Decimates &W>Concentration&GREY> to &W>1&GREY>."},
+	{"code":"sequencer","text":"Sequencer"},
+	{"code":"sequencerdesc","text":"&GREY>Allows you to directly specify &W>Concentration&GREY> within a set of fixed values."},
+	{"code":"hadron","text":"Hadron Collider"},
+	{"code":"hadrondesc","text":"&GREY>Makes drugs super-reactive!\n\nCollided drugs act as though they are at all &W>Concentrations&GREY> simultaneously. All effects are active and the concentration component of all reactions are satisfied."},
+	{"code":"centrifuge","text":"Centrifuge"},
+	{"code":"centrifugedesc","text":"&GREY>Swaps effects between 2 ingredients."},
+	{"code":"packer","text":"Packer"},
+	{"code":"packerdesc","text":"&GREY>Packs multiple, identical finished products into a box which can then be exported."},
+	{"code":"cream_maker","text":"Creamer"},
+	{"code":"cream_makerdesc","text":"&GREY>Converts ingredient into finished &FIN>Cream&GREY>.\n\n&Y>Increases combined value by &$>{0}. Reduces strength of negative effects by {1}%."},	
+	{"code":"advancedcream_makerdesc","text":"&GREY>Converts ingredient into finished &FIN>Cream&GREY>.\n\n&Y>Increases combined value by &$>{0}. Reduces strength of negative effects by {1}%.\n\n&Y>Reduces strength of positive effects by {2}%."},
+	{"code":"multimixer","text":"Multimixer"},
+	{"code":"multimixerdesc","text":"&GREY>Adds the cures and side-effects of one ingredient to another. The cures and side-effects in the &W>base&GREY> ingredient will displace those in the other ingredient."},
+	{"code":"pill_maker","text":"Pill Printer"},
+	{"code":"pill_makerdesc","text":"&GREY>Converts ingredient into finished &FIN>Pill&GREY>.\n\n&Y>Increases combined value by &$>{0}."},
+	{"code":"sachet_maker","text":"Sachet Fabricator"},
+	{"code":"sachet_makerdesc","text":"&GREY>Converts ingredient into finished &FIN>Sachet&GREY>\n\n&Y>Increases combined value by &$>{0} for each positive effect in drug."},
+	{"code":"shaker","text":"Shaker"},
+	{"code":"shakerdesc","text":"&GREY>The Shaker reorientates your drugs shifting each effect down one space. The effect at the bottom moves to the top."},
+	{"code":"syringe_maker","text":"Syringe Injector"},
+	{"code":"syringe_makerdesc","text":"&GREY>Converts ingredient into finished &FIN>Syringe&GREY>.\n\n&Y>Increases combined value by {0}%. Increases strength of all effects by {1}%."},
+	{"code":"incinerator","text":"Analyzer"},
+	{"code":"incineratordesc","text":"&GREY>Identifies the Max Strength concentration of a drug's effects.\n\nDrugs are destroyed during analysis. Effects do not need to be active to be analyzed."},
+	{"code":"fixed_belt","text":"Fixed Belt"},
+	{"code":"fixed_beltdesc","text":"&GREY>Converts a belt into a belt with fixed direction. Rotate to flip direction. Useful for complicated production lines."},
+	
+	// Drug types
+	{"code":"pillbonus","text":"Increases combined value by &$>{0}."},
+	{"code":"creambonus","text":"Increases combined value by &$>{0}. Reduces strength of negative effects by {1}%."},
+	{"code":"sachetbonus","text":"Increases combined value by &$>{0} for each positive effect in drug."},
+	{"code":"syringebonus","text":"Increases combined value by {0}%. Increases strength of all effects by {1}%."},
+	
+	// Locations
+	{"code":"moon_fern","text":"Moon Fern"},
+	{"code":"spiny_fig","text":"Spiny Fig"},
+	{"code":"nipplewort","text":"Spotted Nipplewort"},
+	{"code":"tumblewoad","text":"Tumble Woad"},
+	{"code":"dragon_beetle","text":"Dragon Beetle"},
+	{"code":"sting_weevil","text":"Sting Weevil"},
+	{"code":"vine_borer","text":"Vine Borer"},
+	{"code":"goldenrod","text":"Desert Goldenrod"},
+	{"code":"prickly_pear","text":"Prickly Beehive"},
+	{"code":"sand_hedgehog","text":"Sand Hedgehog"},
+	{"code":"thirstweed","text":"Thirstweed"},
+	{"code":"monk_doodlebug","text":"Monk Doodlebug"},
+	{"code":"jewel_fly","text":"Jewel Fly"},
+	{"code":"frost_lichen","text":"Frost Lichen"},
+	{"code":"arctic_shill","text":"Shill Poppy"},
+	{"code":"blue_cottongrass","text":"Blue Cottongrass"},
+	{"code":"polar_saxifrage","text":"Polar Saxifrage"},
+	{"code":"arctic_willow","text":"Arctic Willow"},
+	{"code":"staghorn_coral","text":"Staghorn Coral"},
+	{"code":"elephant_coral","text":"Elephant Coral"},
+	{"code":"jellyfish","text":"Darting Jellyfish"},
+	{"code":"blowfish","text":"Deep Sea Blowfish"},
+	
+	// Effects
+	// Cures
+	{"code":"noeffect","text":"No Effect"},
+	
+	{"code":"paintitle","text":"Pain"},
+	{"code":"painkiller","text":"Painkiller"},
+	{"code":"migraine","text":"Eases Migraine"},
+	{"code":"antiseizure","text":"Antiseizure"},
+	{"code":"anesthetic","text":"Anaesthetic"},
+	
+	{"code":"bloodtitle","text":"Blood"},
+	{"code":"hypertension","text":"Relieves Hypertension"},
+	{"code":"angina","text":"Treats Angina"},
+	{"code":"stroke","text":"Reduces Stroke Risk"},
+	{"code":"sicklecell","text":"Combats Sickle Cell Anaemia"},
+
+	{"code":"psychologicaltitle","text":"Psychological"},
+	{"code":"antidepressants","text":"Antidepressant"},
+	{"code":"adhd","text":"Combats ADHD"},	
+	{"code":"bipoladisorder","text":"Treats Bipolar Disorder"},
+	{"code":"schizophrenia","text":"Treats Schizophrenia"},
+	{"code":"alzheimers","text":"Cures Alzheimer's"},
+	
+	{"code":"relaxantstitle","text":"Relaxants"},
+	{"code":"antihistamine","text":"Antihistamine"},
+	{"code":"insomnia","text":"Alleviates Insomnia"},
+	{"code":"anxiety","text":"Reduces Anxiety"},
+	
+	{"code":"lungstitle","text":"Lungs"},
+	{"code":"cough","text":"Soothes Cough"},
+	{"code":"asthma","text":"Eases Asthma"},
+	{"code":"bronchitis","text":"Treats Bronchitis"},
+	{"code":"tuberculosis","text":"Cures Tuberculosis"},
+	
+	{"code":"skintitle","text":"Skin"},
+	{"code":"rash","text":"Soothes Rash"},
+	{"code":"acne","text":"Prevents Acne"},
+	{"code":"hairloss","text":"Restores Hair"},
+	
+	{"code":"viraltitle","text":"Infection"},
+	{"code":"cold","text":"Soothes Cold Symptoms"},
+	{"code":"antibiotics","text":"Antibiotic"},
+	{"code":"antimalarial","text":"Antimalarial"},
+	{"code":"aids","text":"Combats AIDS"},
+	{"code":"hiv","text":"Cures HIV"},
+	
+	{"code":"digestiontitle","text":"Digestion"},
+	{"code":"acidreflux","text":"Calms Acid Reflux"},
+	{"code":"gastroenteritis","text":"Alleviates Stomach Ulcers"},
+	{"code":"appetite","text":"Appetite Suppressant"},
+	{"code":"boweldisease","text":"Cures Irritable Bowel Syndrome"},
+	
+	{"code":"bodyresponsetitle","text":"Body Response"},
+	{"code":"diabetes","text":"Treats Diabetes"},
+	{"code":"hyperthyroidism","text":"Cures Hyperthyroidism"},
+	{"code":"cancersymptoms","text":"Fights Cancer"},
+	{"code":"multiplesclerosis","text":"Multiple Sclerosis"},
+	{"code":"cancervaccine","text":"Cancer Vaccine"},
+	
+	{"code":"livertitle","text":"Liver"},
+	{"code":"gout","text":"Prevents Gout"},
+	{"code":"liverdisease","text":"Combats Liver Disease"},
+	
+	{"code":"sextitle","text":"Sexual Health"},
+	{"code":"warts","text":"Removes Warts"},
+	{"code":"femalecontraceptive","text":"Female Contraceptive"},
+	{"code":"erectiledysfunction","text":"Alleviates Erectile Dysfunction"},
+	{"code":"malecontraceptive","text":"Male Contraceptive"},
+	
+	{"code":"sugarpill","text":"Sugar Pill"},
+	
+	// Side effects - no catalyst
+	{"code":"narrowedpupils","text":"Narrows Pupils"},
+	{"code":"sleepiness","text":"Prompts Sleepiness"},
+	{"code":"drymouth","text":"Dries Mouth"},
+	{"code":"constipation","text":"Causes Constipation"},
+	{"code":"headaches","text":"Causes Headaches"},
+	{"code":"pinsandneedles","text":"Causes pins and needles"},
+	{"code":"nausea","text":"Induces Nausea"},
+	{"code":"fatigue","text":"Causes Fatigue"},
+	{"code":"highbloodpressure","text":"Increases Blood Pressure"},
+	{"code":"inflamesskin","text":"Inflames Skin"},
+	{"code":"nightmares","text":"Induces Nightmares"},
+	
+	// Side effects - level 1
+	{"code":"dizziness","text":"Causes Dizziness"},
+	{"code":"fainting","text":"Causes Random Fainting"},
+	{"code":"blursvision","text":"Blurs Vision"},
+	{"code":"encouragesanxiety","text":"Encourages Anxiety"},
+	
+	// Side effects - level 2
+	{"code":"urinaryretention","text":"Urinary Retention"},
+	{"code":"vomiting","text":"Induces Vomiting"},
+	{"code":"breathingdifficulties","text":"Causes Breathing Difficulties"},
+	
+	// Side effects - level 3
+	{"code":"fits","text":"Prompts Fits"},
+	{"code":"hallucinations","text":"Prompts Hallucinations"},
+	{"code":"analleakage","text":"Can Cause Anal Leakage"},
+	
+	// Side effects - level 4
+	{"code":"memoryloss","text":"Causes Memory Loss"},
+	{"code":"blackouts","text":"Causes Blackouts"},
+	{"code":"carcinogenic","text":"Carcinogenic"},
+	
+	// Side effects - level 5
+	{"code":"paralysis","text":"Permanent Paralysis"},
+	
+	// NOT USED
+	{"code":"flushing","text":"Causes Flushing"},
+	{"code":"sweating","text":"Causes Sweating"},
+	{"code":"sexualdysfunction","text":"Causes Sexual Dysfunction"},
+	{"code":"coma","text":"Causes Coma"},
+	{"code":"suicidalthoughts","text":"Prompts Suicidal Thoughts"},
+	{"code":"bleedinggums","text":"Causes Bleeding Gums"},
+	{"code":"bloodystool","text":"Causes Bloody Stool"},
+	{"code":"palpitations","text":"Causes Palpitations"},
+	{"code":"celldegradation","text":"Cell Degradation"},
+	{"code":"heartfailure","text":"Heart Failure"},
+	{"code":"liverfailure","text":"Liver Failure"},
+	
+	// Drugs
+	{"code":"cream","text":"Cream"},
+	{"code":"pill","text":"Pill"},
+	{"code":"syringe","text":"Syringe"},
+	{"code":"sachet","text":"Sachet"},
+	{"code":"box","text":"Box"},
+	
+	// Research tab research gui research screen
+	{"code":"researchers","text":"Scientists"},
+	{"code":"researched","text":"RESEARCHED"},
+	{"code":"unavailable","text":"UNAVAILABLE"},
+	{"code":"inprogress","text":"IN PROGRESS"},
+	{"code":"commence","text":"Commence"},
+	{"code":"researchCost","text":"Cost: &$>{0}"},
+	{"code":"researchDuration","text":"Duration: {0} days"},
+	{"code":"researchlength","text":"DURATION:"},
+	{"code":"researchready","text":"READY IN:"},
+	{"code":"yields","text":"Yields:"},
+	{"code":"nextupgrade","text":"Next Upgrade:"},
+	{"code":"researchupgradehover","text":"Idle &LTBLUE>Scientists&W> earn you &LTBLUE>Research Upgrade Points&W>. Spend these to improve technology you have already researched!"},
+	{"code":"availableresearchupgradepoints","text":"{0} &LTBLUE>Research Upgrade Points&W> available."},
+	{"code":"currentlyownmachines","text":"You currently own {0} &LTBLUE>{1}&W>."},
+	{"code":"spying_research_hover","text":"The following companies have access to this research:\n{0}"},
+	{"code":"spying_research_next_hover","text":"The following companies are currently researching it:\n{0}"},
+	
+	// UPGRADE PANEL
+	{"code":"clicktoupgrade","text":"CLICK TO UPGRADE"},
+	
+	// Time
+	{"code":"1month","text":"1 month"},
+	{"code":"months","text":"{0} months"},
+	{"code":"1day","text":"1 day"},
+	{"code":"days","text":"{0} days"},
+	{"code":"years","text":"{0} years"},
+	
+	// GAME GUI
+	{"code":"loans","text":"LOANS"},
+	
+	// LOAN DIALOG
+	{"code":"take","text":"TAKE"},
+	{"code":"repay","text":"REPAY"},
+	{"code":"loaninfoleft","text":"Cash:\nInterest Rate:\nTerm:\nDaily Payment:"},
+	{"code":"loaninfolefttaken","text":"Balance:\nInterest Rate:\nRemaining Term:\nDaily Payment:"},
+	
+	// PATENT DIALOG
+	{"code":"applyforpatent","text":"Apply for patent?"},
+	{"code":"duration","text":"Duration"},
+	{"code":"patentcost","text":"Cost"},
+	{"code":"draftingperiod","text":"Drafting period"},
+	{"code":"draft","text":"DRAFT"},
+	{"code":"patentinfo","text":"This patent will cover any &BPBLUE>{0}&W> with the following set of active effects: {1}&W>."},
+	
+	// ESPIONAGE DIALOG
+	{"code":"espionageDiscovered","text":"The following companies have discovered this ingredient:"},
+	{"code":"espionageDiscovering","text":"The following companies are in the process of discovering this ingredient:"},
+	{"code":"espionageResearched","text":"The following companies have researched this project:"},
+	{"code":"espionageResearching","text":"The following companies are in the process of researching this project:"},
+	
+	// TRIAL DIALOG
+	{"code":"trialscolumn","text":"Trials"},
+	{"code":"trialtitle","text":"Clinical Trials"},
+	{"code":"trialtype","text":"Type"},
+	{"code":"trialcro","text":"CRO"},
+	{"code":"trialuni","text":"University"},
+	{"code":"trialacc","text":"Base accuracy"},
+	{"code":"trialcostperpatient","text":"Cost per patient"},
+	{"code":"trialcostperdrug","text":"Cost per drug"},
+	{"code":"trialnumberofpatients","text":"Number of patients"},
+	{"code":"trialgaggingclause","text":"Gagging clause?"},
+	{"code":"gaggingnotavailable","text":"Not available"},
+	{"code":"trialfinalaccuracy","text":"Final accuracy"},
+	{"code":"trialcost","text":"Trial cost"},
+	{"code":"trialdrugcost","text":"Drug cost"},
+	{"code":"trialesttotalcost","text":"Total cost"},
+	{"code":"starttrial","text":"START TRIAL"},
+	{"code":"trialexplanation","text":"NOTE: While a trial is active exported products will be used in the trial instead of being sold for profit. After you have supplied 1 product for each patient, the trial will complete."},
+	
+	// TRIAL ITEM
+	{"code":"trailitemname","text":"{0} - {1} - {2} - {3} patients"},
+	{"code":"trailiteminfo","text":"Due in {0}"},
+	
+	// TRIAL COMPLETE MESSAGE
+	{"code":"trialcomplete","text":"Trial Complete"},
+	{"code":"trialcompletetext1","text":"A trial for the following product has completed."},
+	{"code":"trialcompletetext2","text":"The results are as follows:"},
+	{"code":"trialcompletetext3","text":"Overall trial rating:"},
+	{"code":"trialcompletesummary","text":"Overall the drug performed {0}."},
+	{"code":"trialcompletecure","text":" As a cure it was {0}{1}{2}."},
+	{"code":"trialcompletebut","text":" but "},
+	{"code":"trialcompleteand","text":" and "},
+	{"code":"trialcompletesideeffects","text":"the side-effects were {0}"},
+	{"code":"trialbetter","text":"better than expected"},
+	{"code":"trialworse","text":"worse than expected"},
+	{"code":"trialnormal","text":"in line with our expectations"},
+	{"code":"trialcompletetext4","text":"We have the option of gagging this trial. Would you like to?"},
+	{"code":"trialcompletegag","text":"GAG"},
+	{"code":"trialcompletepublish","text":"PUBLISH"},
+	{"code":"trialfloatoff","text":"TRIAL"},
+	{"code":"triallownumberofpatients","text":"Low number of patients"},
+	{"code":"trialhighnumberofpatients","text":"High number of patients"},
+	{"code":"trialgaggingclauseincluded","text":"Previously gagged trial"},
+	
+	// TRIAL BAD MESSAGE
+	{"code":"trialoverstatedtitle","text":"Overstated results"},
+	{"code":"trialoverstatedtext","text":"An investigative report has found that the results of a trial for the following product have been overstated by the CRO involved. As such the results are now being widely discredited and this is having a negative effect on the rating of the product."},
+	
+	// TRIAL HOVER
+	{"code":"brandpaneltrial","text":"Trials"},
+	{"code":"trials_locked","text":"Research 'Contract Research Organisations' or 'University Trials' to unlock the ability to run clinical trials."},
+	{"code":"bringuptrialdialog","text":"Click to see trials."},
+	
+	// FIRST TIME YOU USE PATENT WARNING
+	{"code":"patentfirsttimetitle","text":"An introduction to patents"},
+	{"code":"patentfirsttimedesc","text":"You are seeing this dialog because this is the first game you have played which includes patents.\n\n'Patents' is a research project which, once researched, allows you to protect your products by filing patents from the Company Tab.\n\nPatents cost time and money to file, but once complete, none of your competitors will be able to sell the same product.\n\nBe warned, your competitors also have access to this ability.\n\nFor more information check out the project description on the Research Tab."},
+	
+	// LOAN COMPANIES
+	{"code":"loansrus","text":"Loans 'R' Us"},
+	{"code":"mcloancompany","text":"McLoans"},
+	{"code":"alphaloans","text":"Alpha Loans"},
+	{"code":"interbank","text":"Interbank Ltd."},
+	{"code":"omegafinance","text":"Omega Finance"},
+	{"code":"futuremoney","text":"Future Money"},
+
+	// PRODUCTION GUI PRODUCTION TAB
+	{"code":"t_belt","text":"JUNCTION"},
+	{"code":"belt","text":"BELT"},
+	{"code":"ports","text":"PORTS"},
+	{"code":"basic","text":"BASIC"},
+	{"code":"advanced","text":"ADVANCED"},
+	{"code":"auxilliary","text":"AUXILIARY"},
+	{"code":"makers","text":"MAKERS"},
+	{"code":"paint","text":"PAINT"},
+	{"code":"expand","text":"EXPAND"},
+	{"code":"delete","text":"DELETE"},
+	{"code":"buy","text":"BUY"},
+	{"code":"claim","text":"CLAIM"},
+	{"code":"move","text":"Move"},
+	{"code":"sell","text":"Sell"},
+	{"code":"basevalue","text":"Base Value:"},
+	{"code":"combinedvalue","text":"Combined Value:"},
+	{"code":"processingcostcolon","text":"Processing costs:"},
+	{"code":"rawcostcolon","text":"Raw material costs:"},
+	{"code":"brandmodifier","text":"Cure Rating {0}:"},
+	{"code":"typebonuspill","text":"Pill Bonus:"},
+	{"code":"typebonuscream","text":"Cream Bonus:"},
+	{"code":"typebonussachet","text":"Sachet Bonus:"},
+	{"code":"typebonussyringe","text":"Syringe Bonus:"},
+	{"code":"total","text":"Total:"},
+	{"code":"efficiencyHover","text":"Efficiency - How much of the time this machine is processing. 100% means it is processing constantly, at peak efficiency."},
+	{"code":"notafinishedproduct","text":"This product is not finished. Convert it to a &LTBLUE>Pill&W>, &LTBLUE>Cream&W> etc. before trying to sell it."},
+	{"code":"notconnected","text":"This belt is not correctly connected to this machine's input/output."},
+	{"code":"gamepaused","text":"GAME PAUSED"},
+	{"code":"stop","text":"STOP"},
+	{"code":"costperdrugcolon","text":"COST PER DRUG:"},
+	{"code":"togglebase","text":"TOGGLE BASE"},
+	
+	
+	// PRODUCTION TOOL-TIPS
+	{"code":"machinetooltip","text":"Left click to place {0} for &$>{1}.{2} Right click to cancel."},
+	{"code":"torotate","text":" Use {0} to rotate."},
+	{"code":"ormousewheel","text":"mouse wheel"},
+	{"code":"belttooltip","text":"Left click and drag to place belts for &$>{0} each. Right click on existing belt to delete.{1}"},
+	{"code":"precisionlaying","text":" Hold {0} for precision laying."},
+	{"code":"hovermachinetooltip","text":"Double click to pick up. Middle click to copy. Right click to bring up context menu."},
+	{"code":"hoverbelttooltip","text":"Middle click to copy. Right click to delete.{0}"},
+	{"code":"hoveremptysockettooltip","text":"Left click to import an ingredient."},
+	{"code":"painttooltip","text":"Left click and drag to paint.{0}"},
+	{"code":"painttofill","text":" Hold {0} to fill."},
+	{"code":"deletetooltip","text":"Left click and drag to delete.{0}."},
+	{"code":"deletedrugsonly","text":" Hold {0} to delete drugs only."},
+	{"code":"fixedBeltTooltip","text":"Left click on an existing belt to fix its direction for &$>{0}.{1} Right click to cancel."},
+	
+	// PRODUCTION INSPECTOR
+	{"code":"chooseconc","text":"Choose"},
+	{"code":"centrifugeswapperlabel","text":"Choose effects to swap:"},
+	{"code":"choosenumberofshifts","text":"Choose number of places shifted:"},
+	
+	// MACHINE STATUS
+	{"code":"status.IDLE","text":"Idle"},
+	{"code":"status.IDLE_FILLED_INPUT","text":"Idle Full"},
+	{"code":"status.IDLE_FILLED_OUTPUT","text":"Idle"},
+	{"code":"status.RECEIVING","text":"Receiving ingredients"},
+	{"code":"status.PUSHING","text":"Moving processed drug"},
+	{"code":"status.RECEIVING_AND_PUSHING","text":"Receiving new ingredients"},
+	{"code":"status.PROCESSING","text":"Processing ingredients"},
+	{"code":"status.ROTATING","text":"Rotating ingredients"},
+	{"code":"status.COMBINING","text":"Combining ingredients"},
+	{"code":"status.SWAPPING","text":"Swapping ingredients"},
+	{"code":"status.STARTING","text":"Starting up"},
+	{"code":"status.TESTING","text":"Testing"},
+	{"code":"status.PACKING","text":"Packing"},
+	
+	// PAINT NAMES
+	{"code":"checker,0","text":"CHECKER A"},
+	{"code":"checker,1","text":"CHECKER B"},
+	{"code":"checker,2","text":"CHECKER C"},
+	{"code":"checker,3","text":"CHECKER D"},
+	{"code":"plain,0","text":"PLAIN A"},
+	{"code":"plain,1","text":"PLAIN B"},
+	{"code":"plain,2","text":"PLAIN C"},
+	{"code":"plain,3","text":"PLAIN D"},
+	{"code":"belt_paint,0","text":"BELT A"},
+	{"code":"belt_paint,1","text":"BELT B"},
+	{"code":"belt_paint,2","text":"BELT C"},
+	{"code":"belt_paint,3","text":"BELT D"},
+	{"code":"diagonal,0","text":"DIAGONAL A"},
+	{"code":"diagonal,1","text":"DIAGONAL B"},
+	{"code":"diagonal,2","text":"DIAGONAL C"},
+	{"code":"diagonal,3","text":"DIAGONAL D"},
+	{"code":"hazard","text":"HAZARD"},
+	{"code":"metal1","text":"METAL A"},
+	{"code":"metal2","text":"METAL B"},
+	{"code":"paving","text":"PAVING A"},
+	{"code":"beams","text":"PAVING B"},
+	{"code":"tile","text":"TILE"},
+	{"code":"whitewash","text":"WHITEWASH"},
+	{"code":"wood","text":"WOOD"},
+	
+	// INGREDIENTS Screen
+	{"code":"hiretext","text":"HIRE"},
+	{"code":"firetext","text":"FIRE"},
+	{"code":"forest","text":"Forest"},
+	{"code":"forest_desc","text":"Forest areas don't require specialist teams to explore and are relatively unhazardous."},
+	{"code":"desert","text":"Desert"},	
+	{"code":"desert_desc","text":"Desert expeditions can be treacherous due to the extreme temperature and ever-changing landscape."},
+	{"code":"arctic","text":"Arctic"},
+	{"code":"arctic_desc","text":"Arctic locations are difficult to explore and need specially trained teams."},
+	{"code":"ocean","text":"Ocean"},
+	{"code":"ocean_desc","text":"Ocean locations are hazardous to explore and need special submarines to access."},
+	{"code":"perday","text":" /day"},
+	{"code":"explorersupply","text":"Hire explorers to discover ingredients."},
+	{"code":"availableingredients","text":"Available"},
+	{"code":"undiscoveredingredients","text":"Undiscovered"},
+	{"code":"allexplorers","text":"All explorers:"},
+	{"code":"allresearchers","text":"All scientists:"},
+	{"code":"cureinfoingredientsupplieddesc","text":"Purchased - The number of this ingredient purchased in the last month."},
+	{"code":"cureinfoingredientdemanddesc","text":"Net Demand - How much demand there is for ingredient. Determines ingredient cost."},
+	{"code":"cureinfoingredientsaturationdesc","text":"Saturation - How much of supply capacity is being used. Increases net demand when above 100%."},
+	{"code":"totalpurchased","text":"Total purchased this month:"},
+	{"code":"ingredientdemand","text":"Basic demand:"},
+	{"code":"ingredientupgradehover","text":"Idle &LTBLUE>Explorers&W> earn you &LTBLUE>Ingredient Upgrade Points&W>. Spend these to reduce the cost of ingredients you have already discovered!"},
+	{"code":"availableingredientupgradepoints","text":"{0} &LTBLUE>Ingredient Upgrade Points&W> available."},
+	{"code":"explorersheading","text":"Explorers"},
+	
+	// DRUG LIST ITEM
+	{"code":"explorerboxtitle","text":"EXPLORERS:"},
+	{"code":"testerboxtitle","text":"TESTERS:"},
+	{"code":"expeditioninstructions","text":"Drag explorers here to start expedition!"},
+	{"code":"testerinstructions","text":"Drag testers here to identify Side Effects and Super Effective concentrations!"},
+	{"code":"assign","text":"Click to assign"},
+	{"code":"deassign","text":"Right-click to deassign"},
+	{"code":"ingredientcost","text":"Cost:\n&$>"},
+	{"code":"initialreports","text":"Initial Reports"},
+	{"code":"ingredientpreviewcat","text":"&LTBLUE>Initial reports suggest we may find an ingredient with applications within &eff0>{0}&LTBLUE> medication.\n\nThe following &W>catalyst&LTBLUE> is also present:"},
+	{"code":"ingredientpreview","text":"&LTBLUE>Initial reports suggest we may find an ingredient with applications within &eff0>{0}&LTBLUE> medication."},
+	{"code":"ingredientcat","text":"&LTBLUE>Initial reports suggest this ingredient has no curative effects.\n\nHowever the following &W>catalyst&LTBLUE> is present:"},
+	{"code":"unresearchedlocation","text":"&LTBLUE>Research &W>\"{0}\"&LTBLUE> to unlock this location"},
+	{"code":"import","text":"IMPORT"},
+	{"code":"costcaps","text":"COST"},
+	{"code":"discountcaps","text":"DISCOUNT"},
+	{"code":"upgradecaps","text":"UPGRADE"},
+	{"code":"spying_ingredients_hover","text":"The following companies have access to this ingredient:\n{0}"},
+	{"code":"spying_ingredients_next_hover","text":"The following companies are currently exploring for it:\n{0}"},	
+	{"code":"typecolon","text":"TYPE:"},	
+	
+	// REACTION PANEL
+	{"code":"upgradetitle","text":"Upgrade to {0}"},
+	{"code":"degradetitle","text":"Remove"},
+	{"code":"noupgradetitle","text":"Cannot Upgrade"},
+	{"code":"noremovetitle","text":"Cannot Remove"},
+	{"code":"required","text":"PRE-REQUIREMENTS:"},
+	{"code":"upgradewith","text":"UPGRADE WITH:"},
+	{"code":"removewith","text":"REMOVE WITH:"},
+	{"code":"active","text":"ACTIVE"},
+	{"code":"inactive","text":"INACTIVE"},
+	{"code":"collided","text":"COLLIDED"},
+	{"code":"catalystcaps","text":"CATALYST"},
+	{"code":"conccaps","text":"CONC."},
+	
+	// ACTIVE RANGE TOOLTIP
+	{"code":"activeconcentrationrange","text":"Active Range:"},
+	{"code":"currentstrength","text":"Current Strength:"},
+	{"code":"currently","text":"Currently:"},
+	{"code":"unknownstrength","text":"?"},
+	{"code":"maxstrength","text":"Max Strength:"},
+	{"code":"maxcolon","text":"Max:"},
+	
+	// CURES SCREEN (CURE GUI CURES GUI CURE SCREEN)
+	{"code":"concentrationrequirement","text":"&GREY>Drug concentration needs to be within this &W>Concentration&GREY> range to upgrade."},
+	{"code":"machinerequirement","text":"&GREY>Process drug with this &W>Machine&GREY> to upgrade."},
+	{"code":"catalystrequirement","text":"&GREY>This &W>Catalyst&GREY> needs to be present in the drug to upgrade."},
+	{"code":"startingConcHoverCureTab","text":"Starting concentration of ingredient which contains this cure."},
+		
+	// CURE INFO
+	{"code":"netdemand","text":"Net Demand"},
+	{"code":"saturation","text":"Saturation"},
+	{"code":"cureinfosufferersdesc","text":"Sufferers - The number of people who require this cure."},
+	{"code":"cureinfosupplieddesc","text":"Supplied - The number of people who were given a cure in the last month."},
+	{"code":"cureinfocureddesc","text":"Cured - The number of people who were permanently cured in the last month."},
+	{"code":"cureinfosaturationdesc","text":"Saturation - How much demand is being fulfilled. Decreases net demand when above 100%."},
+	{"code":"cureinfodemanddesc","text":"Net Demand - How much people want a cure. Determines cure value."},
+	
+	{"code":"timeofyear","text":"Time of year"},
+	{"code":"infection","text":"Infection"},
+	{"code":"suffererscured","text":"Sufferers cured"},
+	{"code":"netchange","text":"Net change this month:"},
+	{"code":"eventcolon","text":"Event: "},
+	
+	// Follows
+	{"code":"followup.cancervaccine","text":"More cancer victims."},
+	{"code":"followdown.cancervaccine","text":"&eff4>Cancer Vaccine&W>"},
+	{"code":"followup.hypertension","text":"More &eff0>Hypertension&W> sufferers"},
+	{"code":"followdown.hypertension","text":"Less &eff0>Hypertension&W> sufferers"},
+	{"code":"followup.hiv","text":"More &eff4>HIV&W> sufferers"},
+	{"code":"followdown.hiv","text":"&eff4>HIV Vaccine&W>"},
+	{"code":"followdown.malecontraceptive","text":"&eff3>&malecontraceptive>&W>"},
+	
+	{"code":"totalsupplied","text":"Total supplied this month:"},
+	
+	{"code":"totalcured","text":"Total cured this month:"},
+	
+	{"code":"saturation","text":"Saturation:"},
+	
+	{"code":"demandsufferers","text":"{0} sufferers"},
+	{"code":"oversaturation","text":"Oversaturation"},
+	{"code":"netdemandcolon","text":"Net Demand:"},
+	
+	
+	// COMPANY tab
+	{"code":"details","text":"DETAILS"},
+	{"code":"efficacy","text":"EFFICACY"},
+	{"code":"financials","text":"FINANCIALS"},
+	{"code":"noreports","text":"No reports yet."},
+	{"code":"loantitle","text":"Loan"},
+	{"code":"repay","text":"REPAY"},
+	{"code":"borrow","text":"BORROW"},
+	{"code":"borrowlimit","text":"Borrow Limit: &$>{0}"},
+	{"code":"interestrate","text":"Interest Rate: {0}% /yr"},
+	{"code":"currentcost","text":"Current Cost:"},
+	{"code":"currentprofit","text":"Current Profit:"},
+	{"code":"cashflow","text":"Cashflow"},
+	{"code":"12months","text":"Last 12 Months"},
+	{"code":"totalrevenue","text":"Total Revenue:"},
+	{"code":"productioncosts","text":"Production:"},
+	{"code":"ingredientcosts","text":"Ingredients:"},
+	{"code":"processingcosts","text":"Processing:"},
+	{"code":"operatingprofit","text":"Operating Profit:"},
+	{"code":"operatingmargin","text":"Operating Margin:"},
+	{"code":"workforcecosts","text":"Workforce:"},
+	{"code":"explorercosts","text":"Explorers:"},
+	{"code":"testercosts","text":"Testers:"},
+	{"code":"researchercosts","text":"Scientists:"},
+	{"code":"loaninterest","text":"Loan Interest:"},
+	{"code":"patentcashflow","text":"Patents:"},
+	{"code":"profit","text":"Profit:"},
+	{"code":"capital","text":"Capital Expenditure:"},
+	{"code":"cashchange","text":"Change in Cash:"},
+	{"code":"approvalrating","text":"Approval Rating"},
+	
+	{"code":"and","text":"and"},
+	
+	{"code":"productname","text":"Product Name"},
+	{"code":"activeeffects","text":"Active Effects"},
+	{"code":"brandvalue","text":"Cure Rating"},
+	{"code":"brandvaluecolon","text":"Cure Rating:"},
+	{"code":"totaladministered","text":"Total administered:"},
+	{"code":"soldperday","text":"Sold per Month"},
+	{"code":"company","text":"Company"},
+	{"code":"averageprofit","text":"Current Profit"},
+	{"code":"patent","text":"Patent"},
+	{"code":"currentvalue","text":"Current Value"},
+	{"code":"competitorproducts","text":"Competitor Products:"},
+	{"code":"playerproducts","text":"Products:"},
+	{"code":"ratingbonus","text":"(Drug value {0}%)"},
+	{"code":"nobonus","text":"(No bonus)"},
+	{"code":"regulatoryConnectionBonus","text":"Regulatory Connections"},
+	{"code":"curesaturation","text":"Average Saturation"},
+	{"code":"curesaturation_hover","text":"Average saturation of active cures in this product. Oversaturation (above 100%) causes prices to fall. A more detailed breakdown can be found on the Cures tab."},
+	{"code":"clickToSortBy","text":"Click to sort by this column."},
+	
+	// Patent hover
+	{"code":"patents_locked","text":"Research 'Patents' to protect your products."},
+	{"code":"patent_needs_upgrade","text":"Requires 'Patents' upgrade level {0}."},
+	{"code":"patentable","text":"You can patent this product, click to bring up the &LTBLUE>Patent&W> dialog."},
+	{"code":"patent_in_progress_player","text":"Patent will complete in {0}.\nClick to cancel."},
+	{"code":"patent_in_progress","text":"Patent will complete in {0}."},
+	{"code":"patented_by_you","text":"Patent owned by: You\nExpires in: {0}"},
+	{"code":"patented_by_ai","text":"Patent owned by: {0}\nExpires in: {1}"},
+	{"code":"off_patent","text":"Off-patent. Anybody can sell this product."},
+	{"code":"cancelpatenttitle","text":"Cancel patent?"},
+	{"code":"cancelpatenttext","text":"Are you sure you want to cancel this patent for a 50% refund?"},
+	
+	// Equipment hover
+	{"code":"cost","text":"Cost:"},
+	{"code":"processcost","text":"Process cost:"},
+	{"code":"processcostcaps","text":"PROCESS COST:"},
+	{"code":"processtime","text":"Process time:"},
+	{"code":"processtimecaps","text":"PROCESS TIME:"},
+	
+	// Months
+	{"code":"month0","text":"JAN"},
+	{"code":"month1","text":"FEB"},
+	{"code":"month2","text":"MAR"},
+	{"code":"month3","text":"APR"},
+	{"code":"month4","text":"MAY"},
+	{"code":"month5","text":"JUN"},
+	{"code":"month6","text":"JUL"},
+	{"code":"month7","text":"AUG"},
+	{"code":"month8","text":"SEP"},
+	{"code":"month9","text":"OCT"},
+	{"code":"month10","text":"NOV"},
+	{"code":"month11","text":"DEC"},
+	{"code":"month0s","text":"J"},
+	{"code":"month1s","text":"F"},
+	{"code":"month2s","text":"M"},
+	{"code":"month3s","text":"A"},
+	{"code":"month4s","text":"M"},
+	{"code":"month5s","text":"J"},
+	{"code":"month6s","text":"J"},
+	{"code":"month7s","text":"A"},
+	{"code":"month8s","text":"S"},
+	{"code":"month9s","text":"O"},
+	{"code":"month10s","text":"N"},
+	{"code":"month11s","text":"D"},
+	
+	// BRAND
+	{"code":"brand_painkiller","text":"{0} pains eased"},
+	{"code":"brand_migraine","text":"{0} migraines averted"},
+	{"code":"brand_antiseizure","text":"{0} seizures avoided"},
+	{"code":"brand_anesthetic","text":"{0} anaesthetised"},
+	
+	{"code":"brand_hypertension","text":"{0} blood pressures decreased"},
+	{"code":"brand_angina","text":"{0} angina attacks prevented"},
+	{"code":"brand_stroke","text":"{0} strokes avoided"},
+	{"code":"brand_sicklecell","text":"{0} sickle cell patients helped"},
+
+	{"code":"brand_antidepressants","text":"{0} moods improved"},
+	{"code":"brand_adhd","text":"{0} attentions focused"},	
+	{"code":"brand_bipoladisorder","text":"{0} bipolar episodes avoided"},
+	{"code":"brand_schizophrenia","text":"{0} schizophrenic episodes avoided"},
+	{"code":"brand_alzheimers","text":"{0} Alzheimer's sufferers helped"},
+	
+	{"code":"brand_antihistamine","text":"{0} allergic reactions soothed"},
+	{"code":"brand_insomnia","text":"{0} good night's sleep"},
+	{"code":"brand_anxiety","text":"{0} anxieties reduced"},
+	
+	{"code":"brand_cough","text":"{0} coughs soothed"},
+	{"code":"brand_asthma","text":"{0} asthma attacks stopped"},
+	{"code":"brand_bronchitis","text":"{0} bronchitis infections treated"},
+	{"code":"brand_tuberculosis","text":"{0} tuberculosis patients cured"},
+	
+	{"code":"brand_rash","text":"{0} rashes soothed"},
+	{"code":"brand_acne","text":"{0} spots avoided"},
+	{"code":"brand_hairloss","text":"{0} toupés discarded"},
+	
+	{"code":"brand_cold","text":"{0} colds eased"},
+	{"code":"brand_antibiotics","text":"{0} infections cured"},
+	{"code":"brand_antimalarial","text":"{0} malaria cases cured"},
+	{"code":"brand_aids","text":"{0} AIDS sufferers helped"},
+	{"code":"brand_hiv","text":"{0} HIV patients cured"},
+	
+	{"code":"brand_acidreflux","text":"{0} stomach acids neutralised"},
+	{"code":"brand_gastroenteritis","text":"{0} stomach ulcers relieved"},
+	{"code":"brand_appetite","text":"{0} appetites suppressed"},
+	{"code":"brand_boweldisease","text":"{0} bowels soothed"},
+	
+	{"code":"brand_diabetes","text":"{0} blood sugar levels restored"},
+	{"code":"brand_hyperthyroidism","text":"{0} thyroids slowed"},
+	{"code":"brand_cancersymptoms","text":"{0} tumours shrunk"},
+	{"code":"brand_multiplesclerosis","text":"{0} MS sufferers helped"},
+	{"code":"brand_cancervaccine","text":"{0} successfully vaccinated"},
+	
+	{"code":"brand_gout","text":"{0} gout episodes halted"},
+	{"code":"brand_liverdisease","text":"{0} livers healed"},
+	
+	{"code":"brand_warts","text":"{0} warts removed"},
+	{"code":"brand_femalecontraceptive","text":"{0} pregnancies prevented"},
+	{"code":"brand_erectiledysfunction","text":"{0} erections sustained"},
+	{"code":"brand_malecontraceptive","text":"{0} males temporarily sterilised"},
+	
+	{"code":"brand_narrowedpupils","text":"{0} pupils narrowed"},
+	{"code":"brand_sleepiness","text":"{0} narcolepsy episodes"},
+	{"code":"brand_drymouth","text":"{0} mouths dried"},
+	{"code":"brand_constipation","text":"{0} bowel movements prevented"},
+	{"code":"brand_headaches","text":"{0} headaches caused"},
+	{"code":"brand_pinsandneedles","text":"{0} attacks of pins and needles"},
+	{"code":"brand_nausea","text":"{0} nauseated"},
+	{"code":"brand_fatigue","text":"{0} fatigued"},
+	{"code":"brand_highbloodpressure","text":"{0} blood pressures risen"},
+	{"code":"brand_sweating","text":"{0} sweat complaints"},
+	{"code":"brand_inflamesskin","text":"{0} rashes"},
+	{"code":"brand_sexualdysfunction","text":"{0} libidos reduced"},
+	{"code":"brand_nightmares","text":"{0} nightmares induced"},
+	{"code":"brand_dizziness","text":"{0} dizzy spells"},
+	{"code":"brand_fainting","text":"{0} fainted"},
+	{"code":"brand_blursvision","text":"{0} visions blurred"},
+	{"code":"brand_encouragesanxiety","text":"{0} anxieties increased"},
+	{"code":"brand_urinaryretention","text":"{0} urinations prevented"},
+	{"code":"brand_vomiting","text":"{0} cases of vomiting"},
+	{"code":"brand_breathingdifficulties","text":"{0} breathing difficulties"},
+	{"code":"brand_fits","text":"{0} fits caused"},
+	{"code":"brand_analleakage","text":"{0} soiled underpants"},
+	{"code":"brand_hallucinations","text":"{0} unnerving hallucinations"},
+	{"code":"brand_fits","text":"{0} uncontrollable fits"},
+	{"code":"brand_blackouts","text":"{0} sudden blackouts"},
+	{"code":"brand_memoryloss","text":"{0} memories impaired"},
+	{"code":"brand_carcinogenic","text":"{0} tumours caused"},
+	{"code":"brand_paralysis","text":"{0} catastrophic paralyses"},
+	
+	// SCENARIOS
+	{"code":"customgame","text":"Custom Game"},
+	{"code":"freebuild","text":"Free Build"},
+	{"code":"tutorial","text":"Tutorial"},
+	{"code":"tutorial_extra","text":"A series of tutorial missions to teach you the basics."},
+	{"code":"beginner","text":"Beginner"},
+	{"code":"beginner_extra","text":"A smaller scenario with reduced research and cure trees. Settings are tweaked to make for an easier game."},
+	{"code":"intermediate","text":"Intermediate"},
+	{"code":"intermediate_extra","text":"A medium scenario with slightly reduced research and cure trees. Settings are tweaked to make for a slightly easier game."},
+	{"code":"advanced","text":"Advanced"},
+	{"code":"advanced_extra","text":"All research, all cures. Standard settings - the way the game is intended to be played."},
+	{"code":"quickstart","text":"Quick Start"},
+	{"code":"quickstart_extra","text":"Start with additional basic technologies and three ingredients."},
+	{"code":"bigloan","text":"Crippling Debt"},
+	{"code":"bigloan_extra","text":"You start with some cash but an even bigger loan."},
+	{"code":"roomToManeuver","text":"Room to Maneuver"},
+	{"code":"roomToManeuver_extra","text":"Plots are half the price, but come with fewer sockets."},
+	{"code":"fullUnlock","text":"Full Unlock"},
+	{"code":"fullUnlock_extra","text":"You start with all the machines unlocked. So do your competitors!"},
+	
+	// SCENARIO DETAILS
+	{"code":"mapsize","text":"Map size:"},
+	{"code":"numbercompetitors","text":"Number of competitors:"},
+	{"code":"startingcash","text":"Starting cash:"},
+	{"code":"startingloan","text":"Starting loan:"},
+	{"code":"challengescaps","text":"CHALLENGES"},
+	
+	// CHALLENGE WINDOW
+	{"code":"complete","text":"COMPLETE"},
+	{"code":"complete1","text":"COMPLETE"},
+	{"code":"complete2","text":"EXPERT"},
+	{"code":"complete3","text":"MASTER"},
+	{"code":"failure","text":"FAILED"},
+	{"code":"objectives","text":"OBJECTIVES"},
+	{"code":"continue","text":"CONTINUE"},
+	{"code":"leavegame","text":"LEAVE GAME"},
+	{"code":"reallyleavegametitle","text":"LEAVE GAME?"},
+	{"code":"reallyleavegametext","text":"You will lose any unsaved progress if you continue. Leave game?"},
+	
+	// CHALLENGES
+	{"code":"placeholder","text":"LOCKED"},
+	
+	// UNUSED
+	
+	{"code":"bitingBackAtMalaria","text":"Biting back at malaria"},
+	{"code":"lifeSavingCures","text":"Life saver"},
+	
+	// Tutorials
+	{"code":"tutorial1","text":"1. Drug production 101"},
+	{"code":"tutorial2","text":"2. Upgrading cures"},
+	{"code":"tutorial3","text":"3. Exploration and research"},
+	{"code":"tutorial4","text":"4. Catalysed reactions"},
+	{"code":"tutorial5","text":"5. The Shaker"},
+	{"code":"tutorial6","text":"6. Advanced Topics"},
+	
+	// Beginner
+	{"code":"bottomLine","text":"Bottom line"},
+	{"code":"lostMyAppetite","text":"Lost my appetite"},
+	{"code":"gameOfMargins","text":"A game of margins"},
+	{"code":"kingOfTheNonPrescriptions","text":"King of the non-prescriptions"},
+	{"code":"threeMagicNumber","text":"Two is the magic number"},
+	
+	// Intermediate
+	{"code":"showMeTheMoney","text":"Show me the money"},
+	{"code":"calmingDown","text":"Keep calm and carry on"},
+	{"code":"bigMoneyProducts","text":"Big money products"},
+	{"code":"thickerThanWater","text":"Thicker than water"},
+	{"code":"regulationBusiness","text":"Not for profit"},
+	
+	// Advanced
+	{"code":"evenMoMoney","text":"Even mo' money"},
+	{"code":"competitionToSleep","text":"Put the competition to sleep"},
+	{"code":"notForProfit","text":"Regulation business"},
+	{"code":"winningByAHair","text":"Winning by a hair"},
+	{"code":"megacure","text":"The Megacure"},
+	
+	// Quick start
+	{"code":"quickDraw","text":"Quick draw"},
+	{"code":"anEndToThePill","text":"An end to the pill"},
+	{"code":"corneringTheLowEnd","text":"Cornering the low end"},
+	{"code":"alleviatingAlzeimers","text":"Alleviating Alzheimer's"},
+	{"code":"highValueCures","text":"Money Spinners"},
+	
+	// Crippling debt
+	{"code":"intoTheBlack","text":"Into the black"},
+	{"code":"unguentsForAll","text":"Unguents for all"},
+	{"code":"risingFromTheAshes","text":"Rising from the ashes"},
+	{"code":"goodPress","text":"Good press"},
+	{"code":"wellOiledMachines","text":"Well oiled machine"},
+	
+	// Room to maneuver
+	{"code":"bigBucks","text":"Big bucks"},
+	{"code":"aimingToPlease","text":"Aiming to please"},
+	{"code":"hugePortfolio","text":"Huge portfolio"},
+	{"code":"bodyMatters","text":"Body matters"},
+	{"code":"megalines","text":"Megalines"},
+	
+	// Full unlock
+	{"code":"endlessPossibilities","text":"Endless possibilities"},
+	{"code":"mayNotCauseSideEffects","text":"May not cause side-effects"},
+	{"code":"bigSpender","text":"Big spender"},
+	{"code":"theBigFive","text":"The big five"},
+	{"code":"theOneAndOnly","text":"The one and only"},
+	
+	// CONDITIONS
+	{"code":"totalRevenue","text":"Earn total revenue of &$>{0}."},
+	{"code":"totalRevenueHover","text":"&$>{0} earned so far."},
+	{"code":"totalRevenueHover0","text":"\n\n&eff0>Earn &$>{0} for rank Standard."},
+	{"code":"totalRevenueHover1","text":"\n\n&eff1>Earn &$>{0} for rank Expert."},
+	{"code":"totalRevenueHover2","text":"\n\n&eff2>Earn &$>{0} for rank Master."},
+	{"code":"operatingProfit","text":"Attain operating profit &$>{0} over a 12 month period."},
+	{"code":"operatingProfitHover","text":"Operating profit over last 12 months: &$>{0}"},
+	{"code":"operatingProfitHover0","text":"\n\n&eff0>&$>{0} required for rank Standard."},
+	{"code":"operatingProfitHover1","text":"\n\n&eff1>&$>{0} required for rank Expert."},
+	{"code":"operatingProfitHover2","text":"\n\n&eff2>&$>{0} required for rank Master."},
+	{"code":"beforeTick","text":"Before {0}."},
+	{"code":"beforeTickRelative","text":"Within {0}."},
+	{"code":"onTick","text":"On {0}."},
+	{"code":"onTickRelative","text":"In {0}."},
+	{"code":"remainingTimeMaster","text":"&eff2>Complete within {0} for rank Master.\n\n"},
+	{"code":"remainingTimeExpert","text":"&eff1>Complete within {0} for rank Expert.\n\n"},
+	{"code":"remainingTime","text":"&eff0>Complete within {0} for rank Standard."},
+	{"code":"remainingTimeHover","text":"{0} remaining."},
+	{"code":"cureTreated","text":"Supply {1} successful {0} treatments."},
+	{"code":"cureTreatedHover","text":"{1} successful {0} treatments supplied."},
+	{"code":"cureSupplied","text":"Supply {1} {0} treatments."},
+	{"code":"cureSuppliedHover","text":"{1} {0} treatments supplied."},
+	{"code":"productProfit","text":"Simultaneously supply {0} products treating different cures, with profit per sale above &$>{1}."},
+	{"code":"productProfitOne","text":"Simultaneously supply 1 product with profit per sale above &$>{0}."},
+	{"code":"productProfitHover","text":"Currently supplying {0} products with profit per sale above &$>{1}"},
+	{"code":"howManyHover0","text":"\n\n&eff0>{0} required for rank Standard."},
+	{"code":"howManyHover1","text":"\n\n&eff1>{0} required for rank Expert."},
+	{"code":"howManyHover2","text":"\n\n&eff2>{0} required for rank Master."},
+	{"code":"productValue","text":"Simultaneously supply {0} products treating different cures, with combined value per sale above &$>{1}."},
+	{"code":"productValueOne","text":"Simultaneously supply 1 product with combined value per sale above &$>{0}."},
+	{"code":"productValueHover","text":"Currently supplying {0} products with combined value per sale above &$>{1}"},
+	{"code":"productLevel","text":"Simultaneously supply {0} products treating different level {1} cures."},
+	{"code":"productLevelHover","text":"Currently supplying {0} products treating level {1} cures"},
+	{"code":"minCureRating","text":"With a minimum cure rating across all products of {0}."},
+	{"code":"minCureRatingHover","text":"Current minimum cure rating is {0}."},
+	{"code":"minCureRatingHoverNone","text":"Currently there is no minimum cure rating."},
+	{"code":"totalProducts","text":"Simultaneously supply {0} products treating different cures."},
+	{"code":"totalProductsHover","text":"Currently supplying {0} products treating different cures"},
+	{"code":"noLoan","text":"Become debt free."},
+	{"code":"noLoanHover","text":"Debt outstanding: &$>{0}."},
+	{"code":"researchUpgrades","text":"Unlock {0} research upgrade."},
+	{"code":"researchUpgradesHover","text":"{0} upgrades researched."},
+	
+	// Not used currently
+	{"code":"cureDemand","text":"Reduce demand for {0} to below {1}%."},
+	{"code":"cureDemandHover","text":"{0} demand currently at {1}%."},
+	{"code":"marketEquivalentMarketShare","text":"Obtain equivalent market share for {0} of {1}%."},
+	{"code":"marketEquivalentMarketShareHover","text":"Obtain equivalent market share for {0} of {1}%."},
+	{"code":"spendTotal","text":"Spend a total of &$>{0} on factory equipment."},
+	{"code":"spendTotalHover","text":"&$>{0} spent on equipment so far."},
+	{"code":"spendTotalHover0","text":"\n\n&eff0>Spend &$>{0} more on equipment for rank Standard."},
+	{"code":"spendTotalHover1","text":"\n\n&eff1>Spend &$>{0} more on equipment for rank Expert."},
+	{"code":"spendTotalHover2","text":"\n\n&eff2>Spend &$>{0} more on equipment for rank Master."},
+	{"code":"totalTreatments","text":"Supply {1} successful treatments."},
+	{"code":"totalTreatmentsHover","text":"{0} treatments supplied so far."},
+	{"code":"totalTreatmentsHover0","text":"\n\n&eff0>Supply {0} more for rank Standard."},
+	{"code":"totalTreatmentsHover1","text":"\n\n&eff1>Supply {0} more for rank Expert."},
+	{"code":"totalTreatmentsHover2","text":"\n\n&eff2>Supply {0} more for rank Master."},
+	{"code":"cannotCauseSideEffects","text":"Do not cause a single side-effect."},
+	{"code":"cannotCauseSideEffectsHover","text":"{0} side-effects caused."},
+	{"code":"singleProductRevenue","text":"Achieve single product revenue of &$>{0}."},
+	{"code":"singleProductRevenueHover","text":"Current highest revenue is &$>{0}, for product: {1}."},
+	
+	//  RESEARCH
+	// MAIN HEADINGS
+	{"code":"research_start","text":"Basic Pharma"},
+	{"code":"research_start_desc","text":"A basic grounding in pharmaceutical principles allows us to access to the most basic machines and exploration options."},
+	{"code":"research_basic_auxiliary","text":"Basic Auxiliary"},
+	{"code":"research_basic_auxiliary_desc","text":"Research into basic auxiliary processes will open up new opportunities for machines which mix, rearrange or otherwise adjust the basic structure of our drugs."},
+	{"code":"research_alternate_delivery_methods","text":"Alternative Delivery"},
+	{"code":"research_alternate_delivery_methods_desc","text":"Research into alternate delivery methods will open up new opportunities for drug delivery methods, beyond simple pills."},
+	{"code":"research_advanced_processing","text":"Advanced Processing"},
+	{"code":"research_advanced_processing_desc","text":"Research into advanced processing techniques will open up opportunities for machines which can create new cures and drastically change drug concentrations."},
+	{"code":"research_advanced_auxiliary","text":"Advanced Auxiliary"},
+	{"code":"research_advanced_auxiliary_desc","text":"Research into advanced auxiliary processes will open up advanced opportunities for machines which mix, rearrange or otherwise adjust the basic structure of our drugs."},
+	{"code":"research_advanced_delivery","text":"Advanced Delivery"},
+	{"code":"research_advanced_delivery_desc","text":"Research into alternate delivery methods will open up advanced opportunities for drug delivery methods, beyond simple pills."},
+	{"code":"research_specialist_processing","text":"Specialist Processing"},
+	{"code":"research_specialist_processing_desc","text":"Research into specialist processing techniques will open up advanced machines which can create higher level cures and drastically change drug concentrations."},
+	{"code":"research_experimental_processing","text":"Experimental Processing"},
+	{"code":"research_experimental_processing_desc","text":"Research into experimental processing techniques will open up experimental machines which can create the highest level cures and fundamentally change the way we create drugs."},
+	{"code":"research_infrastructure1","text":"National Headquarters"},
+	{"code":"research_infrastructure1_desc","text":"This research project lays the groundwork for reaching new infrastructure projects."},
+	{"code":"research_infrastructure2","text":"Globalisation"},
+	{"code":"research_infrastructure2_desc","text":"This research project lays the groundwork for reaching new infrastructure projects."},
+	{"code":"research_infrastructure3","text":"Lobbying"},
+	{"code":"research_infrastructure3_desc","text":"This research project lays the groundwork for reaching new infrastructure projects."},
+	{"code":"research_engineering_1","text":"Auxiliary Tech"},
+	{"code":"research_engineering_1_desc","text":"Research into basic auxiliary processes will open up new opportunities for machines which mix, rearrange or otherwise adjust the basic structure of our drugs."},
+	{"code":"research_engineering_2","text":"Advanced Engineering"},
+	{"code":"research_engineering_2_desc","text":"Research into advanced engineering techniques will open up new machines for creating higher level cures."},
+	{"code":"research_engineering_3","text":"Specialist Engineering"},
+	{"code":"research_engineering_3_desc","text":"Research into specialist engineering techniques will open up hi-tech machines which can create higher level cures and unlock new drug delivery methods."},
+	{"code":"research_engineering_4","text":"Experimental Engineering"},
+	{"code":"research_engineering_4_desc","text":"Research into experimental engineering will open up  machines which can create the highest level cures and fundamentally change the way we create drugs."},
+	
+	// EXPLORATION
+	{"code":"research_unlock_forest","text":"Basic Exploration"},
+	{"code":"research_unlock_forest_desc","text":"Basic exploration allow us to send our explorers into the world's tropical rainforests in the hope of discovering new active ingredients to use in our drugs."},
+	{"code":"research_unlock_desert","text":"Desert Expeditions"},
+	{"code":"research_unlock_desert_desc","text":"Desert expeditions allow us to send our explorers into the world's deserts in the hope of discovering new active ingredients to use in our drugs."},
+	{"code":"research_unlock_arctic","text":"Subzero Training"},
+	{"code":"research_unlock_arctic_desc","text":"Subzero training allows us to launch expeditions to the coldest locations on the planet in the hope of discover new active ingredients to use in our drugs."},
+	{"code":"research_unlock_ocean","text":"Deep Sea Exploration"},
+	{"code":"research_unlock_ocean_desc","text":""},
+	
+	// MACHINES
+	{"code":"research_pill_maker","text":"Pill Printer"},
+	{"code":"research_pill_maker_desc","text":"The Pill Printer is the most basic drug maker. It's cheap, fast and has a small footprint."},
+	{"code":"research_evaporator","text":"Evaporator"},
+	{"code":"research_evaporator_desc","text":"The Evaporator boils drugs down into highly concentrated crystals, increasing their concentration by 1."},
+	{"code":"research_dissolver","text":"Dissolver"},
+	{"code":"research_dissolver_desc","text":"The Dissolver hydrolyses drugs, decreasing their concentration by 1."},
+	{"code":"research_agglomerator","text":"Agglomerator"},
+	{"code":"research_agglomerator_desc","text":"The Agglomerator compresses your drugs into concentrated pellets, increasing their concentration by 3."},
+	{"code":"research_ioniser","text":"Ioniser"},
+	{"code":"research_ioniser_desc","text":"The Ioniser fires beams of charged particles into your drugs, decreasing their concentration by 3."},
+	{"code":"research_multimixer","text":"Multimixer"},
+	{"code":"research_multimixer_desc","text":"The Multimixer combines 2 drugs together into a single drug."},
+	{"code":"research_cream_maker","text":"Creamer"},
+	{"code":"research_cream_maker_desc","text":"The Creamer reduces the strength of side-effects in drugs. It also has a low process time."},
+	{"code":"research_cooler","text":"Cryogenic Condensor"},
+	{"code":"research_cooler_desc","text":"The Cryogenic Condensor distils your drugs into a purified form, doubling their concentration."},
+	{"code":"research_autoclave","text":"Autoclave"},
+	{"code":"research_autoclave_desc","text":"The Autoclave using high temperature, pressurised steam to sterilise your drugs, halving their concentration."},
+	{"code":"research_shaker","text":"Shaker"},
+	{"code":"research_shaker_desc","text":"The Shaker reorientates your drugs shifting each effect down one space. The effect at the bottom moves to the top."},
+	{"code":"research_chromatograph","text":"Chromatograph"},
+	{"code":"research_chromatograph_desc","text":"The Chromatograph filtrates your drugs into a new form.\n\nFor concentrations between 1 and 10, it increases it by 10. For concentrations between 11 and 20, it decreases it by 10."},
+	{"code":"research_sachet_maker","text":"Sachet Maker"},
+	{"code":"research_sachet_maker_desc","text":"The Sachet Maker turns your drugs into neat little sachets which can be sold.\n\nSachets get a bonus for each cure effect in the drug."},
+	{"code":"research_uv_curer","text":"Ultraviolet Curer"},
+	{"code":"research_uv_curer_desc","text":"The Ultraviolet Curer irradiates your drugs with UV light, reducing their concentration to 1."},
+	{"code":"research_syringe_maker","text":"Syringe Injector"},
+	{"code":"research_syringe_maker_desc","text":"The Syringe Injector turns your drugs into Syringes which can be sold.\n\nSyringes have an increased combined value and effect strength compared to other delivery methods."},
+	{"code":"research_centrifuge","text":"Centrifuge"},
+	{"code":"research_centrifuge_desc","text":"The Centrifuge separates and recombines your drugs.\n\nIt takes two inputs and swaps the two top halves or bottom halves, depending on the setting."},
+	{"code":"research_hadron","text":"Hadron Collider"},
+	{"code":"research_hadron_desc","text":"The Hadron Collider makes drugs super-reactive!\n\nCollided drugs act as though they are at all &W>Concentrations&GREY> simultaneously. All effects are active and the concentration component of all reactions are satisfied."},
+	{"code":"research_sequencer","text":"Atomic Sequencer"},
+	{"code":"research_sequencer_desc","text":"The Atomic Sequencer converts a drug into a molten plasma which is then suspended by an array of high precision, rapid switch, electron magnets.\n\nIt allows you to directly specify the Concentration within a set of fixed values."},
+	{"code":"research_incinerator","text":"Analyzer"},
+	{"code":"research_incinerator_desc","text":"Discover the Max Strength concentration of a drug's effects by sending it into the Analyzer.\n\nDrugs are destroyed during the analysis process. Effects do not need to be active to be analyzed."},
+	{"code":"research_packer","text":"Drug Packer"},
+	{"code":"research_packer_desc","text":"Packs multiple, identical finished products into a box which can then be exported.\n\nPacking drugs into boxes allows you to use less export sockets and store finished drugs in your factory more efficiently."},
+	
+	// INFRASTRUCTURE
+	{"code":"research_planning_permission","text":"Planning Permission"},
+	{"code":"research_planning_permission_desc","text":"Planning permission research allows us to streamline the approval process thereby decreasing the cost of expanding our factory."},
+	{"code":"research_outsourcing","text":"Outsourcing"},
+	{"code":"research_outsourcing_desc","text":"Outsourcing allows us to take advantage of cheap labour abroad to reduce our ongoing salary costs."},
+	{"code":"research_patents","text":"Patents"},
+	{"code":"research_patents_desc","text":"Patents allow you to protect your drug formulas and stop your competitors from selling the same products as you.\n\nA patent covers a specific set of active effects and a finished product type e.g. Pill, Cream etc. The order of the active effects does not matter."},
+	{"code":"research_mass_tooling","text":"Advanced Construction Techniques"},
+	{"code":"research_mass_tooling_desc","text":"Research into advanced construction techniques will allow us to build the machines which make up our production lines more cheaply."},
+	{"code":"research_suppress_press","text":"Suppress the Press"},
+	{"code":"research_suppress_press_desc","text":"This project involves digging up dirt every journalist in the industry and paying off the rest. This should allow us to apply pressure in the event of a negative news story to reduce the impact on our approval rating."},
+	{"code":"research_regulatory_connections","text":"Regulatory Connections"},
+	{"code":"research_regulatory_connections_desc","text":"This research project involves investing time and money into forging close connections to regulatory bodies around the world. Once in place, we can apply pressure when necessary to ensure our products are looked upon in a favourable light."},
+	{"code":"research_industrial_espionage","text":"Industrial Espionage"},
+	{"code":"research_industrial_espionage_desc","text":"Allows you to see what your competitors are up to:\n\nLevel 0: See competitor ingredients\nLevel 1: See competitor research\nLevel 2: See competitor product profit\nLevel 3: See exploration in-progress\nLevel 4: See research in-progress\nLevel 5: See competitor patent progress"},
+	
+	{"code":"research_university_trials","text":"University Trials"},
+	{"code":"research_university_trials_desc","text":"University trials are more expensive than those carried out by Contract Research Organisations (CROs) but are more likely to give accurate results."},
+	
+	{"code":"research_clinical_research_organisations","text":"Contract Research Organisations"},
+	{"code":"research_clinical_research_organisations_desc","text":"Clinical trials conducted by CROs are cheaper than those done by universities but they are less likely to give accurate results as the intense pressure to keep costs low can lead to corners being cut.\n\nIn addition, some CROs may deliberately overstate positive results to keep the drug sponsor happy."},
+	
+	{"code":"research_gagging_clauses","text":"Gagging Clauses"},
+	{"code":"research_gagging_clauses_desc","text":"Gagging clauses can be attached to any clinical trial to give you the opportunity to 'gag' a trial after you've seen the results. The results will remain unpublished and will not affect the rating of the drug.\n\nHowever, due to pre-trial registration requirements, it is possible to detect when a trial has been gagged. Any trials done subsequently to a gagged trial will be treated with additional scrutiny."},
+	
+	
+	// DRUG LIST ITEM UPGRADE
+	{"code":"ingredient_discount","text":"Ingredient discount:"},
+	{"code":"tofrom.ingredient_discount","text":"{0}%"},
+	
+	//  RESEARCH YIELDS
+	{"code":"research.unlock_machine","text":"Unlocks {0}"},
+	
+	{"code":"research.process_cost","text":"{0} process cost ({1} owned):"},
+	{"code":"tofrom.process_cost","text":"&$>{0}"},
+	
+	{"code":"research.process_time","text":"{0} process time:"},
+	{"code":"tofrom.process_time","text":"{0}"},
+	
+	{"code":"research.pillBonus","text":"Pill bonus:"},
+	{"code":"tofrom.pillBonus","text":"&$>{0}"},
+	
+	{"code":"research.new_location","text":"Unlocks expeditions to {0} locations"},
+	
+	{"code":"research.shakerRotations","text":"Maximum shifts in single shake:"},
+	{"code":"tofrom.shakerRotations","text":"{0}"},
+	
+	{"code":"research.creamSideEffectReduction","text":"Cream side-effect strength reduction:"},
+	{"code":"tofrom.creamSideEffectReduction","text":"{0}%"},
+	
+	{"code":"research.increaseAnalysisRate","text":"Analyzer efficiency:"},
+	{"code":"tofrom.increaseAnalysisRate","text":"{0}%"},
+	
+	{"code":"research.allPurchasePrice","text":"Purchase price of all machines:"},
+	{"code":"tofrom.allPurchasePrice","text":"{0}%"},
+	
+	{"code":"research.sachetBonus","text":"Sachet bonus per cure:"},
+	{"code":"tofrom.sachetBonus","text":"&$>{0}"},
+	
+	{"code":"research.syringeBonus","text":"Syringe combined value bonus:"},
+	{"code":"tofrom.syringeBonus","text":"{0}%"},
+	
+	{"code":"research.syringeStrengthIncrease","text":"Syringe effect strength increase:"},
+	{"code":"tofrom.syringeStrengthIncrease","text":"{0}%"},
+	
+	{"code":"research.choose_concs","text":"Unlock additional concentrations for {0}:"},
+	{"code":"tofrom.choose_concs","text":"{0}"},
+	
+	{"code":"research.plotCost","text":"Plot purchase cost:"},
+	{"code":"tofrom.plotCost","text":"{0}%"},
+	
+	{"code":"research.salaries","text":"Salary costs:"},
+	{"code":"tofrom.salaries","text":"{0}%"},
+	
+	{"code":"research.cureRatingBonus","text":"Cure rating bonus:"},
+	{"code":"tofrom.cureRatingBonus","text":"{0}%"},
+	
+	{"code":"research.approvalRecoverySpeed","text":"Approval rating recovered speed:"},
+	{"code":"tofrom.approvalRecoverySpeed","text":"{0}%"},
+	
+	{"code":"research.negativeApprovalReduction","text":"Reduces impact of negative press on approval rating."},
+	
+	{"code":"research.patents","text":"Unlocks the ability to patent your products."},
+	
+	{"code":"research.patentCost","text":"Patent cost:"},
+	{"code":"tofrom.patentCost","text":"{0}%"},
+	
+	{"code":"research.patentSpeed","text":"Patent application speed:"},
+	{"code":"tofrom.patentSpeed","text":"{0}%"},
+	
+	{"code":"research.patentMaxCureLevel","text":"Can patent cures up to level:"},
+	{"code":"tofrom.patentMaxCureLevel","text":"{0}"},
+	
+	{"code":"research.packer_capacity","text":"Packer capacity:"},
+	{"code":"tofrom.packer_capacity","text":"{0}"},
+	
+	{"code":"research.spying_ingredients","text":"See competitor ingredients"},
+	{"code":"research.spying_research","text":"See competitor research"},
+	{"code":"research.spying_profit","text":"See competitor product profit"},
+	{"code":"research.spying_ingredients_next","text":"See exploration in-progress"},
+	{"code":"research.spying_research_next","text":"See research in-progress"},
+	{"code":"research.spying_patents","text":"See competitor patent progress"},
+	
+	{"code":"research.university_trials","text":"Unlocks university trials"},
+	
+	{"code":"research.university_trialsBaseAccuracy","text":"University trial base accuracy:"},
+	{"code":"tofrom.university_trialsBaseAccuracy","text":"{0}%"},
+	
+	{"code":"research.cro_trials","text":"Unlocks CRO trials"},
+	
+	{"code":"research.cro_trialsCost","text":"CRO trial cost per patient:"},
+	{"code":"tofrom.cro_trialsCost","text":"&$>{0}"},
+	
+	{"code":"research.gagging_clauses","text":"Unlocks gagging clauses for use in trials"},
+	
+	// EVENT TEXT
+	{"code":"event.demandIncrease","text":"A well placed product could take advantage of the increased demand."},
+	{"code":"event.demandDecrease","text":"This will result in reduced demand for these cures."},
+	{"code":"event.demandDecreaseProduct","text":"Unfortunately this could hit the profits on our product{0}."},
+	
+	// EVENTS
+	{"code":"event.painkilleraddictionfriction.title","text":"Painkillers ruined my life!"},
+	{"code":"event.painkilleraddictionfriction","text":"A recent news story describes a teenager who has become addicted to over the counter &eff0>painkillers&W>.\n\nIt's likely this will scare some people off from taking pain medication for minor ailments in fear of getting addicted."},
+	{"code":"eventended.painkilleraddictionfriction","text":"It seems people have forgotten about the potential for addiction concerning &eff0>painkillers&W> and are resuming their normal buying patterns."},
+	
+	{"code":"event.migraineTrain.title","text":"All aboard the migraine train"},
+	{"code":"event.migraineTrain","text":"A spate of &eff1>migraines&W> is sweeping the nation. Analysts put the increase down to longer working hours and the stress of modern life."},
+	
+	{"code":"event.yoga.title","text":"Mind, body and soul"},
+	{"code":"event.yoga","text":"An insidious disease has gripped the nation and it's called Yoga.\n\nThe zen-infused population are becoming less reliant on medication to treat their &eff1>migraines&W>, &eff2>anxiety&W> and &eff0>hypertension&W> so expect demand for these treatments to drop."},
+	
+	{"code":"event.lightShow.title","text":"Light show"},
+	{"code":"event.lightShow","text":"The increasing use of disco lasers in nightclubs has resulted in an upsurge in epileptic fits and seizures. This is leading to an increase in demand for &eff2>antiseizure&W> medication."},
+	{"code":"eventended.lightShow","text":"Scared of the negative press, music producers have designed a new tempo of music which avoids the frequencies known to cause epileptic fits.\n\nThe updated light shows don't cause as many seizures so the demand for &eff2>antiseizure&W> medication is likely tail off from here."},
+	
+	{"code":"event.homoeopathicMeditation.title","text":"Homoeopathic Meditation"},
+	{"code":"event.homoeopathicMeditation","text":"More and more people are trusting in the power of homoeopathic meditation to avoid pain during surgery, rather than relying on a traditional &eff3>anesthetic&W>.\n\nThis is causing a drop in demand for &eff3>anesthetic&W> medications."},
+	{"code":"eventended.homoeopathicMeditation","text":"A recent news story described the dramatic consequences of a someone breaking their meditative trance during open heart surgery.\n\nIn response, there has been a startling reuptake of medicative &eff3>anesthetics&W> during surgery."},
+	
+	{"code":"event.bloodPressure.title","text":"Feeling the pressure"},
+	{"code":"event.bloodPressure","text":"An epidemic of high blood pressure is gripping the world as a result of poor dietary habits, high alcohol consumption and low levels of physical activity.\n\nDoctors are being advised to prescribe medication to combat the epidemic so expect demand for medications treating &eff0>hypertension&W> to surge."},
+	
+	{"code":"event.hypertensionNoCorrelation.title","text":"No correlation"},
+	{"code":"event.hypertensionNoCorrelation","text":"A recent report suggests there is no correlation between relieving &eff0>hypertension&W> and reducing the risk of heart disease and stoke.\n\nFurther studies are clearly needed but in the meantime doctors may be less likely to prescribe &eff0>hypertension&W> medication."},
+	
+	{"code":"event.obesityEpidemic.title","text":"Obesity on a huge scale"},
+	{"code":"event.obesityEpidemic","text":"People are getting fatter. This is resulting in an increase in &eff0>hypertension&W> among the population.\n\nIn addition, demand for some kind of &eff2>appetite suppressant&W> is surging."},
+	
+	{"code":"event.appetiteBurns.title","text":"Lost appetite"},
+	{"code":"event.appetiteBurns","text":"A recent tragedy involving a fatal dose of &eff2>appetite suppressants&W> is currently front-page news.\n\nAs doctors warn of the potential danger associated with these drugs demand is likely fall dramatically."},
+	
+	{"code":"event.anginaDiagnosis.title","text":"Improving Diagnostics"},
+	{"code":"event.anginaDiagnosis","text":"Improving diagnostic tools are leading to increases in the number of people diagnosed with &eff1>angina&W>.\n\nThis is increasing the demand for medication which treats &eff1>angina&W>."},
+	
+	{"code":"event.strokeLifestyleChange.title","text":"Lifestyle Improvement"},
+	{"code":"event.strokeLifestyleChange","text":"Following government campaigns, people are starting to live healthier lifestyles. This has led to a decrease in the number of people requiring &eff2>stroke&W> medication."},
+	
+	{"code":"event.testTubeBabies.title","text":"Test Tube Babies"},
+	{"code":"event.testTubeBabies","text":"Breakthroughs in genetic engineering are allowing scientists to identify and replace the genes responsible for serious genetic disorders such as &eff3>sickle cell anaemia&W>.\n\nOf course the science is still experimental and not everybody will agree with the practice, but over the long term demand for treatments for this type of genetic disorder are likely to fall."},
+	
+	{"code":"event.antidepressantsRise.title","text":"Medicate yourself happy"},
+	{"code":"event.antidepressantsRise","text":"The new government are making mental health a priority. The health secretary is promising increased budgets and easy access to medication such as &eff0>antidepressants&W>.\n\nThis will no doubt result in an increased demand for this type of drug."},
+	
+	{"code":"event.antidepressantsFall.title","text":"Talking therapies"},
+	{"code":"event.antidepressantsFall","text":"More and more medical professionals are saying that &eff0>antidepressants&W> are just treating the symptoms of depression without treating the cause.\n\nAs such, healthcare providers are using more talking therapies with an unmedicated approach. This is likely to reduce demand."},
+	
+	{"code":"event.adhdDocumentary.title","text":"ADHD documentary"},
+	{"code":"event.adhdDocumentary","text":"There has been an increase in &eff1>ADHD&W> diagnoses after a recent documentary raised awareness of the conditions.\n\nMedications treating the condition are set to increase in demand."},
+	
+	{"code":"event.bipoladisorderDocumentary.title","text":"Bipolar Disorder documentary"},
+	{"code":"event.bipoladisorderDocumentary","text":"There has been an increase in &eff2>Bipolar Disorder&W> diagnoses after a recent documentary raised awareness of the condition.\n\nMedications treating the condition are set to increase in demand."},
+	
+	{"code":"event.schizophreniaDocumentary.title","text":"Schizophrenia documentary"},
+	{"code":"event.schizophreniaDocumentary","text":"There has been an increase in &eff3>Schizophrenia&W> diagnoses after a recent documentary raised awareness of the condition.\n\nMedications treating the condition are set to increase in demand."},
+	
+	{"code":"event.agingPopulation.title","text":"Ageing Population"},
+	{"code":"event.agingPopulation","text":"The developed world has an ageing population. This is resulting in an increase in conditions such as &eff4>Alzheimer's Disease&W> and &eff2>Stroke&W>.\n\nMedications treating these illnesses are set to increase in demand."},
+	
+	{"code":"event.cantsleep.title","text":"Counting sheep doesn't cut it"},
+	{"code":"event.cantsleep","text":"More and more people are being affected by &eff1>Insomnia&W> as a result of the stresses of modern life.\n\nThis is creating increased levels of demand for medications which can treat it."},
+	
+	{"code":"event.healthySleep.title","text":"Meditate don't medicate"},
+	{"code":"event.healthySleep","text":"Some medical professionals are recommending natural remedies such as exercise and diet changes to &eff1>Insomnia&W> patients, rather than resorting to medication.\n\nAs a result, demand is falling."},
+	
+	{"code":"event.teenageAnxiety.title","text":"Teenage Angst"},
+	{"code":"event.teenageAnxiety","text":"An epidemic of &eff2>Anxiety&W> amongst teenagers is emerging, resulting in serious psychological conditions such as self-harming and suicidal thoughts. Social commentators suggest that it's the pervasive nature of social media and cyber bullying that's to blame.\n\nRegardless, this is causing a noticeable increase in demand for medications which treat severe &eff2>Anxiety&W>."},
+	
+	{"code":"event.explosiveGrainSilos.title","text":"Explosive grain silos"},
+	{"code":"event.explosiveGrainSilos","text":"Due to unseasonably hot weather, grain silos are exploding on farms across the country.\n\nThis is agitating &eff1>asthma&W> sufferers and causing an increase in &eff0>coughs&W> among the surrounding populace."},
+	{"code":"eventended.explosiveGrainSilos","text":"The dust is starting to subside so people with &eff0>coughs&W> and &eff1>asthma&W> should start recover."},
+	
+	{"code":"event.pollution.title","text":"Increasing pollution"},
+	{"code":"event.pollution","text":"Increasing levels of inner city pollution and deteriorating air quality is causing more people to suffer from &eff1>asthma&W>.\n\nDemand for &eff1>asthma&W> medication is set to increase."},
+	
+	{"code":"event.airFilters.title","text":"Air filtration systems"},
+	{"code":"event.airFilters","text":"A new product has hit the market claiming to help &eff1>asthma&W> sufferers by cleaning the air in people's homes.\n\nWhether or not this technology does what it promises, this is likely to reduce the demand for &eff1>asthma&W> medication over the short term."},
+	
+	{"code":"event.tuberculosisOutbreak.title","text":"Tuberculosis outbreak"},
+	{"code":"event.tuberculosisOutbreak","text":"There has been a serious outbreak of &eff1>tuberculosis&W> in Southern Africa and governments around the world are calling for drug companies to provide an effective and affordable treatment.\n\nThe longer this outbreak is left untreated, the more demand for &eff1>tuberculosis&W> medication will rise."},
+	
+	{"code":"event.tuberculosisStampDown.title","text":"Tuberculosis stamped out"},
+	{"code":"event.tuberculosisStampDown","text":"Last weekend, a meeting of African nations was held. As a result of the talks, an action plan to \"Stamp out &eff1>tuberculosis&W>\" has been agreed.\n\nThrough better hygiene precautions and international cooperation to stop the spread of the disease, they pledge to wipe out the disease completely over the next 10 years."},
+	
+	{"code":"event.volcano.title","text":"Giant volcano eruption"},
+	{"code":"event.volcano","text":"The devastating news of a large volcanic eruption in South America, destroying huge areas of developing urban sprawl, has just broken. Aid organisations are reporting a severe lack of basic medical supplies and are asking for the production of &eff0>painkillers&W> and &eff1>antibiotics&W> to meet demand."},
+	{"code":"eventended.volcano","text":"After an exhausting clean-up operation, many of the casualties have now been treated and life is returning to normal. As such, so is the demand for &eff0>painkillers&W> and &eff1>antibiotics&W>."},
+
+	{"code":"event.earthquake.title","text":"Devastating earthquake"},
+	{"code":"event.earthquake","text":"The devastating news of a giant earthquake in East Asia, destroying huge areas of developing urban sprawl, has just broken. Aid organisations are reporting a severe lack of basic medical supplies and are asking for the production of &eff0>painkillers&W> and &eff1>antibiotics&W> to meet demand."},
+	{"code":"eventended.earthquake","text":"After an exhausting clean up operation, many of the casualties have now been treated and life is returning to normal. As such, so is the demand for &eff0>painkillers&W> and &eff1>antibiotics&W>."},
+
+	{"code":"event.painkillerscare.title","text":"Painkiller scare"},
+	{"code":"event.painkillerscare","text":"The demand for non-prescription &eff0>painkillers&W> is down after a teenage girl dies from a freak allergic reaction. Even though events like this are incredibly rare, public confidence has been severely knocked."},
+	{"code":"eventended.painkillerscare","text":"Public confidence is returning to non-prescription &eff0>painkillers&W> as the death of a teenage girl from an allergic reaction is slowly forgotten."},
+
+	{"code":"event.modernlife.title","text":"Modern life"},
+	{"code":"event.modernlife","text":"The stresses of modern life are starting to get to people. Cases of &eff1>migraines&W> are slowly climbing."},
+	
+	{"code":"event.lunchbreak.title","text":"Make the most of your lunch break"},
+	{"code":"event.lunchbreak","text":" A new government initiative to get people active and away from their desks at lunchtime seems to be having positive results. People are reporting feeling less stressed and cases of &eff1>migraines&W> are falling."},
+
+	{"code":"event.moneyproblems.title","text":"Money problems"},
+	{"code":"event.moneyproblems","text":"Recent poor financial news has been causing stress and worry in a large proportion of the population. This has been manifesting itself in sleepless nights, which is causing &eff1>migraines&W>, &eff1>insomnia&W> and &eff2>anxiety&W>."},
+	{"code":"eventended.moneyproblems","text":"The financial market has finally returned back to normal. People can once again sleep easy.\n\nDemand for &eff1>migraines&W>, &eff1>insomnia&W> and &eff2>anxiety&W> medication will revert to normal levels."},
+
+	{"code":"event.positivemoney.title","text":"Good financial news"},
+	{"code":"event.positivemoney","text":"Recent positive financial news has been giving large numbers of the population a well earned break from money worries. People are feeling less &eff2>anxious&W> about their income and demand for medication is down."},
+	{"code":"eventended.positivemoney","text":"The good times couldn't last forever and people are starting to feel the pinch again. &eff2>Anxiety&W> medication is on the rise again."},
+	
+	{"code":"event.cannabis.title","text":"New Cannabis strains linked to schizophrenia"},
+	{"code":"event.cannabis","text":"A recent independent study has found a strong correlation between the smoking of super strength skunk, a particularly potent form of cannabis, and the rise in cases of anxiety and schizophrenia. The market is becoming more and more saturated with these high potency strains of skunk and experts believe the number of &eff2>anxiety&W> and &eff3>schizophrenia&W> cases is only going to get worse."},
+	
+	{"code":"event.decriminalise.title","text":"Decriminalising of illegal substances"},
+	{"code":"event.decriminalise","text":"A recent relaxing of the Misuse of Substances Act and decriminalising of certain drugs, has seen a fall in the number of cases of &eff1>insomnia&W>, &eff2>anxiety&W>, &eff0>depression&W> and &eff3>schizophrenia&W>. Now that the government is able to control and regulate the sale of certain drugs, the amount of unwanted side effects is falling."},
+	
+	{"code":"event.partyDrug.title","text":"New party drug"},
+	{"code":"event.partyDrug","text":"A worrying new legal high nick-named 'Woof Woof' is being linked to an increase in fits and &eff3>seizures&W>.\n\nThe legal party drug often sold under the pretence of plant food is fast becoming the chemical of choice for this generation of ravers. However, studies have found that if taken in large amounts, Woof Woof can cause fits, seizures and in extreme cases, death."},
+	{"code":"eventended.partyDrug","text":"After new laws have been brought in banning the sale and misuse of Woof Woof, cases of fits and &eff3>seizures&W> have returned to normal levels."},
+	
+	{"code":"event.naturalBirth.title","text":"A natural birth"},
+	{"code":"event.naturalBirth","text":"A growing tread to have a drug free, natural water birth among expectant mothers is causing a drop in the demand for &eff3>anesthetics&W>."},
+	{"code":"eventended.naturalBirth","text":"Expectant mothers are coming to realise that the benefits of natural childbirth do not outweigh the pain of labour. The demand for &eff3>anesthetics&W> are rising again as women return to drug-assisted births."},
+	
+	{"code":"event.letsGetActive.title","text":"Let's get Active!"},
+	{"code":"event.letsGetActive","text":"A new two year government campaign to get people taking more regular exercise has been showing promising results.  Cases of &eff0>hypertension&W>, &eff1>angina&W> and &eff2>strokes&W> are all down."},
+	{"code":"eventended.letsGetActive","text":"The government's two year campaign to get people taking more exercise has come to an end. As predicted, the number of cases of &eff0>hypertension&W>, &eff1>angina&W> and &eff2>strokes&W> have returned to previous levels."},
+	
+	{"code":"event.sicklecellScreenings.title","text":"Advanced blood screenings"},
+	{"code":"event.sicklecellScreenings","text":"A new compulsory screening program to help identify and track genetic traits has discovered that the number of cases of &eff3>sickle cell aneamia&W> is much wider spread than previously thought.\n\nA large number of people are now being diagnosed with the disease who previously would have gone undetected due to experiencing only mild symptoms. This has led to a higher demand for the products that treat this condition."},
+	
+	{"code":"event.dilutingGenePool.title","text":"Diluting the gene pool"},
+	{"code":"event.dilutingGenePool","text":"The number of cases of &eff3>sickle cell aneamia&W> is falling due to a diluting of the gene pool.\n\nA recessive genetic disorder, caused by the passing on of a matching pair of mutated genes, the condition is more common in people of African, Caribbean, Middle Eastern, and Asian origin. As attitudes towards interracial marriages become more relaxed, the likelihood of both parents having a recessive gene is falling."},
+	
+	{"code":"event.adhdSweetener.title","text":"Sweet truth"},
+	{"code":"event.adhdSweetener","text":"A new independent study has discovered a strong link between a popular artificial sweetener and altered brain development in young children.\n\nThe bad press has resulted in a mass boycott of all products containing the additive. As such, the number of new cases of &eff1>ADHD&W> has started to fall drastically."},
+	
+	{"code":"event.cartoons.title","text":"Saturday morning cartoons"},
+	{"code":"event.cartoons","text":"The sudden surge in new cases of &eff1>ADHD&W> and &eff3>seizures&W> in infants, has been linked to increased media contact time where cartoons, games and other screen based devices have disrupted the forming of neural pathways. Although much is being done to tackle this, irreversible damage has already been caused to many young minds."},
+	
+	{"code":"event.mentalHealthStigma.title","text":"Tackling mental health stigma"},
+	{"code":"event.mentalHealthStigma","text":"A government incentive to reduce the stigma surrounding mental health has led to a marked increase in the diagnosis of &eff0>depression&W>, &eff2>bipolar disorder&W> and &eff3>schizophrenia&W>.\n\nThis has led to a higher demand for the products that treat these conditions."},
+	
+	{"code":"event.heavyMetalAlzheimers.title","text":"Heavy metals and Alzheimer's disease"},
+	{"code":"event.heavyMetalAlzheimers","text":"A long term independent study has identified a correlation between certain plastics containing heavy metals and the onset of &eff4>Alzheimer's disease&W> in later life.\n\nMany counties have banned the use of these plastics in recent years and we are just starting to see the effect of this in the number of cases of the disease."},
+	
+	{"code":"event.highPollen.title","text":"High pollen levels"},
+	{"code":"event.highPollen","text":"A warm, dry summer is resulting in extra high pollen levels this year increasing the demand for &eff0>antihistamines&W>."},
+	{"code":"eventended.highPollen","text":"The unusually warm summer has come to an end. Expect pollen levels in future years to return to normal along with the demand for &eff0>antihistamines&W>."},
+	
+	{"code":"event.lowPollen.title","text":"Low pollen levels"},
+	{"code":"event.lowPollen","text":"A cool, damp summer has resulted in extra low pollen levels this year decreasing the demand for &eff0>antihistamines&W>."},
+	{"code":"eventended.lowPollen","text":"The unusually damp summer has come to an end. Expect pollen levels in future years to return to normal along with the demand for &eff0>antihistamines&W>."},
+	
+	{"code":"event.dustCloud.title","text":"Giant dust cloud"},
+	{"code":"event.dustCloud","text":"The mixture of a long dry season, traffic pollution and a particular prevailing wind has formed a giant dust cloud that is moving slowly over the country.\n\nReports of &eff0>coughing fits&W> and &eff1>asthma&W> attacks have risen sharply."},
+	{"code":"eventended.dustCloud","text":"The dust cloud is starting to clear.\n\nThe number of people suffering from &eff0>coughs&W> and &eff1>asthma&W> attacks has returned to normal."},
+	
+	{"code":"event.falseFearsVaccine.title","text":"False fears surrounding vaccines"},
+	{"code":"event.falseFearsVaccine","text":"The number of cases of &eff3>tuberculosis&W> has been rising steadily. This rise coincides with changes in perception about vaccine safety.\n\nMany parents are refusing to get their child inoculated after a study falsely claimed that certain vaccines were linked to autism."},
+	{"code":"eventended.falseFearsVaccine","text":"Numbers of cases of &eff3>tuberculosis&W> has fallen as public confidence returns to the safety of certain vaccines."},
+	
+	{"code":"event.insects.title","text":"Pesky insects"},
+	{"code":"event.insects","text":"A warm spring is seeing the population of midges not only explode but also move into areas not usually affected. The result is a growing pandemic of itchy skin &eff0>rashes&W>."},
+	{"code":"eventended.insects","text":"As the weather returns to seasonal norms, the recently inflated insect population and number of people suffering from &eff0>rashes&W> has followed suit."},
+	
+	{"code":"event.sunsafety.title","text":"Sun safety"},
+	{"code":"event.sunsafety","text":"A campaign to raise awareness of the dangers of spending too much time in the midday sun has been having positive results. The number of sun induced &eff0>rashes&W> and &eff1>migraines&W> has fallen."},
+	
+	{"code":"event.naturalbeauty.title","text":"All natural beauty"},
+	{"code":"event.naturalbeauty","text":"Teen heartthrob Jacob Beaver has announced that he is a strong believer in an 'all natural' beauty regime.  The pop star revealed to the press that he uses only pure bottled water and guava pulp to wash his face. The news has sent demand for &eff1>acne&W> medicine plummeting."},
+	{"code":"eventended.naturalbeauty","text":"People are starting to get fed up with Jacob Beaver and his beauty tips. Demand for &eff1>acne&W> medicine in increasing."},
+		
+	{"code":"event.baldfashion.title","text":"Bald is in fashion"},
+	{"code":"event.baldfashion","text":"With a new spate of balding movie stars and musicians happily revealing their receding hairlines to the world, public attitude to male pattern baldness has become more relaxed.\n\nPeople are much happier with the hair they were given (or more accurately not given) and the demand for &eff2>hair loss&W> products is decreasing."},
+		
+	{"code":"event.hairtoday.title","text":"Hair today, gone tomorrow"},
+	{"code":"event.hairtoday","text":"The stigma connected to male pattern baldness has grown recently.  With more public figures showing off their full heads of hair, people are worrying more about their own receding hairlines. Demand for &eff2>hair loss&W> products is increasing."},
+
+	{"code":"event.coldwinter.title","text":"A cold winter"},
+	{"code":"event.coldwinter","text":"A bitterly cold winter has resulted in higher than average numbers of &eff0>cold&W> and &eff0>cough&W> cases."},
+	{"code":"eventended.coldwinter","text":"The bitterly cold winter has come to an end. Expect average numbers of &eff0>cold&W> and &eff0>cough&W> cases to return to normal."},
+
+	{"code":"event.notcoldwinter.title","text":"A not so cold winter"},
+	{"code":"event.notcoldwinter","text":"A mild winter has resulted in lower than average numbers of &eff0>cold&W> and &eff0>cough&W> cases."},
+	{"code":"eventended.notcoldwinter","text":"The mild winter has come to an end. Expect average numbers of &eff0>cold&W> and &eff0>cough&W> cases to return to normal."},
+
+	{"code":"event.superbug.title","text":"Super Bug fears"},
+	{"code":"event.superbug","text":"Fears of growing Super Bugs have caused a fall in demand for &eff1>antibiotics&W>.\n\nThe consensus is that the more antibiotics we use, the quicker certain bacteria become immune to them, and become Super Bugs. The attitude is that we should save antibiotics for only the most severe of cases."},
+
+	{"code":"event.malariariot.title","text":"Malaria running riot"},
+	{"code":"event.malariariot","text":"A particularly wet monsoon season has caused the population of mosquitos to grow exponentially. The resulting increase in these disease carrying pests is a dramatic rise in cases of &eff2>malaria&W>."},
+
+	{"code":"event.badmosquitos.title","text":"A bad year for mosquitos"},
+	{"code":"event.badmosquitos","text":"A particularly dry monsoon season has caused the population of mosquitos to fall dramatically.  The resulting decrease in these disease carrying pests is a fall in cases of &eff2>malaria&W>."},
+
+	{"code":"event.sexedu.title","text":"Sex education"},
+	{"code":"event.sexedu","text":"A new charity has been set up to help educate people from developing countries about the advantages of practicing safe sex. This is predicted to reduce the rate of infection of &eff4>HIV&W>."},
+
+	{"code":"event.nosexedu.title","text":"A lack of sex education"},
+	{"code":"event.nosexedu","text":"A rise in the rate of infection of &eff4>HIV&W> is predicted, after a charity that had helped educate people from developing countries about the advantages of practicing safe sex for mmany years, had to go into liquidation."},
+
+	{"code":"event.bingeeating.title","text":"Binge Eating"},
+	{"code":"event.bingeeating","text":"The growing culture of eating challenges has seen an increase in the amount of people suffering from &eff0>acid reflux&W>.\n\nWith the premiere of a new TV series entitled 'Person versus Plate' airing this week, it's predicted there will be a sharp rise in demand."},
+	{"code":"eventended.bingeeating","text":"The TV series entitled 'Person versus Plate' came to an end this week. The demand for &eff0>acid reflux&W> medication has returned to normal levels."},
+
+	{"code":"event.streetfood.title","text":"Street Food"},
+	{"code":"event.streetfood","text":"The recent explosion in the number of 'Street Food' vendors has let less hygienic establishments slip through the net. Cases of &eff1>stomach ulcers&W> have increased as more people suffer from food poisoning."},
+	
+	{"code":"event.streetfooddown.title","text":"Street Food Clampdown"},
+	{"code":"event.streetfooddown","text":"Government inspectors have cracked down on unlicensed 'Street Food' vendors and the number of cases of &eff1>stomach ulcers&W> are falling."},
+
+	{"code":"event.fasting.title","text":"Live, fast and die old"},
+	{"code":"event.fasting","text":"A new fad diet has seen positive results on people's waistlines. The diet, which involves fasting for a number of days each week, has caused cases of &eff0>diabetes&W> and &eff0>hypertension&W> to fall. However, the demand for &eff2>appetite suppressants&W> is up."},
+	{"code":"eventended.fasting","text":"However positive the health benefits, people are realising that starving yourself for a couple of days is just no fun and lose interest in the current diet fad. Cases of &eff0>diabetes&W> and &eff0>hypertension&W> are up."},
+
+	{"code":"event.cleanfreak.title","text":"Clean freak"},
+	{"code":"event.cleanfreak","text":"The hygiene hypothesis, which suggests that children who grow up in increasingly germ-free environments are more likely to develop &eff3>inflammatory bowel disease&W>, is gathering more evidence.\n\nCases of the disease are growing, which seems to correlate with the increasing tread to disinfect everything."},
+	{"code":"event.cleanfreakdown.title","text":"Stay off the curry"},
+	{"code":"event.cleanfreakdown","text":"More people are finding that they are able to manage their &eff3>inflammatory bowel disease&W> by changing their diet and staying away from goods which are likely to irritate the bowels.\n\nAs a result cases of the disease are falling."},
+
+	{"code":"event.coldchain.title","text":"The cold-chain hypothesis"},
+	{"code":"event.coldchain","text":"The cold-chain hypothesis, which suggests that the increase in &eff3>inflammatory bowel disease&W> cases since World War II might be linked to the increased use of refrigerators, is being thrown into disrepute as the number of cases of the disease falls."},
+	{"code":"eventended.coldchain","text":"There is potentially still credence to the cold-chain hypothesis as the number of &eff3>inflammatory bowel disease&W> cases starts to rise again."},
+
+	{"code":"event.fiveormore.title","text":"Five or more a day"},
+	{"code":"event.fiveormore","text":"A new two year government campaign to get people eating more healthily has got off to a flying start.  Cases of type 2 &eff0>diabetes&W> has fallen, while demand for &eff2>appetite suppressants&W> is also down."},
+	{"code":"eventended.fiveormore","text":"The government scheme to get people eating more healthily has come to an end. Cases for &eff0>type 2 diabetes&W> and &eff2>appetite suppressants&W> start to rise again."},
+
+	{"code":"event.iodine.title","text":"There's something in the water"},
+	{"code":"event.iodine","text":"A popular brand of bottled water, boasting to contain many beneficial vitamins and minerals, has been found to contain excessive amounts of iodine.\n\nThe product has been removed from shelves while an investigation is carried out. As such, we have seen a decrease in the demand for iodine-induced &eff1>hyperthyroidism&W> medication."},
+
+	{"code":"event.tabaccotaxdecrease.title","text":"Tabacco tax decrease"},
+	{"code":"event.tabaccotaxdecrease","text":"Relaxed tobacco taxation laws have caused the number of smokers to increase. Cases of people with &eff0>coughs&W>, &eff2>bronchitis&W> and lung &eff2>cancer&W> are all rising."},
+
+	{"code":"event.tabaccotaxincrease.title","text":"Tabacco tax increase"},
+	{"code":"event.tabaccotaxincrease","text":"Tightened tobacco taxation laws have caused a decrease in the number of smokers. Cases of people with &eff0>coughs&W>, &eff2>bronchitis&W> and lung &eff2>cancer&W> are falling."},
+
+	{"code":"event.smokingawareness.title","text":"Smoking awareness"},
+	{"code":"event.smokingawareness","text":"A new government campaign promoting awareness about the dangers of smoking is having moderate success. Cases of both &eff2>bronchitis&W> and lung &eff2>cancer&W> are falling."},
+
+	{"code":"event.eatlikeaking.title","text":"Eat like a King"},
+	{"code":"event.eatlikeaking","text":"A new gourmet eating fad is increasing the demand for &eff0>gout&W> medication. As people's taste for duck liver pate, stuffed pheasant and mackerel with horseradish increases, so do the cases of this painful ailment."},
+	
+	{"code":"event.eatlikeakingdown.title","text":"Eat like a Pauper"},
+	{"code":"event.eatlikeakingdown","text":"Fed up with the decadence of modern society, people are starting to eat more simply, focusing on a traditional diet of vegetables, pulses and unprocessed carbohydrates. As a result cases of &eff0>gout&W> are falling."},
+
+	{"code":"event.alcoholdecrease.title","text":"Alcohol tax decrease"},
+	{"code":"event.alcoholdecrease","text":"Relaxing on alcohol taxation has increased the amount of binge drinking. This has caused an increase in the number of cases of &eff1>liver disease&W>."},
+
+	{"code":"event.alcoholincrease.title","text":"Alcohol tax increase"},
+	{"code":"event.alcoholincrease","text":"Higher tax on alcohol has stopped people binge drinking. This has caused a decrease in cases of &eff1>liver disease&W>."},
+
+	{"code":"event.cheapbooze.title","text":"Cheap booze"},
+	{"code":"event.cheapbooze","text":"As supermarkets sell larger and larger quantities of alcohol at ever cheaper prices the number of stay-at-home-drinkers increases. This is leading to ever more cases of &eff1>liver disease&W> and &eff0>gout&W>."},
+
+	{"code":"event.schoolsexed.title","text":"Sex education in schools"},
+	{"code":"event.schoolsexed","text":"A new initiative introducing compulsory sex education for all teenages is predicted to help lower the amount of STIs.\n\nThe demand for genital &eff0>warts&W> treatments is predicted to fall."},
+
+	{"code":"event.femaleempowerment.title","text":"Female empowerment"},
+	{"code":"event.femaleempowerment","text":"As the gender inequality gap shrinks more women are deciding to put off starting a family until later in life.\n\nBy taking their fertility into their own hands, the demand for &eff1>female contraception&W> is rising."},
+
+	{"code":"event.pantones.title","text":"20 pantones of Silver"},
+	{"code":"event.pantones","text":"A new best-selling novel is getting people all hot under the collar. The saucy story about a sexy businessman and his lurid fantasies has captured the public imagination. Demand for &eff1>female contraception&W>, amongst other things, is up."},
+	{"code":"eventended.pantones","text":"The thrill of Mr Silver has worn off and people are back to spending their evenings sitting on the sofa in front of the TV. Demand for &eff1>female contraception&W> is down."},
+
+	{"code":"event.agingpop.title","text":"Aging populations on the rise"},
+	{"code":"event.agingpop","text":"As the average life expectancy rises we are seeing a larger proportion of sexually active OAPs. However, sometimes even when the mind is willing the body isn't.\n\nAs such, growing demand for medication to combat &eff2>erectile dysfunction&W> increases."},
+
+	{"code":"event.malerise.title","text":"Male contraceptive on the rise"},
+	{"code":"event.malerise","text":"The demand for &eff3>male contraception&W> is growing. More women are starting to worry about the possible side effects of the long term use of hormonal contraception.\n\nMale contraception is a much less invasive procedure and many couples are demanding this approach be more readily available."},
+
+	// TUTORIAL SCRIPT
+	{"code":"tutorialcaps","text":"TUTORIAL"},
+	{"code":"goalcolon","text":"GOAL: "},
+	
+	{"code":"tutorial1-a","text":"Welcome to Big Pharma!\n\nIt's standard procedure for all new employees to go through orientation, even CEOs!\n\n&TITLE>Navigation&W>\n\nThis is the &LTBLUE>Production Tab&W>, and this empty plot is the start of your very own pharmaceutical empire!\n\nTo scroll around the map, either:&LIST>\n - Hold right-click and drag.\n - Use WASD.\n - Or move your mouse to the edge of the screen.&W>\n\nAs your factory grows, you may wish to zoom out to get a better view of things. To zoom in and out, either:&LIST>\n - Use the mouse wheel.\n - Or the 'Pg Up' and 'Pg Dn' keys.&W>\n\n&TITLE>Making your first drug&W>\n\nIn Big Pharma, you need money to do things like build production lines, expand your factory and research new technology. To make money you need to create and sell drugs.\n\nLet's make our first drug.\n\nOn the top right wall of your factory you'll see an &LTBLUE>Import Socket&W>. This is currently set up to bring a steady stream of ingredients into your factory."},
+	{"code":"tutorial1-b","text":"Later you'll learn how to do this yourself, but for now just click to find out more about this particular ingredient.\n\n&NOTE>(Note: If you find this tutorial window is getting in the way of other parts of the GUI then you can drag it around the screen using the top bar.)&W>"},
+	{"code":"tutorial1-c","text":"See these two things? These are called &LTBLUE>Effects&W>. &LTBLUE>Effects&W> come in two varieties, &eff0>Cures&W> and &effbad>Side-Effects&W>. This ingredient has one or each:\n - &eff0>Painkiller&W>\n - &effbad>Induces Nausea&W>\n\nCurrently they are both inactive, however you can activate/deactivate effects within your drugs by changing their &LTBLUE>Concentration&W>, that blue tab at the top of the ingredient."},
+	{"code":"tutorial1-d","text":"Our goal for this tutorial is to create a &eff0>Painkiller&W> drug. To do that, we need to activate the &eff0>Painkiller&W> effect by changing the ingredient's &LTBLUE>Concentration&W>. To achieve this, we'll need to build a &LTBLUE>Production Line&W>.\n\nNext, hover over the &eff0>Painkiller&W> effect's &LTBLUE>Concentration Bar&W>. You'll find it at the bottom of the effect box."},
+	{"code":"tutorial1-e","text":"Notice that to activate it, we need to increase the &LTBLUE>Concentration&W> to 5. The ingredient's current &LTBLUE>Concentration&W> is 4.\n\nWe can achieve this using an &LTBLUE>Evaporator&W> machine. &LTBLUE>Evaporators&W> increase the &LTBLUE>Concentration&W> of any drug that enters it by 1.\n\nBuild one using the menu on the left of the screen:\n &LIST>- Select the Basic toolbar.\n - Select the Evaporator.\n - Rotate the machine with the mouse wheel, the left and right arrow keys or Q and E.\n - Left click to place it.\n - If you make a mistake, you can pick it up again using a double click.&W>"},
+	{"code":"tutorial1-f","text":"To move our ingredient inside the &LTBLUE>Evaporator&W>, we need to connect it up with a &LTBLUE>Belt&W>.\n\nBuild a &LTBLUE>Belt&W> connecting the &LTBLUE>Socket&W> to your new &LTBLUE>Evaporator&W>:&LIST>\n - Right click to deselect your current tool.\n - Select the Belt tool.\n - Left click between the Socket and the Evaporator to connect it up.\n - If you make a mistake, right click to delete a belt.&W>"},
+	{"code":"tutorial1-g","text":"Select your &LTBLUE>Evaporator&W> to see the result."},
+	{"code":"tutorial1-h","text":"Notice, how the &LTBLUE>Concentration&W> has been increased to 5 and the &eff0>Painkiller&W> effect is now active.\n\nBefore we can sell our drug we have to turn it in to a finished product, for example a &LTBLUE>Pill&W>. To do this we can use a &LTBLUE>Pill Printer&W>.\n\nBuild a &LTBLUE>Pill Printer&W>:&LIST>\n - Right click to clear your current selection\n -	Select the Maker toolbar.\n - Select the Pill Printer.\n - Rotate the machine with the mouse wheel, the left and right arrow keys or Q and E.\n - Pay close attention to the arrows on the machine and make sure it is the right way round.\n - Left click to place it.&W>"},
+	{"code":"tutorial1-i","text":"Now connect it to your &LTBLUE>Evaporator&W> with &LTBLUE>Belts&W>. Instead of placing them one by one, try dragging a line of belts between your machines."},
+	{"code":"tutorial1-j","text":"Dragging belts allows you to connect your machines up quicker.\n\nIf you make a mistake, remember you can always delete belts using right click.\n\nFinally, to sell our finished drug we need to export it from our factory. We do this by connecting the production line to any empty &LTBLUE>Socket&W>."},
+	{"code":"tutorial1-k","text":"Once a finished drug reaches the socket, you will be prompted to name your drug.\n\nThe tutorial will complete when you have exported your first drug, after which you are free to leave the tutorial whenever you are ready.\n\nTo leave use the menu button to the bottom right of the screen, or press escape and select 'Leave Game'"},
+	
+	
+	{"code":"tutorial2-a","text":"In this tutorial you'll learn how to &LTBLUE>Upgrade&W> cures.\n\nUpgrading cures in Big Pharma is crucial to success. Higher level cures attract higher values so it's possible to make more money with them.\n\n&TITLE>Expanding&W>\n\nBefore we can make any more production lines, we need to expand our factory.\n\nClick the purchase plot button to the left of your existing factory."},
+	{"code":"tutorial2-c","text":"Now we have some more space for production lines, it's time to import another ingredient.\n\n&TITLE>Importing ingredients&W>\n\nTo import an ingredient, click on the empty &LTBLUE>Socket&W> next to our first import &LTBLUE>Socket&W>."},
+	{"code":"tutorial2-d","text":"This will take you to the &LTBLUE>Ingredients Tab&W>. This is where you keep track of all the ingredients currently available to you as well as initiate expeditions to discover new ones.\n\nYou'll see our first and only ingredient up to the top left of the screen."},
+	{"code":"tutorial2-e","text":"You'll see our familiar &eff0>Painkiller&W> effect on it. But we want to upgrade this to something more valuable, something that our patients will pay more for.\n\nHover over the &eff0>Painkiller&W> effect to see its &LTBLUE>Upgrade Reaction&W>."},
+	{"code":"tutorial2-f","text":"This tells us that we can upgrade it to &eff1>Eases Migraine&W> by getting it to a &LTBLUE>Concentration&W> between 7 and 10 and then using an &LTBLUE>Evaporator&W>.\n\nRemember that we can use &LTBLUE>Evaporators&W> to increase the &LTBLUE>Concentration&W> of our drugs. The current &LTBLUE>Concentration&W> is 4, so we'll need 3 &LTBLUE>Evaporators&W> to get it up to 7.\n\nBut let's not get ahead of ourselves. Set up a new stream of ingredients into your factory by clicking the Import button."},
+	{"code":"tutorial2-g","text":"&TITLE>Upgrading cures&W>\n\nNow it's the fun bit. Let's build a production line which will upgrade our &eff0>Painkiller&W> to a &eff1>Migraine&W> remedy.\n\nHopefully you'll remember from before that we need to run our drug through 3 &LTBLUE>Evaporators&W> to get the &LTBLUE>Concentration&W> up to 7.\n\nHere's a possible layout, but you can design your production line however you want."},
+	{"code":"tutorial2-h","text":"Remember, to build &LTBLUE>Evaporators&W>:&LIST>\n - Open the Basic toolbar.\n - Select the Evaporator.\n - Rotate the machine with the mouse wheel, the left and right arrow keys or Q and E.\n - Left click to place it.\n - Make sure you always connect the output (red arrow) of the last machine to the input (green arrow) of the next.&W>\n\n... and to build &LTBLUE>Belts&W>:&LIST>\n - Right click to deselect your current tool.\n - Select the Belt tool.\n - Left click to place individual belts or drag to place multiple belts at a time.\n - Delete belts with right click.&W>\n\nIf you want to check up on the progress of your drugs, you can select them in your factory using left click. This is useful because it lets you see the current state of the drug so you can work out what you need to do next.\n\nBefore moving on, let's check that we got that right. Select the last &LTBLUE>Evaporator&W> in your production line with left click. Once it has processed its drug you should see the following."},
+	{"code":"tutorial2-i","text":"See that little tick over the &LTBLUE>Concentration&W> requirement. That tells us that we're ready to upgrade this cure.\n\nNow those previous &LTBLUE>Evaporators&W> didn't actually upgrade our cure. They only changed the &LTBLUE>Concentration&W>. Now the &LTBLUE>Concentration&W> requirement is fulfilled, the next &LTBLUE>Evaporator&W> that processes the &eff0>Painkiller&W> cure will upgrade it.\n\nNote how machines in Big Pharma are multi-purpose. You can use them to change the concentration of drugs but also to set off upgrade reactions for cures.\n\nBuild one more &LTBLUE>Evaporator&W> and connect it to the rest of your production line."},
+	{"code":"tutorial2-j","text":"It will take some time for the drugs to move through the production line. Once they reach the final &LTBLUE>Evaporator&W>, select it with left click to see the result of your hard work. Your &eff0>Painkiller&W> has upgraded to an &eff1>Eases Migraine&W> cure."},
+	{"code":"tutorial2-k","text":"To finish off your production line, add a &LTBLUE>Pill Printer&W> like before:&LIST>\n - Right click to clear your current selection\n - Open the Maker toolbar.\n - Select the Pill Printer.\n - Rotate the machine with the mouse wheel, the left and right arrow keys or Q and E.\n - Pay close attention to the arrows on the machine and make sure it is the right way round.\n - Left click to place it.&W>"},
+	{"code":"tutorial2-l","text":"Then, like last time, connect it to the nearby &LTBLUE>Socket&W> to export your new drug.\n\nIf you get bored of waiting around, use the time controls in the bottom left of the screen to speed up time. You can also use 'z', 'x' and 'c' as shortcuts, or 'Space' to toggle to paused and back.\n\nOnce you name your new drug and sell a single unit of it, the tutorial will complete.\n\nLeave the tutorial whenever you are ready."},
+	
+	{"code":"tutorial3-a","text":"Welcome back. Before we get started on something new, let's have a quick recap.\n\n&TITLE>Recap&W>\n\nBy now, hopefully you're starting to get a feel for what Big Pharma is about. In broad strokes: it's about bringing ingredients into your factory and using machines to alter concentrations and upgrade cures to increase the value of them. Then hopefully sell them for a profit.\n\nThe main limit to the cures you can produce are the ingredients you have available and the machines you've unlocked.\n\nThis tutorial will teach you how you can invest your hard earned cash into discovering new ingredients and researching new machines.\n\n&TITLE>Exploring&W>\n\nNavigate to the &LTBLUE>Ingredients Tab&W>."},
+	
+	{"code":"tutorial3-b","text":"This is an undiscovered ingredient. The little icon and the x1 tell us that we need to send 1 &LTBLUE>Explorer&W> to the location to discover it. Let's do that.\n\nHire an explorer using the hire button towards the top right of the screen."},
+	
+	{"code":"tutorial3-c","text":"Notice the indicator underneath changes."},
+	
+	{"code":"tutorial3-d","text":"This tells us the number of &LTBLUE>Idle Explorers&W> we currently have, plus the number of &LTBLUE>Ingredient Upgrade Points&W> we have. These are earned by your idle explorers and can be used to decrease the cost of ingredients. They are disabled in this tutorial to keep things simple but will be explained in more detail in a later tutorial.\n\nAssign your &LTBLUE>Explorer&W> to the &LTBLUE>Dragon Beetle&W> ingredient by clicking on the box."},
+
+	{"code":"tutorial3-e","text":"The percentage tells us how long until the ingredient is discovered. In this tutorial the exploration speed is at 5x to ensure you're not hanging around too much. But in a real scenario it would take much longer.\n\n&TITLE>Researching&W>\n\nNavigate to the &LTBLUE>Research Tab&W> using the button at the bottom of the screen.\n\nThe &LTBLUE>Research Tab&W> is where you hire &LTBLUE>Scientists&W> and assign them to new research projects. Each research project yields something different. Some unlock machines, some open up new ingredient types, others simply allow you to reach new research projects.\n\nTo complete this tutorial, you need access to a new machine called the &LTBLUE>Ioniser&W>. Hire a Scientist and assign it to this project."},
+
+	{"code":"tutorial3-f","text":"&LTBLUE>Idle Scientist&W>s also earn you &LTBLUE>Upgrade Points&W>. Again they are disabled in this tutorial but will be explained in a later one.\n\n&TITLE>Improving Efficiency&W>\n\nNavigate back to the &LTBLUE>Production Tab&W>.\n\nWhile we wait for our new ingredient and research project to complete we should make some improvements to our existing production lines.\n\nDid you notice that your &LTBLUE>Pill Printers&W> takes longer to process drugs than your &LTBLUE>Evaporators&W>? It's true! Look at how the drugs back up when they reach the entrance to the &LTBLUE>Pill Printer&W>.\n\nWe can optimise this inefficiency by splitting our production line across 2 &LTBLUE>Pill Printers&W>."},
+
+	{"code":"tutorial3-g","text":"You can accomplish this by building a second &LTBLUE>Pill Printer&W> next to the first, and then using the &LTBLUE>Belt&W> tool add &LTBLUE>T-Junctions&W> to your belts.\n\nAdd a &LTBLUE>T-Junction&W> by:&LIST>\n - Selecting the Belt tool from the menu on the left.\n - Hovering over an existing belt that you want to junction from.\n - Click and drag out from the existing belt in the direction you want to split towards.&W>\n\nYou'll notice that your production line now moves along every day, splitting the drugs across the two &LTBLUE>Pill Printers&W> to ensure no more backing up.\n\nYou can use this technique with other machines too, not just the &LTBLUE>Pill Printer&W>. But I'll let you figure that one out for yourself.\n\nWhen your ingredient is discovered and your research complete, messages will appear in the top left of the screen. Check back here regularly to keep on top of what is happening in your business.\n\nMove on to the next part of the tutorial once your ingredient is discovered and your research is complete. Remember you can speed up time using the time controls in the bottom left of the screen.\n\n&TITLE>Using your new tools&W>\n\nNavigate to the &LTBLUE>Ingredients Tab&W>.\n\nYour new ingredient contains a &eff0>Relieves Hypertension&W> cure. To make some extra money though, we are going to upgrade it to a &eff1>Treats Angina&W> cure.\n\nImport your new ingredient into one of the empty sockets in your factory and design a production line which will upgrade it.\n\nTips:&LIST>\n - You'll need to expand your factory again to make space for your new line\n - Remember to hover over the &eff0>Relieves Hypertension&LIST> effect to find out how to upgrade it.\n - First you need to get the ingredient to the specified upgrade concentration (0-6).\n - You'll notice that this time we need to decrease the concentration rather than increase it. You can use &LTBLUE>Dissolvers&LIST> to accomplish this.\n - Once you reach the required upgrade concentration, you'll need to upgrade the cure using one of your newly researched &LTBLUE>Ionisers&LIST>.\n - Remember you can click on your machines and drugs to check how things are getting on and adjust if necessary.\n - Once upgraded, you'll need to adjust the concentration again to activate the &eff1>Treats Angina&LIST> cure.\n - Hover over the &eff1>Treats Angina&LIST> concentration bar to find out the &LTBLUE>Active Concentration Region&LIST>.\n - Once you manage to activate it, you'll need to use a &LTBLUE>Pill Printer&LIST> to turn your drug into a finished product which you can sell.&W>\n\nPhew, how did you do? Don't worry if you got confused. Take a look at the layout below and see how yours compares."},
+
+	{"code":"tutorial3-h","text":"If necessary you can adjust your production line so it uses the same layout, but make sure you understand how it works because from here there'll be no more hand holding!\n\nThe tutorial will complete when you have named and sold a single unit of your new drug. You can leave the tutorial whenever you are ready."},
+
+	{"code":"tutorial4-a","text":"Welcome to Tutorial 4. In this tutorial we're going to design just a single production line - but boy is it a humdinger!\n\nOur goal is to create some &eff2>Antiseizure&W> medication. This is a level 3 cure so it's potentially a real money spinner.\n\n&TITLE>Planning&W>\n\nThe first stage is to do some planning. Navigate to the new &LTBLUE>Cures Tab&W> via the button at the bottom of the screen.\n\nThe &LTBLUE>Cures Tab&W> is bi-functional. Firstly it acts as a summary screen of all the cures available to you, showing you how to upgrade each cure to the next level. In addition it shows the current demand for each cure and the current market price."},
+	{"code":"tutorial4-b","text":"This is part of the screen we're interested in so we can plan how to make our &eff2>Antiseizure&W> medication. To start with, we're going to need to create an &eff1>Eases Migraine&W> cure. This shouldn't be too hard because we already did it back in tutorial 2.\n\nNext, we need to upgrade it to an &eff2>Antiseizure&W> cure. This has an extra requirement that we've not seen before, called a &LTBLUE>Catalyst&W>. Before this upgrade reaction can go off, we need to get a special &effbad>Side-Effect&W> into our drug which will catalyse this reaction.\n\nLet's go find our &LTBLUE>Catalyst&W>. Navigate to the &LTBLUE>Ingredients Tab&W>.\n\nYou'll notice we have a new ingredient available."},
+	{"code":"tutorial4-c","text":"See the &effbad>Causes Dizziness&W> effect and the icon alongside it. That's the catalyst we need!\n\n&TITLE>Creating the Eases Migraine cure&W>\n\nFirst off, let's create an &eff1>Eases Migraine&W> cure which we can then upgrade into the &eff2>Antiseizure&W> cure.\n\nNavigate to the &LTBLUE>Production Tab&W> and purchase a plot in the neighbouring building."},
+	{"code":"tutorial4-d","text":"Click the socket on the top right wall and import the ingredient which contains the &eff0>Painkiller&W>."},
+	{"code":"tutorial4-e","text":"Now create the necessary machines to upgrade the &eff0>Painkiller&W> into &eff1>Eases Migraine&W>. If you can't remember how, why not scroll over to your other building and check out your existing &eff1>Eases Migraine&W> production line.\n\nTo save space you might want to try out the new &LTBLUE>Agglomerator&W> machine which increases concentration by 3 at time. This basically does the work of 3 &LTBLUE>Evaporators&W> in one go!\n\nHere's the layout I used:"},
+	{"code":"tutorial4-f","text":"Select the final machine in your production line and make sure you have indeed created an &eff1>Eases Migraine&W> cure."},
+	{"code":"tutorial4-g","text":"&TITLE>Adding the catalyst&W>\n\nNow we need our catalyst. Import the catalyst ingredient into the socket just below the last one."},
+	{"code":"tutorial4-h","text":"Select this ingredient by clicking on it so we can plan our next move."},
+	{"code":"tutorial4-i","text":"We need to add the effects from this ingredient to the effects in our other drug so that we end up with the &eff1>Eases Migraine&W> cure and the &effbad>Causes Dizziness&W> side-effect in the same drug.\n\nLuckily, there's a machine that does this called the &LTBLUE>Multimixer&W>.\n\nYou'll find the &LTBLUE>Multimixer&W> under the &LTBLUE>Auxiliary&W> tool bar. Build a &LTBLUE>Multimixer&W> and connect up both your drugs to its inputs."},
+	{"code":"tutorial4-j","text":"Select your &LTBLUE>Multimixer&W> to see the result. It should look like this."},
+	{"code":"tutorial4-k","text":"Hover over the &eff1>Eases Migraine&W> cure and you should see its catalyst requirement is now fulfilled, with a little tick next to it.\n\nGreat job!\n\n&TITLE>Upgrading the cure&W>\n\nFrom here it's the same as before. You need to alter the concentration so that it fulfils the upgrade requirement (15-18) and then run the drug through an &LTBLUE>Agglomerator&W> to actually upgrade it.\n\nSee if you can work out how to do this on your own. But if you need help you can consult the layout below."},
+	{"code":"tutorial4-l","text":"Select the last machine in your production line. You should have an &eff2>Antiseizure&W> effect in your drug."},
+	{"code":"tutorial4-m","text":"The final step is to activate the effect by lowering the concentration to within its active concentration range. Remember you can hover over the concentration bar of any effect to see what its active concentration range is.\n\nOnce you have activated the cure, remember to turn it into a Pill before you try to sell it.\n\nHere's the end to my production line. It's OK if yours looks different, as long as it works!"},
+	{"code":"tutorial4-n","text":"The tutorial will complete once you have named and supplied a single unit of &eff2>Antiseizure&W> medication. You can leave whenever you are ready."},
+	
+	
+	{"code":"tutorial5-a","text":"Hello and welcome to Tutorial 5. This tutorial teaches you how to use the &LTBLUE>Shaker&W> machine.\n\nSomeone's been busy while you've been away, they've created a production line. They were attempting to create some medication which &eff2>Reduces Anxiety&W>, but it's not quite right."},
+	{"code":"tutorial5-b","text":"There's a problem with the mixing process. Let's take a closer look, select one of the drugs on the conveyor belt leading to the lower input of the &LTBLUE>Multimixer&W>."},
+	{"code":"tutorial5-c","text":"Hover over the &eff1>Alleviates Insomnia&W> cure to see its upgrade reaction."},
+	{"code":"tutorial5-d","text":"This reaction needs a blue triangle catalyst.\n\nNow select a drug that's entering the top side of the &LTBLUE>Multimixer&W>."},
+	{"code":"tutorial5-e","text":"Here we have our blue triangle catalyst. The problem is it's in the same slot as the &eff1>Alleviates Insomnia&W> cure is in the other drug. They both occupy the first slot. Flick between the two drugs to see for yourself.\n\nTo explain why this is an issue we need to take a look at the &LTBLUE>Multimixer&W>. Select it and watch what happens when we try to add these two ingredients together. You'll notice that the &eff1>Alleviates Insomnia&W> effect is discarded.\n\nThis is because the &LTBLUE>Multimixer&W> simply cannot mix two effects occupying the same slot. When there is a clash, the &LTBLUE>Multimixer&W> will keep the effect in whichever ingredient is designated as the &LTBLUE>Base&W>. This can be toggled using the &LTBLUE>Toggle Base&W> button.\n\nHowever, this won't help in this circumstance because the two effects we are after (the cure and its catalyst) occupy the same slot.\n\nThis is where the &LTBLUE>Shaker&W> comes in. It shifts the position of each effect down by one so we can avoid this issue.\n\nDelete out the conveyor belts and build a &LTBLUE>Shaker&W> here. You'll find it under the &LTBLUE>Auxiliary&W> toolbar:"},
+	{"code":"tutorial5-f","text":"Select the &LTBLUE>Shaker&W> to see it in action. See how all the effects shift down one position.\n\nNow select the &LTBLUE>Multimixer&W>. Once the newly shaken drugs reach it you'll notice that with the blue triangle catalyst shifted down into the second slot, the first slot is empty for the &eff1>Alleviates Insomnia&W> cure to fill.\n\nEt voila! You have the catalyst and cure in the same drug and ready to upgrade."},
+	{"code":"tutorial5-g","text":"The rest of the production line is already built for you so you don't need to do anything else to complete this tutorial.\n\nIn the mean time let's recap what we just did:&LIST>\n - The cure and catalyst occupied the same slot in our input ingredients so we couldn't mix them together in a Multimixer. Whichever we selected as the Base ingredient would be kept while the other would be discarded.\n - The Shaker shifted all the effects in our catalyst ingredient down one place.\n - Now when the two ingredients are mixed, the first slot is empty in our catalyst ingredient so the Alleviates Insomnia can be added successfully.\n - The result: Cure and Catalyst in the same drug ready for upgrade.&W>\n\nTake some time to familiarise yourself with this process because next time you do it you'll be on your own!\n\nOnce you've named and supplied a &eff2>Reduces Anxiety&W> drug the tutorial will complete and you may leave when you are ready."},
+
+	{"code":"tutorial6-a","text":"Hello and welcome to Tutorial 6: Advanced Topics.\n\nIn this tutorial we will cover:&LIST>\n - The Company tab\n - The Analyzer machine\n - Upgrading ingredients\n - Upgrading research\n\n&TITLE>The Company Tab&W>\n\nFirst up is the Company tab, navigate to it now.\n\nThis is where you can get an overview of your company's cashflow as well as information on all the products you are creating, including statistics on how much you are producing and the current profit of each product.\n\nIn addition, you can ascertain the &LTBLUE>Cure Rating&W> of a product by hovering over the column labelled Cure Rating."},
+	{"code":"tutorial6-b","text":"In the picture above you can see the &LTBLUE>Cure Rating&W> for your &eff1>Eases Migraine&W> product. Unfortunately while it's an OK cure for migraines, its rating is being pulled down by the &effbad>side-effects&W> it's causing. People don't like it when their medication makes them feel nauseated.\n\n&LTBLUE>Cure Ratings&W> depend on the how good a drug is at curing whatever ailment it is aimed at, as well as the frequency with which it causes side-effects. Both of these things depend on the &LTBLUE>Strength&W> of the cure or side-effect within the product. This &LTBLUE>Strength&W> varies depending on the concentration of the drug. We'll learn more about this in the next section.\n\nThe &LTBLUE>Cure Ratings&W> are broken down into bands ranging from S+ all the way down to F. The average rating is C. If a product has a rating higher than this then it will get a bonus to its value. If a product has a rating lower than this then it will get a negative modifier to its value.\n\nNext we're going to learn about a machine which allows us to improve the &LTBLUE>Cure Ratings&W> of our products.\n\n&TITLE>The Analyzer Machine&W>\n\nIn the last section you were introduced to the concept of an effect &LTBLUE>Strength&W> which determines the &LTBLUE>Cure Rating&W> of your products. The &LTBLUE>Analyzer&W> machine allows you to determine the concentration at which a cure or side-effect is at maximum strength. This is called the &LTBLUE>Max Strength Concentration&W>.\n\nReturn to the &LTBLUE>Production Tab&W>.\n\nBuild an &LTBLUE>Analyzer&W> next to the last remaining socket in your first building, then connect it up with belts. You'll find the &LTBLUE>Analyzer&W> under the &LTBLUE>Auxiliary&W> toolbar."},
+	{"code":"tutorial6-c","text":"Now set up an import of &LTBLUE>Effervescent Jackear Distillate&W> into this socket."},
+	{"code":"tutorial6-d","text":"Your &LTBLUE>Analyzer&W> will begin to analyse your ingredients. Note that drugs are destroyed during the analysis process.\n\nAfter several ingredients have entered the machine you will receive two messages informing you that the analysis is complete on each of the effects inside your ingredient.\n\nYou can use the time controls to speed up the process if you wish."},
+	{"code":"tutorial6-f","text":"The analysis process is sped up within this tutorial, normally it would take a lot longer to complete an analysis.\n\nOnce known, the &LTBLUE>Max Strength Concentration&W> is indicated on an effect by a brightly colored square.\n\nWith this new knowledge you can go back and improve your existing &eff1>Eases Migraine&W> production line by moving its final product concentration away from the &LTBLUE>Max Strength Concentration&W> of the &effbad>Induces Nausea&W> side-effect.\n\nBe warned though. Creating a more effective drug, or one with a higher &LTBLUE>Cure Rating&W> will not always result in a more profitable drug. This is because it will often result in increased process costs as you add additional machines to fine-tune your drug's concentration.\n\nYou must use your judgement on whether the investment in making a product better will give you a profitable return.\n\n&TITLE>Upgrading Ingredients&W>\n\nThroughout the last five tutorials you will have been accumulating &LTBLUE>Ingredient Upgrade Points&W>. It's time to spend some.\n\nNavigate to the &LTBLUE>Ingredients Tab&W>.\n\nThe total number of points is shown in the top right corner of the screen."},
+	{"code":"tutorial6-g","text":"Each ingredient you have discovered has an upgrade button. Hover over it to see the cost of upgrading and the bonus it will bestow."},
+	{"code":"tutorial6-h","text":"Try upgrading one of your ingredients by clicking the upgrade button."},
+	{"code":"tutorial6-i","text":"Notice that the indicator below the upgrade button has lit up. This shows you what level upgrade each ingredient is at. There is a maximum upgrade level of 5.\n\nIn a real game of Big Pharma you'll want to concentrate your upgrades on ingredients which you're importing a lot of or which have a high import price.\n\n&TITLE>Upgrading Research&W>\n\nNavigate to the &LTBLUE>Research Tab&W>. Upgrading research projects is very similar to upgrading ingredients. Your current total of &LTBLUE>Research Upgrade Points&W> is shown in the top right of the screen."},
+	{"code":"tutorial6-j","text":"Any research project which has an upgrade button can be upgraded.\n\nUnlike ingredient upgrades, the bonus you'll get for each upgrade depends on the specific research project. For example, machine upgrades normally yield a decrease in process cost, while infrastructure projects often yield global bonuses to your entire company.\n\nAn an example, here is the upgrade box for the &LTBLUE>Ioniser&W>."},
+	{"code":"tutorial6-k","text":"To complete this tutorial, upgrade any one of your research projects.\n\nYou are now ready to play Big Pharma. These tutorials only scratch the surface of all there is to see and explore in the game, so keep experimenting!"},
+
+
+	{"code":"advisorname","text":"Leonard"},
+	{"code":"advisornamecaps","text":"LEONARD"},
+	
+	// New strings
+	{"code":"research.analyse_rate","text":"{0} success rate:"},
+	{"code":"tofrom.analyse_rate","text":"{0}%"}
+]

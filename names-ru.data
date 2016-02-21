@@ -1,0 +1,287 @@
+{
+	"order":["firstPart","secondPart","type"],
+	"includeSpaces":true,
+	"firstPart":[
+		"Unrefined",
+		"Purified",
+		"Raw",
+		"Reacted",
+		"Multicoloured",
+		"Aromatic",
+		"Arid",
+		"Biodegradable",
+		"Bitter",
+		"Bruised",
+		"Cultivated",
+		"Frozen",
+		"Genuine",
+		"Desicated",
+		"Foaming",
+		"Rare",
+		"Spotted",
+		"Reformed",
+		"Excavated",
+		"Shimmering",
+		"Sour",
+		"Acidic",
+		"Sticky",
+		"Wilted",
+		"Anhydrous",
+		"African",
+		"Continental",
+		"Rubberised",
+		"Polymerised",
+		"Isomerised",
+		"Spiny",
+		"Salty",
+		"Rubbery",
+		"Ductile",
+		"Malleable",
+		"Volatile",
+		"Gelatinous",
+		"Moist",
+		"Dewey",
+		"Effervescent",
+		"Bilious"
+	],
+	
+	"secondPart":[
+		"Grub Grub",
+		"Bipoxy",
+		"Mabari Bark",
+		"Hycalartis",
+		"Zilica",
+		"Halkaline",
+		"Tray Fly",
+		"Yambutan",
+		"Jangostein",
+		"Pangsat",
+		"Jackear",
+		"Wood Snake",
+		"Cloud Fruit",
+		"Mattaria",
+		"Bantodae",
+		"Metalaceus",
+		"Violyticus",
+		"Acidifolia",
+		"Fervillei",
+		"Xalic Acid",
+		"Fitric Acid",
+		"Fortis",
+		"Regia",
+		"Zurite",
+		"Amyliso",
+		"Buriam",
+		"Mercurox",
+		"Dilicate",
+		"Ferrixyanide",
+		"Hypocryolate",
+		"Veritas",
+		"Echinoderm",
+		"Jelly Fish"
+	],
+	
+	"powders":[
+		"Powder",
+		"Dust",
+		"Precipitate",
+		"Residue",
+		"Ash",
+		"Particles"
+	],
+	
+	"crystals":[
+		"Crystals",
+		"Concentration",
+		"Quartz"
+	],
+	
+	"solutions":[
+		"Juice",
+		"Sap",
+		"Solution",
+		"Oil",
+		"Liquid",
+		"Extract",
+		"Distillate",
+		"Concentration",
+		"Essence",
+		"Tincture",
+		"Secretion",
+		"Discharge"
+	],
+	
+	"oils":[
+		"Juice",
+		"Sap",
+		"Solution",
+		"Oil",
+		"Liquid",
+		"Extract",
+		"Distillate",
+		"Concentration",
+		"Essence",
+		"Tincture",
+		"Secretion",
+		"Discharge"
+	],
+	
+	"gases":[
+		"Gas",
+		"Vapour",
+		"Essence",
+		"Air",
+		"Extract",
+		"Fumes",
+		"Smoke",
+		"Spray",
+		"Steam",
+		"Mist"
+	],
+	
+	"amber":[
+		"Amber",
+		"Crystal",
+		"Gem",
+		"Quartz"
+	],
+	
+	"gem":[
+		"Crystal",
+		"Gem",
+		"Quartz"
+	],
+	
+	"ore":[
+		"Ore",
+		"Minerals",
+		"Rock",
+		"Chunks",
+		"Pieces"
+	],
+	
+	"pellets":[
+		"Pellets",
+		"Granules",
+		"Grains",
+		"Precipitate",
+		"Chunks",
+		"Pieces"
+	],
+	
+	"rbflask":[
+		"Juice",
+		"Sap",
+		"Solution",
+		"Oil",
+		"Liquid",
+		"Extract",
+		"Distillate",
+		"Concentration",
+		"Essence",
+		"Tincture",
+		"Secretion",
+		"Discharge"
+	],
+	
+	"shavings":[
+		"Filings",
+		"Shavings",
+		"Residue"
+	],
+	
+	"pills":[
+		"Pill"
+	],
+	
+	"creams":[
+		"Cream"
+	],
+	
+	"sachets":[
+		"Sachet"
+	],
+	
+	"syringes":[
+		"Syringe"
+	],
+	
+	// CHEMICAL NAMES - These don't need to be translated
+	"chemicalStarts":[
+		"Adamant",
+		"Bot",
+		"Cal",
+		"Cad",
+		"Dec",
+		"Et",
+		"Ab",
+		"Acer",
+		"Def",
+		"Ex",
+		"Fruc",
+		"Grat",
+		"Hod",
+		"Ir",
+		"Jud",
+		"Ap",
+		"Laet",
+		"Med",
+		"Onus",
+		"Ret",
+		"Pat",
+		"Pro",
+		"Quar",
+		"Redon",
+		"Satag",
+		"Unus",
+		"Velox",	
+		"Vult",
+		"Quen",
+		"Xen"
+	],
+	// These don't need to be translated
+	"chemicalEnds":[
+		"ene",
+		"ine",
+		"ite",
+		"aphos",
+		"erene",
+		"alene",
+		"iphos",
+		"amine",
+		"amycin",
+		"omycin",
+		"achurin",
+		"inon",
+		"on",
+		"onite",
+		"acide",
+		"ocide",
+		"icide",
+		"ox",
+		"itox",
+		"etox",
+		"itox",
+		"alite",
+		"alike",
+		"ick",
+		"acite",
+		"etin",
+		"in",
+		"otic",
+		"atic",
+		"ate",
+		"ane",
+		"oxin",
+		"itoxin",
+		"atoxin",
+		"ulin",
+		"olic",
+		"alic",
+		"ilic",
+		"one",
+		"izone",
+		"azone",
+		"etone"
+	]
+}
