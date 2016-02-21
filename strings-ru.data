@@ -1,6 +1,6 @@
 [
 	// Language
-	{"code":"thislanguage","text":"English"}, // The language of this particular strings file, in the native form. E.g. strings-de.data => Deutsch, strings-fr.data => Français.
+	{"code":"thislanguage","text":"Русский"}, // The language of this particular strings file, in the native form. E.g. strings-de.data => Deutsch, strings-fr.data => Français.
 	
 	// General
 	{"code":"?","text":"???"},
@@ -35,91 +35,91 @@
 	{"code":"effbadhalf","text":"^CFF7F7C88"},
 
 	// Notifications alert dialogs
-	{"code":"cannotbuildmachinenexttoanother","text":"Equipment inputs and outputs must be connected by Belts."},
-	{"code":"insufficientfunds","text":"Insufficient funds."},
-	{"code":"insufficientupgradepoints","text":"Insufficient upgrade points."},
+	{"code":"cannotbuildmachinenexttoanother","text":"Входы и выходы, оборудование должно быть соеденены ремнями."},
+	{"code":"insufficientfunds","text":"Недостаточно средств."},
+	{"code":"insufficientupgradepoints","text":"Недостаточно очков обновления."},
 	
 	// Random
-	{"code":"and","text":"and"},
-	{"code":"or","text":"or"},
+	{"code":"and","text":"и"},
+	{"code":"or","text":"или"},
 	
 	// Advisors
-	{"code":"random","text":"Random"},
-	{"code":"leonard","text":"Leonard"},
-	{"code":"jenny","text":"Jenny"},
-	{"code":"chan","text":"Chan"},
-	{"code":"sasha","text":"Sasha"},
-	{"code":"orion","text":"Orion"},
-	{"code":"penny","text":"Penny"},
-	{"code":"barclay","text":"Barclay"},
-	{"code":"tess","text":"Tess"},
-	{"code":"company.leonard","text":"Wizzbang Developments"},
-	{"code":"company.jenny","text":"Expedite Medicine"},
-	{"code":"company.chan","text":"Katana Tech"},
-	{"code":"company.sasha","text":"Cooperative Care"},
-	{"code":"company.orion","text":"Excalibur Pharmaceuticals"},
-	{"code":"company.penny","text":"Medicorp"},
-	{"code":"company.barclay","text":"Barclay Industries"},
-	{"code":"company.tess","text":"Gamma Group"},
+	{"code":"random","text":"Случайный"},
+	{"code":"leonard","text":"Леонард"},
+	{"code":"jenny","text":"Дженни"},
+	{"code":"chan","text":"Чен"},
+	{"code":"sasha","text":"Александра"},
+	{"code":"orion","text":"Орион"},
+	{"code":"penny","text":"Пэнни"},
+	{"code":"barclay","text":"Барклай"},
+	{"code":"tess","text":"Тесс"},
+	{"code":"company.leonard","text":"Виззи"},
+	{"code":"company.jenny","text":"Удобная Медицина"},
+	{"code":"company.chan","text":"Катана Тех"},
+	{"code":"company.sasha","text":"Здоровье Корп"},
+	{"code":"company.orion","text":"Экскалибур-Фарм"},
+	{"code":"company.penny","text":"Медкорп"},
+	{"code":"company.barclay","text":"Барклай-Индастрис"},
+	{"code":"company.tess","text":"Группа Гамма"},
 	
 	// SPLASH SCREEN
-	{"code":"download","text":"DOWNLOAD"},
-	{"code":"later","text":"LATER"},
-	{"code":"loading","text":"Loading..."},
-	{"code":"thereisanupdate","text":"There is an update: {0} ({1})"},
-	{"code":"downloading","text":"Downloading: {0} ({1})"},
-	{"code":"downloadingprogress","text":"Downloading: {0},{1} ({2})"},
-	{"code":"downloadingprogresssimple","text":"Downloading: "},
-	{"code":"downloadfinished","text":"Download finished"},
-	{"code":"unpacking","text":"Unpacking: {0} ({1})"},
-	{"code":"unpackingfinished","text":"Unpacking finished"},
-	{"code":"restarting","text":"Restarting..."},
+	{"code":"download","text":"ЗАГРУКА"},
+	{"code":"later","text":"ПОЗЖЕ"},
+	{"code":"loading","text":"Идет загрузка..."},
+	{"code":"thereisanupdate","text":"Обновленя не найдены: {0} ({1})"},
+	{"code":"downloading","text":"Скачивание: {0} ({1})"},
+	{"code":"downloadingprogress","text":"Скачивание: {0},{1} ({2})"},
+	{"code":"downloadingprogresssimple","text":"Скачивание: "},
+	{"code":"downloadfinished","text":"Загрузка завершена"},
+	{"code":"unpacking","text":"Распаковка: {0} ({1})"},
+	{"code":"unpackingfinished","text":"Распаковка завершена"},
+	{"code":"restarting","text":"Перезапуск..."},
 	
 	// MAIN MENU
-	{"code":"mainmenuversion","text":"Version: {0}"},
-	{"code":"mainmenunewgame","text":"New Game"},
-	{"code":"mainmenuloadgame","text":"Load Game"},
-	{"code":"mainmenuoptions","text":"Options"},
-	{"code":"mainmenuexit","text":"Exit"},
-	{"code":"mainmenucontinuelastgame","text":"Continue Last Game"},
-	{"code":"mainmenumods","text":"Mods"},
+	{"code":"mainmenuversion","text":"Версия: {0} (перевод 0.02)"},
+	{"code":"mainmenunewgame","text":"Новая игра"},
+	{"code":"mainmenuloadgame","text":"Загрузка"},
+	{"code":"mainmenuoptions","text":"Настройки"},
+	{"code":"mainmenuexit","text":"Выход"},
+	{"code":"mainmenucontinuelastgame","text":"Продолжить последнюю игру"},
+	{"code":"mainmenumods","text":"Модификации"},
 	
 	// IN GAME MENU
-	{"code":"returntogame","text":"RETURN TO GAME"},
+	{"code":"returntogame","text":"Возврат в игру"},
 	
 	// MODDING
-	{"code":"modstitle","text":"MODS"},
-	{"code":"loadmodconfirm","text":"LOAD MOD?"},
-	{"code":"loadmodconfirmtext","text":"Restart game with this mod installed?"},
-	{"code":"revertedToVanillaTitle","text":"MOD REVERTED"},
-	{"code":"revertedToVanilla","text":"Error encountered while installing mod. Reverted to basic game.\nError in file: {0}"},
-	{"code":"currentlyinstalled","text":" (installed)"},
-	{"code":"unloadmods","text":"UNLOAD CURRENT"},
-	{"code":"unloadmodconfirm","text":"UNLOAD MOD?"},
-	{"code":"unloadmodconfirmtext","text":"Restart game with no mods installed?"},
+	{"code":"modstitle","text":"Модификации"},
+	{"code":"loadmodconfirm","text":"Загрузить мод?"},
+	{"code":"loadmodconfirmtext","text":"Перезапустить игру с этим модом?"},
+	{"code":"revertedToVanillaTitle","text":"Мод отменён"},
+	{"code":"revertedToVanilla","text":"Ошибка установки мода. Выполнен возврат к оригинальной игре.\nОшибка в файле: {0}"},
+	{"code":"currentlyinstalled","text":" (установлен)"},
+	{"code":"unloadmods","text":"Выгрузить текущий мод"},
+	{"code":"unloadmodconfirm","text":"Выгрузить мод?"},
+	{"code":"unloadmodconfirmtext","text":"Перезапустить игру бкз модов?"},
 	
 	// COMPANY INCORPORATION DIALOG
-	{"code":"incorporateTitle","text":"COMPANY INCORPORATION CERTIFICATE"},
-	{"code":"incorporate","text":"INCORPORATE"},
-	{"code":"companycolors","text":"COMPANY COLORS"},
-	{"code":"companyadvisor","text":"CHIEF EXECUTIVE OFFICER"},
-	{"code":"companyname","text":"COMPANY NAME"},
-	{"code":"nameyourcompany","text":"NAME YOUR COMPANY"},
+	{"code":"incorporateTitle","text":"Основание новой компании"},
+	{"code":"incorporate","text":"Основать"},
+	{"code":"companycolors","text":"Цвета компании"},
+	{"code":"companyadvisor","text":"Директор компании"},
+	{"code":"companyname","text":"Название компании"},
+	{"code":"nameyourcompany","text":"Придумайте название Вашей компании"},
 	
 	// CUSTOM GAME DIALOG
-	{"code":"startgame","text":"START GAME"},
-	{"code":"importcustom","text":"IMPORT"},
-	{"code":"exportcustom","text":"EXPORT"},
-	{"code":"difficultycolon","text":"DIFFICULTY:"},
+	{"code":"startgame","text":"Начать игру"},
+	{"code":"importcustom","text":"Импорт"},
+	{"code":"exportcustom","text":"Экспорт"},
+	{"code":"difficultycolon","text":"Сложность:"},
 	
 	// CUSTOM SETTINGS
 	/// competitors
-	{"code":"competitors","text":"Competitors"},
-	{"code":"veryeasy","text":"Very easy"},
-	{"code":"easy","text":"Easy"},
-	{"code":"normal","text":"Normal"},
-	{"code":"hard","text":"Hard"},
-	{"code":"veryhard","text":"Very hard"},
+	{"code":"competitors","text":"Конкуренты"},
+	{"code":"veryeasy","text":"Очень легко"},
+	{"code":"easy","text":"Легко"},
+	{"code":"normal","text":"Нормально"},
+	{"code":"hard","text":"Тяжело"},
+	{"code":"veryhard","text":"Очень тяжело"},
 	/// ingredients
 	{"code":"ingredientsettings","text":"Ingredient Settings"},
 	{"code":"locationsIncluded","text":"Locations included"},
@@ -304,14 +304,14 @@
 	
 	
 	// SAVE/LOAD DIALOGS
-	{"code":"savegame","text":"SAVE GAME"},
-	{"code":"loadgame","text":"LOAD GAME"},
-	{"code":"save","text":"SAVE"},
-	{"code":"load","text":"LOAD"},
+	{"code":"savegame","text":"Сохранить игру"},
+	{"code":"loadgame","text":"Загрузить игру"},
+	{"code":"save","text":"Сохранить"},
+	{"code":"load","text":"Загрузить"},
 	{"code":"saveerror","text":"Error saving game to: "},
 	{"code":"savesuccess","text":"Game saved to: "},
-	{"code":"yes","text":"YES"},
-	{"code":"no","text":"NO"},
+	{"code":"yes","text":"Да"},
+	{"code":"no","text":"Нет"},
 	{"code":"overwriteconfirm","text":"OVERWRITE SAVE?"},
 	{"code":"overwriteconfirmtext","text":"Are you sure you want to overwrite this save game?"},
 	{"code":"deleteconfirm","text":"DELETE SAVE?"},
@@ -1879,10 +1879,10 @@
 	{"code":"tutorial6-k","text":"To complete this tutorial, upgrade any one of your research projects.\n\nYou are now ready to play Big Pharma. These tutorials only scratch the surface of all there is to see and explore in the game, so keep experimenting!"},
 
 
-	{"code":"advisorname","text":"Leonard"},
-	{"code":"advisornamecaps","text":"LEONARD"},
+	{"code":"advisorname","text":"Леонард"},
+	{"code":"advisornamecaps","text":"ЛЕОНАРД"},
 	
 	// New strings
-	{"code":"research.analyse_rate","text":"{0} success rate:"},
+	{"code":"research.analyse_rate","text":"{0} вероятность успеха:"},
 	{"code":"tofrom.analyse_rate","text":"{0}%"}
 ]
