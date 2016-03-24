@@ -494,7 +494,7 @@
 	{"code":"incinerator","text":"Анализатор"},
 	{"code":"incineratordesc","text":"&GREY>Определяет концентрацию для достижения Максимальной Силы эффектов лекарства.\n\nВо время анализа лекарства уничтожаются. Эффекты не обязательно должны быть активными, чтобы их анализировать."},
 	{"code":"fixed_belt","text":"Фиксированный конвейер"},
-	{"code":"fixed_beltdesc","text":"&GREY>Фиксирует рконвейерную ленту в определённом направлении. Поворот осуществляется вручную. Полезно для сложных производственных линий."},
+	{"code":"fixed_beltdesc","text":"&GREY>Фиксирует конвейерную ленту в определённом направлении. Поворот осуществляется вручную. Полезно для сложных производственных линий."},
 	
 	// Drug types
 	{"code":"pillbonus","text":"Увеличивает совокупную ценность на &$>{0}."},
@@ -540,16 +540,16 @@
 	{"code":"hypertension","text":"Облегчает гипертонию"},
 	{"code":"angina","text":"Лечит ангину"},
 	{"code":"stroke","text":"Снижает риск инсульта"},
-	{"code":"sicklecell","text":"Борется с Серповидно-клеточной анемией"},
+	{"code":"sicklecell","text":"Борется с Серповидноклеточной анемией"},
 
-	{"code":"psychologicaltitle","text":"Психологическое"},
+	{"code":"psychologicaltitle","text":"Психологические"},
 	{"code":"antidepressants","text":"Антидепресант"},
-	{"code":"adhd","text":"Борется с синдромом дефицита внимания и гиперактивности"},	
+	{"code":"adhd","text":"Борется с синдромом дефицита внимания и гиперактивности"},
 	{"code":"bipoladisorder","text":"Лечит биполярное расстройство"},
 	{"code":"schizophrenia","text":"Лечит Шизофрению"},
 	{"code":"alzheimers","text":"Лечит болезнь Альцгеймера"},
 	
-	{"code":"relaxantstitle","text":"Успокоительное"},
+	{"code":"relaxantstitle","text":"Успокоительные"},
 	{"code":"antihistamine","text":"Антигистамин"},
 	{"code":"insomnia","text":"Облегчает бессонницу"},
 	{"code":"anxiety","text":"Снижает тревожность"},
@@ -595,20 +595,20 @@
 	{"code":"erectiledysfunction","text":"Облегчает эректильную дисфункцию"},
 	{"code":"malecontraceptive","text":"Мужской контрацептив"},
 	
-	{"code":"sugarpill","text":"Сахарная пилюля"},
+	{"code":"sugarpill","text":"Плацебо"},
 	
 	// Side effects - no catalyst
 	{"code":"narrowedpupils","text":"Суженные зрачки"},
 	{"code":"sleepiness","text":"Вызывает сонливость"},
-	{"code":"drymouth","text":"Сухой рот"},
+	{"code":"drymouth","text":"Сухость во рту"},
 	{"code":"constipation","text":"Вызывает запор"},
 	{"code":"headaches","text":"Вызывает головную боль"},
-	{"code":"pinsandneedles","text":"Вызывает колотье в конечностях"},
-	{"code":"nausea","text":"Побуждает Тошноту"},
+	{"code":"pinsandneedles","text":"Вызывает покалывание в конечностях"},
+	{"code":"nausea","text":"Вызывает тошноту"},
 	{"code":"fatigue","text":"Вызывает усталость"},
 	{"code":"highbloodpressure","text":"Увеличивает кровяное давление"},
-	{"code":"inflamesskin","text":"Воспаление кожи"},
-	{"code":"nightmares","text":"Побуждает кошмары"},
+	{"code":"inflamesskin","text":"Воспаления на коже"},
+	{"code":"nightmares","text":"Вызывает кошмары"},
 	
 	// Side effects - level 1
 	{"code":"dizziness","text":"Вызывает головокружение"},
@@ -618,17 +618,17 @@
 	
 	// Side effects - level 2
 	{"code":"urinaryretention","text":"Задержка мочи"},
-	{"code":"vomiting","text":"Побуждает рвоту"},
-	{"code":"breathingdifficulties","text":"Вызывает затрудненное дыхание"},
+	{"code":"vomiting","text":"Вызывает рвоту"},
+	{"code":"breathingdifficulties","text":"Вызывает затруднение дыхания"},
 	
 	// Side effects - level 3
-	{"code":"fits","text":"Побуждает припадок"},
-	{"code":"hallucinations","text":"Побуждает галюцинации"},
-	{"code":"analleakage","text":"Может вызвать анальную утечку"},
+	{"code":"fits","text":"Вызывает припадки"},
+	{"code":"hallucinations","text":"Вызывает галюцинации"},
+	{"code":"analleakage","text":"Может вызвать понос"},
 	
 	// Side effects - level 4
 	{"code":"memoryloss","text":"Вызывает потерю памяти"},
-	{"code":"blackouts","text":"Вызывает отключение сознания"},
+	{"code":"blackouts","text":"Вызывает потерю сознания"},
 	{"code":"carcinogenic","text":"Вызывает рак"},
 	
 	// Side effects - level 5
@@ -639,7 +639,7 @@
 	{"code":"sweating","text":"Вызывает обильное потоотделение"},
 	{"code":"sexualdysfunction","text":"Вызывает сексуальную дисфункцую"},
 	{"code":"coma","text":"Вызывает кому"},
-	{"code":"suicidalthoughts","text":"Побуждает суицидальные мысли"},
+	{"code":"suicidalthoughts","text":"Вызывает суицидальные мысли"},
 	{"code":"bleedinggums","text":"Вызывает кровоточащие десны"},
 	{"code":"bloodystool","text":"Вызывает кровавый стул"},
 	{"code":"palpitations","text":"Вызывает сильное сердцебиение"},
@@ -651,7 +651,7 @@
 	{"code":"cream","text":"Крем"},
 	{"code":"pill","text":"Пилюля"},
 	{"code":"syringe","text":"Шприц"},
-	{"code":"sachet","text":"Пакетик/Саше"},
+	{"code":"sachet","text":"Пакетик"},
 	{"code":"box","text":"Коробка"},
 	
 	// Research tab research gui research screen
@@ -659,9 +659,9 @@
 	{"code":"researched","text":"ИЗУЧЕННО"},
 	{"code":"unavailable","text":"НЕДОСТУПНО"},
 	{"code":"inprogress","text":"В ПРОЦЕССЕ"},
-	{"code":"commence","text":"Начинается"},
+	{"code":"commence","text":"Начать"},
 	{"code":"researchCost","text":"Стоимость: &$>{0}"},
-	{"code":"researchDuration","text":"Длительность: {0} days"},
+	{"code":"researchDuration","text":"Длительность: {0} дней."},
 	{"code":"researchlength","text":"ДЛИТЕЛЬНОСТЬ:"},
 	{"code":"researchready","text":"ГОТОВО ЧЕРЕЗ:"},
 	{"code":"yields","text":"Выработка:"},
@@ -713,7 +713,7 @@
 	{"code":"trialuni","text":"Университет"},
 	{"code":"trialacc","text":"Базовая точность"},
 	{"code":"trialcostperpatient","text":"Стоимость на одного пациента"},
-	{"code":"trialcostperdrug","text":"Стоимость за лекарства"},
+	{"code":"trialcostperdrug","text":"Стоимость за упаковку"},
 	{"code":"trialnumberofpatients","text":"Количество пациентов"},
 	{"code":"trialgaggingclause","text":"Не разглашать информацию?"},
 	{"code":"gaggingnotavailable","text":"Не доступно"},
@@ -722,36 +722,36 @@
 	{"code":"trialdrugcost","text":"Стоимость лекартсв"},
 	{"code":"trialesttotalcost","text":"Итоговая стоимость"},
 	{"code":"starttrial","text":"НАЧАТЬ ИСПЫТАНИЯ"},
-	{"code":"trialexplanation","text":"Примечание: Пока проводятся испытания, экспортированные продукты будут использоваться для испытания вместо того, чтобы быть проданы для получения прибыли. После того, как вы поставили 1 продукт для каждого пациента, испытания завершатся."},
+	{"code":"trialexplanation","text":"Примечание: Пока проводятся испытания, экспортированные продукты будут использоваться для проведения испытаний вместо того, чтобы быть проданы для получения прибыли. После того, как вы поставили 1 продукт для каждого пациента, испытания завершатся."},
 	
 	// TRIAL ITEM
-	{"code":"trailitemname","text":"{0} - {1} - {2} - {3} patients"},
+	{"code":"trailitemname","text":"{0} - {1} - {2} - {3} пациентов"},
 	{"code":"trailiteminfo","text":"Ожидается через {0}"},
 	
 	// TRIAL COMPLETE MESSAGE
 	{"code":"trialcomplete","text":"Испытания завершенны"},
-	{"code":"trialcompletetext1","text":"Испытания следующих продукстов были завершенны."},
+	{"code":"trialcompletetext1","text":"Испытания следующих продуктов были завершенны."},
 	{"code":"trialcompletetext2","text":"Результаты приведены ниже:"},
 	{"code":"trialcompletetext3","text":"Сводный рейтинг испытания:"},
-	{"code":"trialcompletesummary","text":"В целом препарат выполняется?? {0}."},
-	{"code":"trialcompletecure","text":" Как лекарство это было {0}{1}{2}."},
+	{"code":"trialcompletesummary","text":"В целом препарата произведено {0}."},
+	{"code":"trialcompletecure","text":" В качестве лекарств получились {0}{1}{2}."},
 	{"code":"trialcompletebut","text":" но "},
 	{"code":"trialcompleteand","text":" и "},
 	{"code":"trialcompletesideeffects","text":"побочные эффекты были {0}"},
 	{"code":"trialbetter","text":"лучше, чем ожидалось"},
 	{"code":"trialworse","text":"хуже, чем ожидалось"},
 	{"code":"trialnormal","text":"в соответствии с нашими ожиданиями"},
-	{"code":"trialcompletetext4","text":"У нас есть возможность не разглашать это испытание. Воспользоваться ею?"},
+	{"code":"trialcompletetext4","text":"У нас есть возможность не разглашать результаты этого испытания. Воспользоваться ею?"},
 	{"code":"trialcompletegag","text":"УМОЛЧАТЬ"},
 	{"code":"trialcompletepublish","text":"ОПУБЛИКОВАТЬ"},
 	{"code":"trialfloatoff","text":"ИСПЫТАНИЯ"},
-	{"code":"triallownumberofpatients","text":"Низкое число пациентов"},
+	{"code":"triallownumberofpatients","text":"Малое количество пациентов"},
 	{"code":"trialhighnumberofpatients","text":"Большое количество пациентов"},
-	{"code":"trialgaggingclauseincluded","text":"Ранее не разглашенные испытания"},
+	{"code":"trialgaggingclauseincluded","text":"Ранее не разглашённые испытания"},
 	
 	// TRIAL BAD MESSAGE
 	{"code":"trialoverstatedtitle","text":"Завышенные результаты"},
-	{"code":"trialoverstatedtext","text":"В отчете о расследовании было установлено, что результаты испытаний для следующего продукта были завышены при участии ОЦР. Таким образом, результаты сейчас широко дискредитированы, и это оказывает негативное влияние на рейтинг продукта."},
+	{"code":"trialoverstatedtext","text":"В отчете о расследовании было установлено, что результаты испытаний для следующего продукта были завышены при участии ОЦР. Таким образом, результаты сейчас сильно дискредитированы, и это оказывает негативное влияние на рейтинг продукта."},
 	
 	// TRIAL HOVER
 	{"code":"brandpaneltrial","text":"Испытания"},
@@ -760,7 +760,7 @@
 	
 	// FIRST TIME YOU USE PATENT WARNING
 	{"code":"patentfirsttimetitle","text":"Введение в патенты"},
-	{"code":"patentfirsttimedesc","text":"Вы видите этот диалог, потому что это первая игра, которую вы сыграли и которая включает патенты. \n\n'Патенты' являются исследовательским проектом, который, как только будет завершен, позволит защитить свою продукцию путем подачи патентов из вкладки Компании. \n\nПатенты стоят времени и денег, но после завершения, ни один из ваших конкурентов не сможет продавать тот же продукт. \n\nИмейте в виду, ваши конкуренты также имеют доступ к этой способности. \n\nЧтобы получить больше информации проверьте описание проекта на вкладке Исследований."},
+	{"code":"patentfirsttimedesc","text":"Вы видите этот диалог, потому что это первая игра, которую Вы сыграли и которая включает патенты. \n\n'Патенты' являются исследовательским проектом, который, как только будет завершен, позволит защитить свою продукцию путем подачи патентов из вкладки 'Компания'. \n\nПатенты стоят времени и денег, но после завершения, ни один из ваших конкурентов не сможет продавать такой же продукт. \n\nИмейте в виду, Ваши конкуренты также имеют доступ к этой возможности. \n\nЧтобы получить больше информации проверьте описание проекта на вкладке Исследований."},
 	
 	// LOAN COMPANIES
 	{"code":"loansrus","text":"Loans 'R' Us"},
@@ -790,18 +790,18 @@
 	{"code":"processingcostcolon","text":"Стоимость обработки:"},
 	{"code":"rawcostcolon","text":"Стоимость материалов:"},
 	{"code":"brandmodifier","text":"Рейтинг лекарства {0}:"},
-	{"code":"typebonuspill","text":"Бонус пилюли:"},
+	{"code":"typebonuspill","text":"Бонус таблетки:"},
 	{"code":"typebonuscream","text":"Бонус крема:"},
-	{"code":"typebonussachet","text":"Бонус саше:"},
+	{"code":"typebonussachet","text":"Бонус пакетика:"},
 	{"code":"typebonussyringe","text":"Бонус шприца:"},
 	{"code":"total","text":"Итого:"},
-	{"code":"efficiencyHover","text":"Эффективность - Сколько времени эта машина занята обработкой. 100% означает, что она постоянно обрабатывает, с максимальной эффективностью."},
-	{"code":"notafinishedproduct","text":"Этот продукт не закончен. Преобразуйте его в &LTBLUE>Пилюлю&W>, &LTBLUE>Крем&W> и т.д., прежде чем пытаться продать его."},
-	{"code":"notconnected","text":"Этот конвеер не правильно подключен к вводу/выводу этой машины."},
+	{"code":"efficiencyHover","text":"Эффективность - сколько времени эта машина занята производством. 100% означает, что она постоянно производит обработку, с максимальной эффективностью."},
+	{"code":"notafinishedproduct","text":"Этот продукт не закончен. Преобразуйте его в &LTBLUE>Таблетку&W>, &LTBLUE>Крем&W> и т.д., прежде чем пытаться продать его."},
+	{"code":"notconnected","text":"Этот конвейер не правильно подключен к вводу/выводу этой машины."},
 	{"code":"gamepaused","text":"ИГРА ПРИОСТАНОВЛЕНА"},
 	{"code":"stop","text":"СТОП"},
 	{"code":"costperdrugcolon","text":"РАСХОДОВ НА ОДНО ЛЕКАРСТВО:"},
-	{"code":"togglebase","text":"ПЕРЕКЛЮЧИТЬ БАЗУ??"},
+	{"code":"togglebase","text":"ПЕРЕКЛЮЧЕНИЕ БАЗЫ"},
 	
 	
 	// PRODUCTION TOOL-TIPS
@@ -817,12 +817,12 @@
 	{"code":"painttofill","text":" Зажмите {0}, чтобы заполнить."},
 	{"code":"deletetooltip","text":"Щелкните левой кнопкой мыши и перетащите, чтобы удалить.{0}."},
 	{"code":"deletedrugsonly","text":" Зажмите {0}, чтобы удалить только лекарства."},
-	{"code":"fixedBeltTooltip","text":"Щелкните левой кнопкой мыши на существующем конвеере, чтобы зафиксировать его направление в/на/из?? &$>{0}.{1} Щелкните правой кнопкой мыши, чтобы отменить."},
+	{"code":"fixedBeltTooltip","text":"Щелкните левой кнопкой мыши на существующем конвеере, чтобы зафиксировать его направление на &$>{0}.{1} Щелкните правой кнопкой мыши, чтобы отменить."},
 	
 	// PRODUCTION INSPECTOR
-	{"code":"chooseconc","text":"Выберите"},
+	{"code":"chooseconc","text":"Выбор"},
 	{"code":"centrifugeswapperlabel","text":"Выберите эффекты для замены:"},
-	{"code":"choosenumberofshifts","text":"Выберите количество сдвигаемых мест:"},
+	{"code":"choosenumberofshifts","text":"Выберите количество сдвигаемых позиций:"},
 	
 	// MACHINE STATUS
 	{"code":"status.IDLE","text":"Бездействует"},
