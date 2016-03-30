@@ -801,7 +801,7 @@
 	{"code":"gamepaused","text":"ИГРА ПРИОСТАНОВЛЕНА"},
 	{"code":"stop","text":"СТОП"},
 	{"code":"costperdrugcolon","text":"РАСХОДОВ НА ОДНО ЛЕКАРСТВО:"},
-	{"code":"togglebase","text":"СМЕНИТЬ ВХОД"},
+	{"code":"togglebase","text":"ПЕРЕКЛЮЧЕНИЕ БАЗЫ"},
 	
 	
 	// PRODUCTION TOOL-TIPS
