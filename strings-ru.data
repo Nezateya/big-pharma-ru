@@ -927,12 +927,12 @@
 	{"code":"conccaps","text":"КОНЦ."},
 	
 	// ACTIVE RANGE TOOLTIP
-	{"code":"activeconcentrationrange","text":"Active Range:"},
-	{"code":"currentstrength","text":"Current Strength:"},
-	{"code":"currently","text":"Currently:"},
+	{"code":"activeconcentrationrange","text":"Диапазон активации:"},
+	{"code":"currentstrength","text":"Текущая сила:"},
+	{"code":"currently","text":"Текущая:"},
 	{"code":"unknownstrength","text":"?"},
-	{"code":"maxstrength","text":"Max Strength:"},
-	{"code":"maxcolon","text":"Max:"},
+	{"code":"maxstrength","text":"Максимальная сила:"},
+	{"code":"maxcolon","text":"Макс.:"},
 	
 	// CURES SCREEN (CURE GUI CURES GUI CURE SCREEN)
 	{"code":"concentrationrequirement","text":"&GREY>Drug concentration needs to be within this &W>Concentration&GREY> range to upgrade."},
