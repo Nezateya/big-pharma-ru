@@ -673,7 +673,7 @@
 	{"code":"spying_research_next_hover","text":"Следующие компании сейчас проводят это исследование:\n{0}"},
 	
 	// UPGRADE PANEL
-	{"code":"clicktoupgrade","text":"НАЖМИТЕ ДЛЯ МОДЕРНИЗАЦИИ"},
+	{"code":"clicktoupgrade","text":"НАЖМИТЕ ДЛЯ УЛУЧШЕНИЯ"},
 	
 	// Time
 	{"code":"1month","text":"1 месяц"},
@@ -683,7 +683,7 @@
 	{"code":"years","text":"{0} лет"},
 	
 	// GAME GUI
-	{"code":"loans","text":"КРЕДИТЫ"},
+	{"code":"loans","text":"ЗАЙМЫ"},
 	
 	// LOAN DIALOG
 	{"code":"take","text":"ВЗЯТЬ"},
@@ -800,7 +800,7 @@
 	{"code":"notconnected","text":"Этот конвейер не правильно подключен к вводу/выводу этой машины."},
 	{"code":"gamepaused","text":"ИГРА ПРИОСТАНОВЛЕНА"},
 	{"code":"stop","text":"СТОП"},
-	{"code":"costperdrugcolon","text":"РАСХОДОВ НА ОДНО ЛЕКАРСТВО:"},
+	{"code":"costperdrugcolon","text":"Расходы на производство одной штуки:"},
 	{"code":"togglebase","text":"СМЕНИТЬ ВХОД"},
 	
 	
@@ -870,14 +870,14 @@
 	{"code":"firetext","text":"УВОЛИТЬ"},
 	{"code":"forest","text":"Лес"},
 	{"code":"forest_desc","text":"Лесные территории не требует специализированных групп для изучения и являются относительно безопасными."},
-	{"code":"desert","text":"Пустыня"},	
+	{"code":"desert","text":"Пустыня"},
 	{"code":"desert_desc","text":"Пустынные экспедиции могут быть коварны из-за экстремальных температур и постоянно меняющегося ландшафта."},
 	{"code":"arctic","text":"Артика"},
 	{"code":"arctic_desc","text":"Артические поля трудно исследовать и тут нужны специально обученные команды."},
 	{"code":"ocean","text":"Океан"},
 	{"code":"ocean_desc","text":"Локации в океане опасны для изучения и чтобы до них добраться нужны специальные подводные лодки."},
 	{"code":"perday","text":" /день"},
-	{"code":"explorersupply","text":"Наймите исследователей, чтобы обнаружить ингредиенты."},
+	{"code":"explorersupply","text":"Наймите исследователей, чтобы найти ингредиенты."},
 	{"code":"availableingredients","text":"Доступные"},
 	{"code":"undiscoveredingredients","text":"Неизвестный"},
 	{"code":"allexplorers","text":"Все исследователи:"},
@@ -909,8 +909,8 @@
 	{"code":"discountcaps","text":"DISCOUNT"},
 	{"code":"upgradecaps","text":"UPGRADE"},
 	{"code":"spying_ingredients_hover","text":"Следующие компании have access to this ingredient:\n{0}"},
-	{"code":"spying_ingredients_next_hover","text":"Следующие компании are currently exploring for it:\n{0}"},	
-	{"code":"typecolon","text":"TYPE:"},	
+	{"code":"spying_ingredients_next_hover","text":"Следующие компании are currently exploring for it:\n{0}"},
+	{"code":"typecolon","text":"TYPE:"},
 	
 	// REACTION PANEL
 	{"code":"upgradetitle","text":"Upgrade to {0}"},
