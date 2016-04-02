@@ -1200,8 +1200,8 @@
 	
 	// UNUSED
 	
-	{"code":"bitingBackAtMalaria","text":"Biting back at malaria"},
-	{"code":"lifeSavingCures","text":"Life saver"},
+	{"code":"bitingBackAtMalaria","text":"Сдерживать при малярии"},
+	{"code":"lifeSavingCures","text":"Спаситель жизни"},
 	
 	// Tutorials
 	{"code":"tutorial1","text":"1. Производство лекарств 101"},
@@ -1212,53 +1212,53 @@
 	{"code":"tutorial6","text":"6. Продвинутые техники"},
 	
 	// Beginner
-	{"code":"bottomLine","text":"Bottom line"},
-	{"code":"lostMyAppetite","text":"Lost my appetite"},
-	{"code":"gameOfMargins","text":"A game of margins"},
-	{"code":"kingOfTheNonPrescriptions","text":"King of the non-prescriptions"},
-	{"code":"threeMagicNumber","text":"Two is the magic number"},
+	{"code":"bottomLine","text":"Нижняя линия"},
+	{"code":"lostMyAppetite","text":"Потерял аппетит"},
+	{"code":"gameOfMargins","text":"Игра с рентабельностью"},
+	{"code":"kingOfTheNonPrescriptions","text":"Король не-предписаний"},
+	{"code":"threeMagicNumber","text":"Два - это магическое число"},
 	
 	// Intermediate
-	{"code":"showMeTheMoney","text":"Show me the money"},
-	{"code":"calmingDown","text":"Keep calm and carry on"},
-	{"code":"bigMoneyProducts","text":"Big money products"},
-	{"code":"thickerThanWater","text":"Thicker than water"},
-	{"code":"regulationBusiness","text":"Not for profit"},
+	{"code":"showMeTheMoney","text":"Покажи мне деньги"},
+	{"code":"calmingDown","text":"Сохраняйте спокойствие и продолжайте"},
+	{"code":"bigMoneyProducts","text":"Дорогая продукция"},
+	{"code":"thickerThanWater","text":"Толще, чем вода"},
+	{"code":"regulationBusiness","text":"Благотворительньность"},
 	
 	// Advanced
-	{"code":"evenMoMoney","text":"Even mo' money"},
-	{"code":"competitionToSleep","text":"Put the competition to sleep"},
-	{"code":"notForProfit","text":"Regulation business"},
-	{"code":"winningByAHair","text":"Winning by a hair"},
-	{"code":"megacure","text":"The Megacure"},
+	{"code":"evenMoMoney","text":"Ещё больше денег"},
+	{"code":"competitionToSleep","text":"Отправьте конкурентов спать"},
+	{"code":"notForProfit","text":"Регулирование бизнеса"},
+	{"code":"winningByAHair","text":"Победа на волоске"},
+	{"code":"megacure","text":"Мегалекарство"},
 	
 	// Quick start
-	{"code":"quickDraw","text":"Quick draw"},
-	{"code":"anEndToThePill","text":"An end to the pill"},
-	{"code":"corneringTheLowEnd","text":"Cornering the low end"},
-	{"code":"alleviatingAlzeimers","text":"Alleviating Alzheimer's"},
-	{"code":"highValueCures","text":"Money Spinners"},
+	{"code":"quickDraw","text":"Зарисовка"},
+	{"code":"anEndToThePill","text":"Конец таблеткам"},
+	{"code":"corneringTheLowEnd","text":"Развернуть нижний конец"},
+	{"code":"alleviatingAlzeimers","text":"Облегчение болезни Альцгеймера"},
+	{"code":"highValueCures","text":"Деньго-пряд"},
 	
 	// Crippling debt
-	{"code":"intoTheBlack","text":"Into the black"},
-	{"code":"unguentsForAll","text":"Unguents for all"},
-	{"code":"risingFromTheAshes","text":"Rising from the ashes"},
-	{"code":"goodPress","text":"Good press"},
-	{"code":"wellOiledMachines","text":"Well oiled machine"},
+	{"code":"intoTheBlack","text":"В черном"},
+	{"code":"unguentsForAll","text":"Мазей всем"},
+	{"code":"risingFromTheAshes","text":"Поднимаясь из пепла"},
+	{"code":"goodPress","text":"Хороший пресс"},
+	{"code":"wellOiledMachines","text":"Хорошо смазанная машина"},
 	
 	// Room to maneuver
-	{"code":"bigBucks","text":"Big bucks"},
-	{"code":"aimingToPlease","text":"Aiming to please"},
-	{"code":"hugePortfolio","text":"Huge portfolio"},
-	{"code":"bodyMatters","text":"Body matters"},
-	{"code":"megalines","text":"Megalines"},
+	{"code":"bigBucks","text":"Большие деньги"},
+	{"code":"aimingToPlease","text":"Стремясь угодить"},
+	{"code":"hugePortfolio","text":"Огромное портфолио"},
+	{"code":"bodyMatters","text":"Вопросы тела"},
+	{"code":"megalines","text":"Мега-линии"},
 	
 	// Full unlock
-	{"code":"endlessPossibilities","text":"Endless possibilities"},
-	{"code":"mayNotCauseSideEffects","text":"May not cause side-effects"},
-	{"code":"bigSpender","text":"Big spender"},
-	{"code":"theBigFive","text":"The big five"},
-	{"code":"theOneAndOnly","text":"The one and only"},
+	{"code":"endlessPossibilities","text":"Безграничные возможности"},
+	{"code":"mayNotCauseSideEffects","text":"Не может вызывать побочные эффекты"},
+	{"code":"bigSpender","text":"Транжира"},
+	{"code":"theBigFive","text":"Большая пятерка"},
+	{"code":"theOneAndOnly","text":"Один и только один"},
 	
 	// CONDITIONS
 	{"code":"totalRevenue","text":"Earn total revenue of &$>{0}."},
