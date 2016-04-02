@@ -949,11 +949,11 @@
 	{"code":"cureinfosaturationdesc","text":"Насыщение - насколько был удовлетварен спрос. Уменьшает чистый спрос, когда достигает значения выше 100%."},
 	{"code":"cureinfodemanddesc","text":"Читый спрос - скольким людям требуется это лекарство. Определяет ценность лекарства."},
 	
-	{"code":"timeofyear","text":"Time of year"},
-	{"code":"infection","text":"Infection"},
-	{"code":"suffererscured","text":"Sufferers cured"},
-	{"code":"netchange","text":"Net change this month:"},
-	{"code":"eventcolon","text":"Event: "},
+	{"code":"timeofyear","text":"Время года"},
+	{"code":"infection","text":"Инфекционное заболевание"},
+	{"code":"suffererscured","text":"Заблолевших вылечено"},
+	{"code":"netchange","text":"Чистый месячный доход:"},
+	{"code":"eventcolon","text":"Событие: "},
 	
 	// Follows
 	{"code":"followup.cancervaccine","text":"More cancer victims."},
