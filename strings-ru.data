@@ -941,13 +941,13 @@
 	{"code":"startingConcHoverCureTab","text":"Начальная концентрация ингридиента, содержащиеся в этом лекарстве."},
 		
 	// CURE INFO
-	{"code":"netdemand","text":"Net Demand"},
-	{"code":"saturation","text":"Saturation"},
-	{"code":"cureinfosufferersdesc","text":"Sufferers - The number of people who require this cure."},
-	{"code":"cureinfosupplieddesc","text":"Supplied - The number of people who were given a cure in the last month."},
-	{"code":"cureinfocureddesc","text":"Cured - The number of people who were permanently cured in the last month."},
-	{"code":"cureinfosaturationdesc","text":"Saturation - How much demand is being fulfilled. Decreases net demand when above 100%."},
-	{"code":"cureinfodemanddesc","text":"Net Demand - How much people want a cure. Determines cure value."},
+	{"code":"netdemand","text":"Читый спрос"},
+	{"code":"saturation","text":"Насыщение"},
+	{"code":"cureinfosufferersdesc","text":"Страдающие - число людей, которым требуется это лечение."},
+	{"code":"cureinfosupplieddesc","text":"Поставляется - число людей, которые получили данное лекарство в прошлом месяце."},
+	{"code":"cureinfocureddesc","text":"Обработанная - число людей, которые были полностью вылечены в прошлом месяце."},
+	{"code":"cureinfosaturationdesc","text":"Насыщение - насколько был удовлетварен спрос. Уменьшает чистый спрос, когда достигает значения выше 100%."},
+	{"code":"cureinfodemanddesc","text":"Читый спрос - скольким людям требуется это лекарство. Определяет ценность лекарства."},
 	
 	{"code":"timeofyear","text":"Time of year"},
 	{"code":"infection","text":"Infection"},
