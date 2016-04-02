@@ -1028,16 +1028,16 @@
 	{"code":"clickToSortBy","text":"Нажмите, чтобы отсортировать по данной колонке."},
 	
 	// Patent hover
-	{"code":"patents_locked","text":"Research 'Patents' to protect your products."},
-	{"code":"patent_needs_upgrade","text":"Requires 'Patents' upgrade level {0}."},
-	{"code":"patentable","text":"You can patent this product, click to bring up the &LTBLUE>Patent&W> dialog."},
-	{"code":"patent_in_progress_player","text":"Patent will complete in {0}.\nClick to cancel."},
-	{"code":"patent_in_progress","text":"Patent will complete in {0}."},
-	{"code":"patented_by_you","text":"Patent owned by: You\nExpires in: {0}"},
-	{"code":"patented_by_ai","text":"Patent owned by: {0}\nExpires in: {1}"},
-	{"code":"off_patent","text":"Off-patent. Anybody can sell this product."},
-	{"code":"cancelpatenttitle","text":"Cancel patent?"},
-	{"code":"cancelpatenttext","text":"Are you sure you want to cancel this patent for a 50% refund?"},
+	{"code":"patents_locked","text":"Исследуйте 'Патенты' чтобы защитить Вашу продукцию."},
+	{"code":"patent_needs_upgrade","text":"Необходимо улучшить 'Патенты' до уровня {0}."},
+	{"code":"patentable","text":"Вы можете запатентовать этот продукт, нажмите чтобы открыть диалоговое окно &LTBLUE>Патента&W>."},
+	{"code":"patent_in_progress_player","text":"Патент будет завершен через {0}.\nКликните для отмены."},
+	{"code":"patent_in_progress","text":"Патент будет завершен через {0}."},
+	{"code":"patented_by_you","text":"Патент принадлежит Вам\nИстекает через: {0}"},
+	{"code":"patented_by_ai","text":"Патент принадлежит: {0}\nИстекает через: {1}"},
+	{"code":"off_patent","text":"Свободен от патентования. Кто угодно может продавать этот продукт."},
+	{"code":"cancelpatenttitle","text":"Отменить патентование?"},
+	{"code":"cancelpatenttext","text":"Вы уверены, что хотите отменить процесс патентования с возвратом 50% стоимости?"},
 	
 	// Equipment hover
 	{"code":"cost","text":"Стоимость:"},
