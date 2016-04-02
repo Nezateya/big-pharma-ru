@@ -666,11 +666,11 @@
 	{"code":"researchready","text":"ГОТОВО ЧЕРЕЗ:"},
 	{"code":"yields","text":"Выработка:"},
 	{"code":"nextupgrade","text":"Следующее улучшение:"},
-	{"code":"researchupgradehover","text":"Незанятые &LTBLUE>Ученые&W> зарабатывают вам &LTBLUE>Очки Улучшения Исследований&W>. Потратьте их, чтобы улучшить уже изученные технологии!"},
+	{"code":"researchupgradehover","text":"Незанятые &LTBLUE>Ученые&W> зарабатывают Вам &LTBLUE>Очки Улучшения Исследований&W>. Потратьте их, чтобы улучшить уже изученные технологии!"},
 	{"code":"availableresearchupgradepoints","text":"{0} Доступные &LTBLUE>Очки Улучшения Исследований&W>."},
 	{"code":"currentlyownmachines","text":"Вам сейчас принадлежит {0} &LTBLUE>{1}&W>."},
-	{"code":"spying_research_hover","text":"Следующие компании имеют доступ к этим исследованиям:\n{0}"},
-	{"code":"spying_research_next_hover","text":"Следующие компании сейчас изучают это:\n{0}"},
+	{"code":"spying_research_hover","text":"Следующие компании имеют доступ к этому исследованию:\n{0}"},
+	{"code":"spying_research_next_hover","text":"Следующие компании сейчас проводят это исследование:\n{0}"},
 	
 	// UPGRADE PANEL
 	{"code":"clicktoupgrade","text":"НАЖМИТЕ ДЛЯ МОДЕРНИЗАЦИИ"},
