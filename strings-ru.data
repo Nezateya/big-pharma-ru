@@ -935,10 +935,10 @@
 	{"code":"maxcolon","text":"Макс.:"},
 	
 	// CURES SCREEN (CURE GUI CURES GUI CURE SCREEN)
-	{"code":"concentrationrequirement","text":"&GREY>Drug concentration needs to be within this &W>Concentration&GREY> range to upgrade."},
-	{"code":"machinerequirement","text":"&GREY>Process drug with this &W>Machine&GREY> to upgrade."},
-	{"code":"catalystrequirement","text":"&GREY>This &W>Catalyst&GREY> needs to be present in the drug to upgrade."},
-	{"code":"startingConcHoverCureTab","text":"Starting concentration of ingredient which contains this cure."},
+	{"code":"concentrationrequirement","text":"&GREY>&W>Концентрация&GREY> лекарственного вещества должно быть в пределах этого диапазона для улучшения."},
+	{"code":"machinerequirement","text":"&GREY>Обработайте лекарство этой &W>Машиной&GREY> для улучшения."},
+	{"code":"catalystrequirement","text":"&GREY>Этот &W>Катализатор&GREY> должен присутствовать в лекарстве для улучшения."},
+	{"code":"startingConcHoverCureTab","text":"Начальная концентрация ингридиента, содержащиеся в этом лекарстве."},
 		
 	// CURE INFO
 	{"code":"netdemand","text":"Net Demand"},
