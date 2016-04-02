@@ -763,12 +763,12 @@
 	{"code":"patentfirsttimedesc","text":"Вы видите этот диалог, потому что это первая игра, которую Вы сыграли и которая включает патенты. \n\n'Патенты' являются исследовательским проектом, который, как только будет завершен, позволит защитить свою продукцию путем подачи патентов из вкладки 'Компания'. \n\nПатенты стоят времени и денег, но после завершения, ни один из ваших конкурентов не сможет продавать такой же продукт. \n\nИмейте в виду, Ваши конкуренты также имеют доступ к этой возможности. \n\nЧтобы получить больше информации проверьте описание проекта на вкладке Исследований."},
 	
 	// LOAN COMPANIES
-	{"code":"loansrus","text":"Loans 'R' Us"},
-	{"code":"mcloancompany","text":"McLoans"},
-	{"code":"alphaloans","text":"Alpha Loans"},
-	{"code":"interbank","text":"Interbank Ltd."},
-	{"code":"omegafinance","text":"Omega Finance"},
-	{"code":"futuremoney","text":"Future Money"},
+	{"code":"loansrus","text":"Займы Для Всех"},
+	{"code":"mcloancompany","text":"МакЗайм"},
+	{"code":"alphaloans","text":"Альфа-Займы"},
+	{"code":"interbank","text":"Интербанк"},
+	{"code":"omegafinance","text":"Омега-Финанс"},
+	{"code":"futuremoney","text":"Деньги Будущего"},
 
 	// PRODUCTION GUI PRODUCTION TAB
 	{"code":"t_belt","text":"СОЕДИНЕНИЕ"},
