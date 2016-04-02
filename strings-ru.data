@@ -956,23 +956,23 @@
 	{"code":"eventcolon","text":"Событие: "},
 	
 	// Follows
-	{"code":"followup.cancervaccine","text":"More cancer victims."},
-	{"code":"followdown.cancervaccine","text":"&eff4>Cancer Vaccine&W>"},
-	{"code":"followup.hypertension","text":"More &eff0>Hypertension&W> sufferers"},
-	{"code":"followdown.hypertension","text":"Less &eff0>Hypertension&W> sufferers"},
-	{"code":"followup.hiv","text":"More &eff4>HIV&W> sufferers"},
-	{"code":"followdown.hiv","text":"&eff4>HIV Vaccine&W>"},
+	{"code":"followup.cancervaccine","text":"Больше жертв рака."},
+	{"code":"followdown.cancervaccine","text":"&eff4>Вакцина от рака&W>"},
+	{"code":"followup.hypertension","text":"Больше больных &eff0>Повышенным давлением&W>"},
+	{"code":"followdown.hypertension","text":"Меньше больных &eff0>Повышенным давлением&W>"},
+	{"code":"followup.hiv","text":"Больше больных &eff4>ВИЧ&W>"},
+	{"code":"followdown.hiv","text":"&eff4>Вакцина от ВИЧ&W>"},
 	{"code":"followdown.malecontraceptive","text":"&eff3>&malecontraceptive>&W>"},
 	
-	{"code":"totalsupplied","text":"Total supplied this month:"},
+	{"code":"totalsupplied","text":"Всего поставок в этом месяце:"},
 	
-	{"code":"totalcured","text":"Total cured this month:"},
+	{"code":"totalcured","text":"Всего вылечено в этом месяце:"},
 	
-	{"code":"saturation","text":"Saturation:"},
+	{"code":"saturation","text":"Насыщение:"},
 	
-	{"code":"demandsufferers","text":"{0} sufferers"},
-	{"code":"oversaturation","text":"Oversaturation"},
-	{"code":"netdemandcolon","text":"Net Demand:"},
+	{"code":"demandsufferers","text":"{0} больных"},
+	{"code":"oversaturation","text":"Перенасыщение"},
+	{"code":"netdemandcolon","text":"Чистый спрос:"},
 	
 	
 	// COMPANY tab
