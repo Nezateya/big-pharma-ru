@@ -1358,14 +1358,14 @@
 	{"code":"research_engineering_4_desc","text":"Исследования в области экспериментальной инженерии открывают экспериментальные машины, которые могут создать лекарства самого высокого уровня и коренным образом изменить способ создания лекарств."},
 	
 	// EXPLORATION
-	{"code":"research_unlock_forest","text":"Basic Exploration"},
-	{"code":"research_unlock_forest_desc","text":"Basic exploration allow us to send our explorers into the world's tropical rainforests in the hope of discovering new active ingredients to use in our drugs."},
-	{"code":"research_unlock_desert","text":"Desert Expeditions"},
-	{"code":"research_unlock_desert_desc","text":"Desert expeditions allow us to send our explorers into the world's deserts in the hope of discovering new active ingredients to use in our drugs."},
-	{"code":"research_unlock_arctic","text":"Subzero Training"},
-	{"code":"research_unlock_arctic_desc","text":"Subzero training allows us to launch expeditions to the coldest locations on the planet in the hope of discover new active ingredients to use in our drugs."},
-	{"code":"research_unlock_ocean","text":"Deep Sea Exploration"},
-	{"code":"research_unlock_ocean_desc","text":""},
+	{"code":"research_unlock_forest","text":"Простые экспедиции"},
+	{"code":"research_unlock_forest_desc","text":"Простые экспедиции позволят нам отправлять наших исследователей в тропические леса по всему миру в надежде найти новые ингридиенты для наших лекарств."},
+	{"code":"research_unlock_desert","text":"Пустынные экспедиции"},
+	{"code":"research_unlock_desert_desc","text":"Пустынные экспедиции позволят нам отправлять наших исследователей в пустыни в поисках новых ингридиентов для наших лекарств."},
+	{"code":"research_unlock_arctic","text":"Полярные экспедиции"},
+	{"code":"research_unlock_arctic_desc","text":"Полярные экспедиции откроют возможность отправить исследователей в самые холодные уголки нашей планеты в поисках новых ингридиентов."},
+	{"code":"research_unlock_ocean","text":"Глубоководные экспедиции"},
+	{"code":"research_unlock_ocean_desc","text":"Глубоководные экспедиции открывают возможность отправить исследователей в глубины морей и океанов в поисках новых, редких ингридиентов."},
 	
 	// MACHINES
 	{"code":"research_pill_maker","text":"Pill Printer"},
