@@ -1434,93 +1434,93 @@
 	
 	
 	// DRUG LIST ITEM UPGRADE
-	{"code":"ingredient_discount","text":"Ingredient discount:"},
+	{"code":"ingredient_discount","text":"Скидка на ингридиенты:"},
 	{"code":"tofrom.ingredient_discount","text":"{0}%"},
 	
 	//  RESEARCH YIELDS
-	{"code":"research.unlock_machine","text":"Unlocks {0}"},
+	{"code":"research.unlock_machine","text":"Открывает {0}"},
 	
-	{"code":"research.process_cost","text":"{0} process cost ({1} owned):"},
+	{"code":"research.process_cost","text":"{0} стоимость обработки ({1} имеется):"},
 	{"code":"tofrom.process_cost","text":"&$>{0}"},
 	
-	{"code":"research.process_time","text":"{0} process time:"},
+	{"code":"research.process_time","text":"{0} время обработки:"},
 	{"code":"tofrom.process_time","text":"{0}"},
 	
-	{"code":"research.pillBonus","text":"Pill bonus:"},
+	{"code":"research.pillBonus","text":"Бонус таблеток:"},
 	{"code":"tofrom.pillBonus","text":"&$>{0}"},
 	
-	{"code":"research.new_location","text":"Unlocks expeditions to {0} locations"},
+	{"code":"research.new_location","text":"Отпирает экспедиции в {0} локации"},
 	
-	{"code":"research.shakerRotations","text":"Maximum shifts in single shake:"},
+	{"code":"research.shakerRotations","text":"Максимальный сдвиг за одно встряхивание:"},
 	{"code":"tofrom.shakerRotations","text":"{0}"},
 	
-	{"code":"research.creamSideEffectReduction","text":"Cream side-effect strength reduction:"},
+	{"code":"research.creamSideEffectReduction","text":"Снижение побочных эффектов у крема:"},
 	{"code":"tofrom.creamSideEffectReduction","text":"{0}%"},
 	
-	{"code":"research.increaseAnalysisRate","text":"Analyzer efficiency:"},
+	{"code":"research.increaseAnalysisRate","text":"Эффективность анализатора:"},
 	{"code":"tofrom.increaseAnalysisRate","text":"{0}%"},
 	
-	{"code":"research.allPurchasePrice","text":"Purchase price of all machines:"},
+	{"code":"research.allPurchasePrice","text":"Стоимость покупки всех машин:"},
 	{"code":"tofrom.allPurchasePrice","text":"{0}%"},
 	
-	{"code":"research.sachetBonus","text":"Sachet bonus per cure:"},
+	{"code":"research.sachetBonus","text":"Бонус от упаковки в пакетики:"},
 	{"code":"tofrom.sachetBonus","text":"&$>{0}"},
 	
-	{"code":"research.syringeBonus","text":"Syringe combined value bonus:"},
+	{"code":"research.syringeBonus","text":"Комбинированный бонус от шприца:"},
 	{"code":"tofrom.syringeBonus","text":"{0}%"},
 	
-	{"code":"research.syringeStrengthIncrease","text":"Syringe effect strength increase:"},
+	{"code":"research.syringeStrengthIncrease","text":"Усиление эффектов от шприца:"},
 	{"code":"tofrom.syringeStrengthIncrease","text":"{0}%"},
 	
-	{"code":"research.choose_concs","text":"Unlock additional concentrations for {0}:"},
+	{"code":"research.choose_concs","text":"Разблокирует дополнительные концентрации для {0}:"},
 	{"code":"tofrom.choose_concs","text":"{0}"},
 	
-	{"code":"research.plotCost","text":"Plot purchase cost:"},
+	{"code":"research.plotCost","text":"Стоимость покупки участка:"},
 	{"code":"tofrom.plotCost","text":"{0}%"},
 	
-	{"code":"research.salaries","text":"Salary costs:"},
+	{"code":"research.salaries","text":"Затраты на заработную плату:"},
 	{"code":"tofrom.salaries","text":"{0}%"},
 	
-	{"code":"research.cureRatingBonus","text":"Cure rating bonus:"},
+	{"code":"research.cureRatingBonus","text":"Бонус рейтинга лекарства:"},
 	{"code":"tofrom.cureRatingBonus","text":"{0}%"},
 	
-	{"code":"research.approvalRecoverySpeed","text":"Approval rating recovered speed:"},
+	{"code":"research.approvalRecoverySpeed","text":"Скорость утверждения рейтинга выздоровеления:"},
 	{"code":"tofrom.approvalRecoverySpeed","text":"{0}%"},
 	
-	{"code":"research.negativeApprovalReduction","text":"Reduces impact of negative press on approval rating."},
+	{"code":"research.negativeApprovalReduction","text":"Уменьшает воздействие негативной прессы на рейтинг одобрения."},
 	
-	{"code":"research.patents","text":"Unlocks the ability to patent your products."},
+	{"code":"research.patents","text":"Разблокирует возможность запатентовать свою продукцию."},
 	
-	{"code":"research.patentCost","text":"Patent cost:"},
+	{"code":"research.patentCost","text":"Стоимость патента:"},
 	{"code":"tofrom.patentCost","text":"{0}%"},
 	
-	{"code":"research.patentSpeed","text":"Patent application speed:"},
+	{"code":"research.patentSpeed","text":"Скорость применеия патента:"},
 	{"code":"tofrom.patentSpeed","text":"{0}%"},
 	
-	{"code":"research.patentMaxCureLevel","text":"Can patent cures up to level:"},
+	{"code":"research.patentMaxCureLevel","text":"Возможность патентовать лекаства вплоть до уровня:"},
 	{"code":"tofrom.patentMaxCureLevel","text":"{0}"},
 	
-	{"code":"research.packer_capacity","text":"Packer capacity:"},
+	{"code":"research.packer_capacity","text":"Вместимость упаковщика:"},
 	{"code":"tofrom.packer_capacity","text":"{0}"},
 	
-	{"code":"research.spying_ingredients","text":"See competitor ingredients"},
-	{"code":"research.spying_research","text":"See competitor research"},
-	{"code":"research.spying_profit","text":"See competitor product profit"},
-	{"code":"research.spying_ingredients_next","text":"See exploration in-progress"},
-	{"code":"research.spying_research_next","text":"See research in-progress"},
-	{"code":"research.spying_patents","text":"See competitor patent progress"},
+	{"code":"research.spying_ingredients","text":"Видеть ингридиенты конкурентов"},
+	{"code":"research.spying_research","text":"Видеть исследования конкурентов"},
+	{"code":"research.spying_profit","text":"Видеть доход от продуктов у конкурентов"},
+	{"code":"research.spying_ingredients_next","text":"Видеть экспедиции конкурентов"},
+	{"code":"research.spying_research_next","text":"Видеть проводимые исследования конкурентов"},
+	{"code":"research.spying_patents","text":"Видеть подаваемые патенты конкурентов"},
 	
-	{"code":"research.university_trials","text":"Unlocks university trials"},
+	{"code":"research.university_trials","text":"Открывает университетские испытания"},
 	
-	{"code":"research.university_trialsBaseAccuracy","text":"University trial base accuracy:"},
+	{"code":"research.university_trialsBaseAccuracy","text":"Базовая точность университетских исследований:"},
 	{"code":"tofrom.university_trialsBaseAccuracy","text":"{0}%"},
 	
-	{"code":"research.cro_trials","text":"Unlocks CRO trials"},
+	{"code":"research.cro_trials","text":"Открывает КИО испытания"},
 	
-	{"code":"research.cro_trialsCost","text":"CRO trial cost per patient:"},
+	{"code":"research.cro_trialsCost","text":"Стоимость испытания КИО за пациента:"},
 	{"code":"tofrom.cro_trialsCost","text":"&$>{0}"},
 	
-	{"code":"research.gagging_clauses","text":"Unlocks gagging clauses for use in trials"},
+	{"code":"research.gagging_clauses","text":"Открывает пункт 'проглатывания' для использования в исследованиях"},
 	
 	// EVENT TEXT
 	{"code":"event.demandIncrease","text":"A well placed product could take advantage of the increased demand."},
