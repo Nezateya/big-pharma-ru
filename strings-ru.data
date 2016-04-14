@@ -76,7 +76,7 @@
 	{"code":"restarting","text":"Перезапуск..."},
 	
 	// MAIN MENU
-	{"code":"mainmenuversion","text":"Версия: {0} (перевод 0.71)"},
+	{"code":"mainmenuversion","text":"Версия: {0} (перевод 0.75)"},
 	{"code":"mainmenunewgame","text":"Новая игра"},
 	{"code":"mainmenuloadgame","text":"Загрузка"},
 	{"code":"mainmenuoptions","text":"Настройки"},
