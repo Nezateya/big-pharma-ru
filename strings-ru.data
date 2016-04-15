@@ -1523,9 +1523,9 @@
 	{"code":"research.gagging_clauses","text":"Открывает пункт 'проглатывания' для использования в исследованиях"},
 	
 	// EVENT TEXT
-	{"code":"event.demandIncrease","text":"A well placed product could take advantage of the increased demand."},
-	{"code":"event.demandDecrease","text":"This will result in reduced demand for these cures."},
-	{"code":"event.demandDecreaseProduct","text":"Unfortunately this could hit the profits on our product{0}."},
+	{"code":"event.demandIncrease","text":"Высококачественный продукт может пользоваться повышенным спросом."},
+	{"code":"event.demandDecrease","text":"Это приведет к снижению спроса на эти лекарства."},
+	{"code":"event.demandDecreaseProduct","text":"К сожалению, это может негативно сказаться на прибыли от нашего продукта {0}."},
 	
 	// EVENTS
 	{"code":"event.painkilleraddictionfriction.title","text":"Painkillers ruined my life!"},
