@@ -23,5 +23,6 @@ set INSTALL_PATH=%INSTALL_PATH%\Big Pharma_Data\GameData
 copy /Y drugNames-ru.data "%INSTALL_PATH%\drugNames-ru.data"
 copy /Y names-ru.data "%INSTALL_PATH%\names-ru.data"
 copy /Y strings-ru.data "%INSTALL_PATH%\strings-ru.data"
+copy /Y MM\strings-ru.data "%INSTALL_PATH%\MM\strings-ru.data"
 echo Install complete.
 pause

@@ -1,0 +1,284 @@
+[
+	// Scenarios
+	{"code":"tutorial6-mm","text":"6. Sales and Marketing"},
+	{"code":"tutorial7-mm","text":"7. Upgrades and the Analyzer"},
+	
+	// COLOR
+	{"code":"GOLD","text":"^CFFF282FF"},
+
+	// NEW MACHINES
+	{"code":"booster","text":"Booster Mixer"},
+	{"code":"boosterdesc","text":"&GREY>Transfers &eff5>Booster&GREY> effects from one ingredient into another. Ingredient containing &eff5>Booster&GREY> effect(s) must enter through &eff5>orange&GREY> hatch."},
+	{"code":"stockgate","text":"Stock Gate"},
+	{"code":"stockgatedesc","text":"&GREY>Add-on for Belt. Use to control the flow of drugs in your factory based on current stock levels."},
+	
+	// GUI
+	// CHALLENGES
+	{"code":"operatingProfit","text":"Attain daily operating profit of &$>{0}."},
+	{"code":"operatingProfitHover","text":"Daily operating profit: &$>{0}"},
+	// COMPANY TAB
+	{"code":"revenuecolon","text":"Revenue:"},
+	{"code":"operatingprofitslashmargincolon","text":"Operating Profit / Margin:"},
+	{"code":"minusingredientcosts","text":"- Ingredient costs:"},
+	{"code":"minusprocessingcosts","text":"- Processing costs:"},
+	{"code":"minusexplorersalaries","text":"- Explorer salaries:"},
+	{"code":"minusresearchersalaries","text":"- Researcher salaries:"},
+	{"code":"minusloaninterest","text":"- Loan interest:"},
+	{"code":"minuspatentfees","text":"- Patent fees:"},
+	{"code":"operatingprofitvalueandmargin","text":"&$>{0} / {1}%"},
+	{"code":"operatingprofitvalue","text":"&$>{0}"},
+	{"code":"stock","text":"Stock"},
+	{"code":"dailyproduction","text":"Daily Production"},
+	{"code":"dailysales","text":"Daily Sales"},
+	{"code":"price","text":"Price"},
+	{"code":"premiumdiscount","text":"Premium / Discount"},
+	{"code":"dailyprofit","text":"Daily Profit"},
+	{"code":"salesbonus","text":"Sales Bonus"},
+	{"code":"salesrating","text":"Sales Rating"},
+	{"code":"netprofit","text":"Daily Net Profit"},
+	{"code":"demandperday","text":"{0}&slashday>"}, // Does not need translating
+	{"code":"slashday","text":"/d"}, // Shortening for "day"
+	{"code":"demandperdaygraphlabel","text":"Demand\n/day"},
+	{"code":"salesbreakdown","text":"Sales breakdown"},
+	{"code":"salesSlashDemand","text":"Sales/Demand"},
+	{"code":"yourshare","text":"Your share\n{0}/day"},
+	{"code":"competitorsshare","text":"Competitors\n{0}/day"},
+	{"code":"unfulfilledshare","text":"Unfulfilled\n{0}/day"},
+	{"code":"ratingbonusMMDLC","text":"Drug sales"},
+	{"code":"curesalespanelsale","text":"{0}/day"},
+	{"code":"marketingdashboard","text":"Executive Dashboard"},
+	{"code":"avgdailycost","text":"AVG DAILY COST"},
+	{"code":"salesbonuscaps","text":"SALES BONUS"},
+	{"code":"cureratingcaps","text":"CURE RATING"},
+	{"code":"salesratingcaps","text":"SALES RATING"},
+	{"code":"dailycost","text":"&$>{0}/day"},
+	{"code":"unitcost","text":"&$>{0}/unit"},
+	{"code":"instantcost","text":"&$>{0}"},
+	{"code":"howtounlock","text":"Requires '{0}' research"},
+	{"code":"howtounlockupgrade","text":" at upgrade level {0}."},
+	{"code":"executives","text":"Executives"},
+	{"code":"stockhover","text":"Click to set Stock limit."},
+	{"code":"stocklimitcaps","text":"STOCK LIMIT"},
+	{"code":"limit","text":"Limit"},
+	{"code":"stocklimitexplanation","text":"Drugs stop being exported from factory when stock reaches stock limit."},
+	{"code":"nolimit","text":"No Limit"},
+	{"code":"notrialdata","text":"No Trial Data"},
+	{"code":"trialprogress","text":"Trial Progress"},
+	{"code":"bury","text":"BURY"},
+	{"code":"banned","text":"**BANNED** "},
+	// INGREDIENTS TAB
+	{"code":"boosterpreview","text":"&LTBLUE>Initial reports suggest we may find an ingredient with a &eff5>Booster&LTBLUE> effect."},
+	{"code":"boosterpreviewcat","text":"&LTBLUE>Initial reports suggest we may find an ingredient with a &eff5>Booster&LTBLUE> effect.\n\nThe following &W>catalyst&LTBLUE> is also present:"},
+	// PRODUCTION TAB
+	{"code":"stockgate1","text":"Choose product:"},
+	{"code":"stockgate2","text":"Line open when product stock is:"},
+	{"code":"greaterthan","text":"Greater than"},
+	{"code":"lessthan","text":"Less than"},
+	{"code":"currentstockcolon","text":"Current stock:"},
+	{"code":"currentstatecolon","text":"Current state:"},
+	{"code":"go","text":"GO!"},
+	{"code":"stop","text":"STOP"},
+	{"code":"socket_to_socket","text":"Connect Sockets"},
+	{"code":"sockettosockethover","text":"Click to disconnect."},
+	{"code":"stocklimitdrugbubble","text":"Stock limit has been reached."},
+	// TRIAL DIALOG
+	{"code":"trialinstructions","text":"Click on chart to disqualify results. May result in bad publicity."},
+	{"code":"trialinstructionsbriber","text":"Click on chart to disqualify results. Total cost to bribe participants: &$>{0}."},
+	{"code":"trialcomplete","text":"TRIAL COMPLETE"},
+	{"code":"submit","text":"SUBMIT"},
+	// INCORPORATION DIALOG
+	{"code":"perks","text":"PERKS"},
+	{"code":"perkslower","text":"Perks"},
+	{"code":"pickaperkcaps","text":"PICK A PERK"},
+	{"code":"noperkhover","text":"Click to select a perk!"},
+	{"code":"clicktochange","text":"Click to change!"},
+	// BAD PUBLICITY DIALOG
+	{"code":"badpublicity","text":"Bad Publicity"},
+	{"code":"badpublicitytitle","text":"BAD PUBLICITY"},
+	{"code":"productbanned","text":"PRODUCT BANNED"},
+	{"code":"badpublicity.trial","text":"A journalist has uncovered that you disqualified valid results in a trial for this product. They have published a story with the following effect:"},
+	{"code":"badpublicity.gifts","text":"A journalist has uncovered that you gave gifts to doctors to increase sales of this product. They have published a story with the following effect:"},
+	{"code":"badpublicity.corporate_slander","text":"A journalist has uncovered that you have been spreading vicious corporate slander about this product's competitors. They have published a story with the following effect:"},
+	// CURE Tab
+	{"code":"symptomawarenesscampaign","text":"Symptom awareness campaign"}, // on graph when symptom awareness campaign is active.
+	
+	// PERKS
+	{"code":"perk.recycling_expert","text":"Recycling Expert"},
+	{"code":"perk.recycling_expert.desc","text":"100% refund on sale of equipment."},
+	
+	{"code":"perk.doctor","text":"Trust Me I'm a Doctor"},
+	{"code":"perk.doctor.desc","text":"+10% Sales Rating for products with no active side-effects."},
+
+	{"code":"perk.executive","text":"Executive"},
+	{"code":"perk.executive.desc","text":"Start the game with 3 bonus Executives."},
+	
+	{"code":"perk.jack_of_all_trades","text":"Jack Of All Trades"},
+	{"code":"perk.jack_of_all_trades.desc","text":"All research projects come with a lvl 1 upgrade."},
+	
+	{"code":"perk.research_grant","text":"Research Grant"},
+	{"code":"perk.research_grant.desc","text":"Start the game with an additional &$>50,000."},
+	{"code":"perk.loanInterest.req","text":"{0}/{1} loan interest paid. Pay {2} more to unlock!"},
+	
+	{"code":"perk.genius","text":"Genius"},
+	{"code":"perk.genius.desc","text":"+20% research speed."},
+	{"code":"perk.researchComplete.req","text":"{0}/{1} projects researched. Research {2} more to unlock!"},
+	
+	{"code":"perk.over_analyzer","text":"Over-Analyzer"},
+	{"code":"perk.over_analyzer.desc","text":"Start the game with access to the fully upgraded Analyzer."},
+	{"code":"perk.analysisComplete.req","text":"{0}/{1} effects analyzed. Analyze {2} more to unlock!"},
+	
+	{"code":"perk.homeopath","text":"Homeopath"},
+	{"code":"perk.homeopath.desc","text":"-20% side-effect strength."},
+	{"code":"perk.sideEffectsCaused.req","text":"{0}/{1} side-effects caused. Cause {2} more to unlock!"},
+	
+	{"code":"perk.mixologist","text":"Mixologist"},
+	{"code":"perk.mixologist.desc","text":"Multimixer and Centrifuge process time is 1."},
+	{"code":"perk.mixedProducts.req","text":"{0}/{1} drugs mixed. Mix {2} more to unlock!"},
+	
+	{"code":"perk.local_networks","text":"Local Networks"},
+	{"code":"perk.local_networks.desc","text":"Ingredients start with 50% discount."},
+	{"code":"perk.ingredientComplete.req","text":"{0}/{1} ingredients discovered. Discover {2} more to unlock!"},
+	
+	{"code":"perk.slogan_writer","text":"Slogan Writer"},
+	{"code":"perk.slogan_writer.desc","text":"Sales bonus from Booster effects is doubled."},
+	{"code":"perk.boosterProductsSold.req","text":"{0}/{1} drugs containing an active &eff5>Booster&W> effect sold. Sell {2} more to unlock!"},
+	
+	{"code":"perk.rigorous_trialer","text":"Rigorous Trialer"},
+	{"code":"perk.rigorous_trialer.desc","text":"Trials have 50% greater impact on Sales Rating and are twice as accurate."},
+	{"code":"perk.trialsComplete.req","text":"{0}/{1} trials complete. Complete {2} more to unlock!"},
+	
+	{"code":"perk.specialist","text":"Specialist"},
+	{"code":"perk.specialist.desc","text":"Start with 15 upgrade points."},
+	{"code":"perk.fullyUpgraded.req","text":"{0}/{1} research projects fully upgraded. Fully upgrade {2} more to unlock!"},
+	
+	{"code":"perk.undercutter","text":"Undercutter"},
+	{"code":"perk.undercutter.desc","text":"Discounting is twice as effective at generating sales."},
+	{"code":"perk.discountedSales.req","text":"{0}/{1} discounted products sold. Sell {2} more to unlock!"},
+	
+	{"code":"perk.briber","text":"Briber"},
+	{"code":"perk.briber.desc","text":"Disqualifying trial results does not lead to bad publicity but costs money instead."},
+	{"code":"perk.disqualifiedResults.req","text":"{0}/{1} trial results disqualified. Disqualify {2} more to unlock!"},
+	
+	{"code":"perk.water_off_a_ducks_back","text":"Water Off a Duck's Back"},
+	{"code":"perk.water_off_a_ducks_back.desc","text":"Your products cannot be banned."},
+	{"code":"perk.bannedProducts.req","text":"{0}/{1} products banned. Get {2} more banned to unlock!"},
+	
+	// Booster effects
+	{"code":"easytoswallow","text":"Easy to swallow"},
+	{"code":"hypoallergenic","text":"Hypoallergenic"},
+	{"code":"fastacting","text":"Fast acting"},
+	{"code":"isotonic","text":"Isotonic"},
+	{"code":"neurotransmitters","text":"Neuro-regulator"},
+	{"code":"nondrowsy","text":"Non-drowsy"},
+	{"code":"expectorant","text":"Expectorant"},
+	{"code":"nongreasy","text":"Non greasy"},
+	{"code":"antiinflammatory","text":"Anti-inflammatory"},
+	{"code":"lubricating","text":"Lubricating"},
+	
+	// Booster criteria
+	{"code":"booster.typeCriteria","text":"&eff5>Booster Effect:&W> +{0}% sales bonus if this drug is a &FIN>{1}"},
+	{"code":"booster.familyCriteria","text":"&eff5>Booster Effect:&W> +{0}% sales bonus if this drug contains a cure from the &eff0>{1}&W> family."},
+	{"code":"booster.noCriteria","text":"&eff5>Booster Effect:&W> +{0}% sales bonus."},
+	
+	// Research
+	{"code":"research_sales_reps","text":"Sales Reps"},
+	{"code":"research_sales_reps_desc","text":"By sending our executives into hospitals as sales representatives we can explain to doctors why they should prescribe our products."},
+	
+	{"code":"research_advertising","text":"Advertising"},
+	{"code":"research_advertising_desc","text":"Advertising research opens up the potential for various high-powered techniques to sell our products. Dedicating many Executives to Branding can bring huge returns on a large portfolio while Cross-Promotion can provide a more targeted effect. Social Media gives you the ability to shift large volumes of stock."},
+	
+	{"code":"research_trials","text":"Trials"},
+	{"code":"research_trials_desc","text":"Trials are a great way to prove the effectiveness of a quality product in a short space of time. However, it can be a double-edged sword, leading to a drop in sales for poor products.\n\nIf the trial doesn't go well there is always the option to hide certain results but be prepared for some Bad Publicity if anyone finds out."},
+	
+	{"code":"research_disease_awareness_campaigns","text":"Disease Awareness Campaigns"},
+	{"code":"research_disease_awareness_campaigns_desc","text":"Disease Awareness Campaigns allow us to fundamentally influence the pharmaceutical marketplace. With these campaigns we can increase the raw demand for cures, reduce the sales of competing products and force people to continue to take our drugs even after they're cured."},
+	
+	{"code":"research_suppress_the_press","text":"Suppress the Press"},
+	{"code":"research_suppress_the_press_desc","text":"This project involves digging up dirt on as many journalists as possible and paying off the rest. In the event of some sensitive information getting out, we can apply pressure to reduce the chance of Bad Publicity."},
+	
+	{"code":"research_booster","text":"Booster Mixer"},
+	{"code":"research_booster_desc","text":"The Booster Mixer allows us to efficiently get Booster effects into our products.\n\nIt has a small footprint, low process time and low process cost, however it can't transfer anything but Boosters between drugs."},
+	
+	{"code":"research_socket_to_socket","text":"Socket to Socket Transfer"},
+	{"code":"research_socket_to_socket_desc","text":"This technology will allow us to re-purpose standard sockets to transfer directly between themselves, rather than for importing ingredients or exporting finished products.\n\nAccess this ability via the Auxiliary menu on the Production Tab."},
+	
+	{"code":"research_stockgate","text":"Stock Gate"},
+	{"code":"research_stockgate_desc","text":"Stock Gates allow us to regulate the flow of drugs through our factory based on the current stock levels of products. This allows us to create adaptive production systems which can automatically adjust to demand."},
+	
+	{"code":"research.sales_reps","text":"Unlocks the ability to assign Sales Reps to a product."},
+	{"code":"research.gifts","text":"Unlocks Gifts for Sales Reps."},
+	{"code":"research.portfolio_presentations","text":"Unlocks Portfolio Presentations for Sales Reps"},
+	
+	{"code":"research.advertising","text":"Unlocks the ability to run Advertising."},
+	{"code":"research.crosspromotion","text":"Unlocks Cross-Promotion."},
+	{"code":"research.branding","text":"Unlocks Branding"},
+	{"code":"research.social_media","text":"Unlocks Social Media"},
+	
+	{"code":"research.disease_awareness_campaigns","text":"Unlocks the ability to run Disease Awareness Campaigns."},
+	{"code":"research.symptom_awareness","text":"Unlocks Symptom Awareness Campaigns"},
+	{"code":"research.corporate_slander","text":"Unlocks Corporate Slander"},
+	{"code":"research.preventative_aftercare","text":"Unlocks Preventative Aftercare"},
+	
+	{"code":"research.trials","text":"Unlocks the ability to run Clinical Trials."},
+	{"code":"research.trialAccuracy","text":"Trial accuracy:"},
+	{"code":"tofrom.trialAccuracy","text":"{0}%"},
+	
+	{"code":"research.negativePressChance","text":"Bad Publicity chance:"},
+	{"code":"tofrom.negativePressChance","text":"{0}%"},
+	
+	{"code":"research.numberOfExecutives","text":"Number of executives"},
+	{"code":"tofrom.numberOfExecutives","text":"{0}"},
+	
+	{"code":"research.socket_to_socket","text":"Unlocks the Connect Sockets tool."},
+	
+	// Marketing campaigns
+	{"code":"sales_reps","text":"Sales Reps"},
+	{"code":"sales_reps_desc","text":"+10% sales."},
+	{"code":"gifts","text":"Gifts"},
+	{"code":"gifts_desc","text":"+20% sales but risk of bad publicity."},
+	{"code":"portfolio_presentations","text":"Portfolio Presentations"},
+	{"code":"portfolio_presentations_desc","text":"+5% sales for all cures of this family."},
+	{"code":"crosspromotion","text":"Cross-Promotion"},
+	{"code":"crosspromotion_desc","text":"+4% sales for this and all other cross-promoted products."},
+	{"code":"branding","text":"Branding"},
+	{"code":"branding_desc","text":"+3% sales for this and all other products of the same type (Pill, Cream etc.)."},
+	{"code":"social_media","text":"Social Media"},
+	{"code":"social_media_desc","text":"Increases sales based on average daily demand."},
+	{"code":"trials","text":"Clinical Trial"},
+	{"code":"trials_desc","text":"Starts a new clinical trial for the product. The results depend on the strength of the products' cures (positive) and side-effects (negative). Trials passively increase/decrease the Sales Rating of the product depending on the results. It's possible to tweak and/or hide the results of a trial after completion but this can lead to Bad Publicity and the potential banning of a product."},
+	{"code":"symptom_awareness","text":"Symptom Awareness Campaign"},
+	{"code":"symptom_awareness_desc","text":"Increases global demand for all cures in this product."},
+	{"code":"corporate_slander","text":"Corporate Slander"},
+	{"code":"corporate_slander_desc","text":"Decreases the sales rating of competing products but can lead to bad publicity."},
+	{"code":"preventative_aftercare","text":"Preventative Aftercare"},
+	{"code":"preventative_aftercare_desc","text":"Prevents this product from permanently curing patients."},
+	
+	// Tutorials
+	{"code":"assignExecutivesObjective","text":"Assign {0} Executives to products."},
+	{"code":"assignExecutivesObjectiveHover","text":"{0} Executives assigned."},
+	
+	{"code":"tutorial6-mm-a","text":"Hello and welcome to Tutorial 6: Sales and Marketing.\n\nIn this tutorial we will cover the &TAB>Company Tab&W> and how you can sell the products you've been producing so far.\n\n&TITLE>The Company Tab&W>\n\nThis is where you can manage the sale of your products and get an overview of your company's cashflow.\n\nEach product is represented by a row in the table. Over the past 5 tutorials you've built up an impressive portfolio, well done!\n\n&TITLE>Pricing&W>\n\nTo maintain good profits its important to charge the right price. If you charge too much you might not sell all your stock, if you charge too little you might miss out on additional revenue.\n\nIt looks like we have a problem with our &eff1>Eases Migraine&W> product."},
+	{"code":"tutorial6-mm-b","text":"Note that the daily sales are less than the daily production. This is happening because we are charging too much."},
+	{"code":"tutorial6-mm-c","text":"We are currently charging a 15% premium. Reduce the premium until the daily sales are equal to or greater than the daily production."},
+	{"code":"tutorial6-mm-d","text":"There's another problem. We're currently losing money on our &eff1>Angina&W> product. This time we are charging too little."},
+	{"code":"tutorial6-mm-e","text":"Reduce the discount to increase our profit, but be careful not to charge so high a premium that our daily sales drops below our daily production.\n\n&TITLE>Sales Rating and Cure Rating&W>\n\nThe price we are able to charge for a product depends on its &LTBLUE>Sales Rating&W>. This ranges from a value of S+ to F, with the average being C. The higher the rating (closer to S+) the more we can sell each day and the more we can charge.\n\nThe &LTBLUE>Sales Rating&W> is based on the &LTBLUE>Cure Rating&W>, which is the basic effectiveness of the product. By hovering over a product's &LTBLUE>Cure Rating&W> you can see how many people have been helped and how many &effbad>Side-Effects&W> have been caused.\n\nIn the next tutorial we'll take a more detailed look at how we can influence the &LTBLUE>Cure Rating&W> but that's not the only way to improve sales...\n\n&TITLE>Executives&W>\n\nExecutives allow you directly influence the &LTBLUE>Sales Rating&W> of your products."},
+	{"code":"tutorial6-mm-f","text":"Executives can be assigned to various tasks to help sell our products. Even better, they don't cost us anything in salary. Executives can't be hired like normal staff, to gain access to their powerful abilities you have to complete certain research projects.\n\nLet's go get some executives! Navigate to the &TAB>Research Tab&W> and research &LTBLUE>National Headquarters'&W>."},
+	{"code":"tutorial6-mm-g","text":"This will give us access to some executives, but we also need to research their abilities before we can use them. In this tutorial the &LTBLUE>Sales Reps&W> project is already complete for us, but in a real game we'd have to research this too."},
+	{"code":"tutorial6-mm-h","text":"Once the &LTBLUE>National Headquarters&W> research completes (it's sped up in this tutorial) navigate back to the &TAB>Company Tab&W>, it's time to put our executives to use!\n\nClick on the &LTBLUE>Sales Bonus&W> column of any one of your products."},
+	{"code":"tutorial6-mm-i","text":"This will bring up the &LTBLUE>Executive Dashboard&W>. From here we can assign executives to various jobs related to this product.\n\nAssign an executive to the &LTBLUE>Sales Reps&W> activity."},
+	{"code":"tutorial6-mm-j","text":"This has provided your product with a direct bonus to its sales rating. This will increase the daily sales of the product or allow you to charge a higher price, if you are already selling everything you produce. Executives can be dynamically reassigned whenever you wish.\n\nDismiss the &TAB>Executive Dashboard&W>.\n\nTo complete the tutorial, assign all three executives to your products. You can also try experimenting with prices to maximise your profit. Remember not to charge too much or your stock will build up and you'll start losing money."},
+	
+	{"code":"totalProductsMinCureRatingB","text":"Sell a product with a Cure Rating of C+."},
+	{"code":"totalProductsMinCureRatingBHover","text":"{0} products with Cure Rating of C+ being sold."},
+	
+	{"code":"tutorial7-mm-a","text":"Hello and welcome to Tutorial 7: Analyzer and Upgrading.\n\nIn this tutorial you'll learn how to:&LIST>\n - upgrade your machines and ingredients\n - use the &LTBLUE>Analyzer&LIST> machine to discover more about your cures and side-effects.\n - use this information to design more effective drugs with better &LTBLUE>Cure Ratings&LIST>.\n\n&TITLE>Upgrading Ingredients&W>\n\nThroughout the last six tutorials you will have been accumulating &LTBLUE>Ingredient Upgrade Points&W>. It's time to spend some.\n\nNavigate to the &LTBLUE>Ingredients Tab&W>.\n\nThe total number of points is shown in the top right corner of the screen."},
+	{"code":"tutorial7-mm-b","text":"Each ingredient you have discovered has an upgrade button. Hover over it to see the cost of upgrading and the bonus it will bestow."},
+	{"code":"tutorial7-mm-c","text":"Try upgrading one of your ingredients by clicking the upgrade button."},
+	{"code":"tutorial7-mm-d","text":"Notice that the indicator below the upgrade button has lit up. This shows you what level upgrade each ingredient is at. There is a maximum upgrade level of 5.\n\nIn a real game of Big Pharma you'll want to concentrate your upgrades on ingredients which you're importing a lot of or which have a high import price.\n\n&TITLE>Upgrading Research&W>\n\nNavigate to the &LTBLUE>Research Tab&W>. Upgrading research projects is very similar to upgrading ingredients. Your current total of &LTBLUE>Research Upgrade Points&W> is shown in the top right of the screen."},
+	{"code":"tutorial7-mm-e","text":"Any research project which has an upgrade button can be upgraded.\n\nUnlike ingredient upgrades, the bonus you'll get for each upgrade depends on the specific research project. For example, machine upgrades normally yield a decrease in process cost, while infrastructure projects often yield global bonuses to your entire company.\n\nFor this tutorial, we need to upgrade the &LTBLUE>Analyzer&W> project."},
+	{"code":"tutorial7-mm-f","text":"Upgrade the &LTBLUE>Analyzer&W> to maximum level (3). This will speed up the analysis process we use later in this tutorial.\n\n&TITLE>The Analyzer Machine&W>\n\nNavigate back to the &TAB>Production Tab&W>.\n\nNext we are going to improve the &eff1>Angina&W> medication that we sell. Build your newly upgraded &LTBLUE>Analyzer&W> machine in the position marked below. You'll find the &LTBLUE>Analyzer&W> under the &LTBLUE>Auxiliary&W> toolbar."},
+	{"code":"tutorial7-mm-g","text":"Now delete the existing part of the line using Right-Click and build belts to connect the stream of &eff1>Treats Angina&W> drugs into the &LTBLUE>Analyzer&W>."},
+	{"code":"tutorial7-mm-h","text":"Your &LTBLUE>Analyzer&W> will begin to analyse the effects contained in the drugs. Note that drugs are destroyed during the analysis process.\n\nAfter several ingredients have entered the machine you will receive two messages informing you that the analysis is complete on each of the effects inside your ingredient.\n\nYou can use the time controls to speed up the process if you wish."},
+	{"code":"tutorial7-mm-i","text":"Analysis tells us what the &LTBLUE>Max Strength Concentration&W> is for a particular effect. This is the concentration at which a cure is most likely to be effective and a side-effect is most likely to occur.\n\nIn other words, to create an effective cure we need to be close to the max strength concentration of the cure but far from that of the side-effects.\n\n&TITLE>Designing better drugs&W>\n\nTo complete this tutorial you need to create a product with a &LTBLUE>Cure Rating&W> of C+ or better. Redesign your existing &eff1>Treats Angina&W> production line so the final concentration is at its max strength concentration.\n\nHint: The final concentration should be 9!\n\nIf you need a helping hand take a look at the picture below."},
+	{"code":"tutorial7-mm-j","text":"Once you've finished your product, navigate to the &TAB>Company Tab&W> and study your new product's &LTBLUE>Cure Rating&W>. It takes time for the results to come in so speed up time and soon enough you will be rewarded with a Cure Rating of C+.\n\nYou are now ready to play Big Pharma. These tutorials only scratch the surface of all there is to see and explore in the game, so keep experimenting!"}
+]
