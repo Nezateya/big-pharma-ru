@@ -25,7 +25,7 @@
 	{"code":"minusprocessingcosts","text":"- Processing costs:"},
 	{"code":"minusexplorersalaries","text":"- Explorer salaries:"},
 	{"code":"minusresearchersalaries","text":"- Researcher salaries:"},
-	{"code":"minusloaninterest","text":"- Loan interest:"},
+	{"code":"minusloaninterest","text":"- Loan repayments:"},
 	{"code":"minuspatentfees","text":"- Patent fees:"},
 	{"code":"operatingprofitvalueandmargin","text":"&$>{0} / {1}%"},
 	{"code":"operatingprofitvalue","text":"&$>{0}"},
