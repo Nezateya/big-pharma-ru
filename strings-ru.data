@@ -1217,7 +1217,7 @@
 	{"code":"lostMyAppetite","text":"Потерял аппетит"},
 	{"code":"gameOfMargins","text":"Игра с рентабельностью"},
 	{"code":"kingOfTheNonPrescriptions","text":"Король не-предписаний"},
-	{"code":"threeMagicNumber","text":"Два - это магическое число"},
+	{"code":"threeMagicNumber","text":"Три - это магическое число"},
 	
 	// Intermediate
 	{"code":"showMeTheMoney","text":"Покажи мне деньги"},

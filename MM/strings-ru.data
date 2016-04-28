@@ -14,8 +14,10 @@
 	
 	// GUI
 	// CHALLENGES
-	{"code":"operatingProfit","text":"Attain daily operating profit of &$>{0}."},
-	{"code":"operatingProfitHover","text":"Daily operating profit: &$>{0}"},
+	{"code":"operatingProfitMM","text":"Attain daily operating profit of &$>{0}."},
+	{"code":"operatingProfitHoverMM","text":"Daily operating profit: &$>{0}"},
+	{"code":"cureDemandMM","text":"Reduce demand for {0} to below {1}/d."},
+	{"code":"cureDemandHoverMM","text":"{0} demand currently at {1}/d."},
 	// COMPANY TAB
 	{"code":"revenuecolon","text":"Revenue:"},
 	{"code":"operatingprofitslashmargincolon","text":"Operating Profit / Margin:"},
@@ -280,5 +282,9 @@
 	{"code":"tutorial7-mm-g","text":"Now delete the existing part of the line using Right-Click and build belts to connect the stream of &eff1>Treats Angina&W> drugs into the &LTBLUE>Analyzer&W>."},
 	{"code":"tutorial7-mm-h","text":"Your &LTBLUE>Analyzer&W> will begin to analyse the effects contained in the drugs. Note that drugs are destroyed during the analysis process.\n\nAfter several ingredients have entered the machine you will receive two messages informing you that the analysis is complete on each of the effects inside your ingredient.\n\nYou can use the time controls to speed up the process if you wish."},
 	{"code":"tutorial7-mm-i","text":"Analysis tells us what the &LTBLUE>Max Strength Concentration&W> is for a particular effect. This is the concentration at which a cure is most likely to be effective and a side-effect is most likely to occur.\n\nIn other words, to create an effective cure we need to be close to the max strength concentration of the cure but far from that of the side-effects.\n\n&TITLE>Designing better drugs&W>\n\nTo complete this tutorial you need to create a product with a &LTBLUE>Cure Rating&W> of C+ or better. Redesign your existing &eff1>Treats Angina&W> production line so the final concentration is at its max strength concentration.\n\nHint: The final concentration should be 9!\n\nIf you need a helping hand take a look at the picture below."},
-	{"code":"tutorial7-mm-j","text":"Once you've finished your product, navigate to the &TAB>Company Tab&W> and study your new product's &LTBLUE>Cure Rating&W>. It takes time for the results to come in so speed up time and soon enough you will be rewarded with a Cure Rating of C+.\n\nYou are now ready to play Big Pharma. These tutorials only scratch the surface of all there is to see and explore in the game, so keep experimenting!"}
+	{"code":"tutorial7-mm-j","text":"Once you've finished your product, navigate to the &TAB>Company Tab&W> and study your new product's &LTBLUE>Cure Rating&W>. It takes time for the results to come in so speed up time and soon enough you will be rewarded with a Cure Rating of C+.\n\nYou are now ready to play Big Pharma. These tutorials only scratch the surface of all there is to see and explore in the game, so keep experimenting!"},
+	
+	// NEW STRINGS
+	{"code":"numberOfBoosters","text":"Number of booster effects:"},
+	{"code":"hovertext.numberOfBoosters","text":"Number of booster effects."}
 ]
