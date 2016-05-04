@@ -8,7 +8,7 @@
 
 	// NEW MACHINES
 	{"code":"booster","text":"Буст-Миксер"},
-	{"code":"boosterdesc","text":"&GREY>Перемещает &eff5>Буст&GREY>-эффенкты из одного ингридиента в другой. Ингридиенты, содержащие &eff5>Буст&GREY>-эффекты должны поступать в &eff5>оранжевый&GREY> люк."},
+	{"code":"boosterdesc","text":"&GREY>Перемещает &eff5>Буст&GREY>-эффенкты из одного ингредиента в другой. Ингредиенты, содержащие &eff5>Буст&GREY>-эффекты должны поступать в &eff5>оранжевый&GREY> люк."},
 	{"code":"stockgate","text":"Контролеер запасов"},
 	{"code":"stockgatedesc","text":"&GREY>Дополнение к конвейерной ленте. Используется, чтобы контролировать поток лекарств на вашей фабрике, в зависимости от текущего уровня запасов произведённого лекарства."},
 	
@@ -21,7 +21,7 @@
 	// COMPANY TAB
 	{"code":"revenuecolon","text":"Доходы:"},
 	{"code":"operatingprofitslashmargincolon","text":"Операционный доход / Маржа:"},
-	{"code":"minusingredientcosts","text":"- Стоимость ингридиентов:"},
+	{"code":"minusingredientcosts","text":"- Стоимость ингредиентов:"},
 	{"code":"minusprocessingcosts","text":"- Стоимость обработки:"},
 	{"code":"minusexplorersalaries","text":"- Зарплата исследователей:"},
 	{"code":"minusresearchersalaries","text":"- Зарплата учёных"},
@@ -69,8 +69,8 @@
 	{"code":"bury","text":"ЗАКОПАТЬ"},
 	{"code":"banned","text":"**ЗАБАНЕН** "},
 	// INGREDIENTS TAB
-	{"code":"boosterpreview","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингридиент с &eff5>Буст&LTBLUE>-эффектом."},
-	{"code":"boosterpreviewcat","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингридиент с &eff5>Буст&LTBLUE>-эффектом.\n\nТакже существует вероятность обнаружить следующие &W>катализаторы&LTBLUE>:"},
+	{"code":"boosterpreview","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингредиент с &eff5>Буст&LTBLUE>-эффектом."},
+	{"code":"boosterpreviewcat","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингредиент с &eff5>Буст&LTBLUE>-эффектом.\n\nТакже существует вероятность обнаружить следующие &W>катализаторы&LTBLUE>:"},
 	// PRODUCTION TAB
 	{"code":"stockgate1","text":"Выберите продукт:"},
 	{"code":"stockgate2","text":"Линия будет запущена, если продукта на складе будет:"},
