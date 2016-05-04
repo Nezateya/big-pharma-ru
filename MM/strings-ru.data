@@ -69,8 +69,8 @@
 	{"code":"bury","text":"ЗАКОПАТЬ"},
 	{"code":"banned","text":"**ЗАБАНЕН** "},
 	// INGREDIENTS TAB
-	{"code":"boosterpreview","text":"&LTBLUE>Initial reports suggest we may find an ingredient with a &eff5>Booster&LTBLUE> effect."},
-	{"code":"boosterpreviewcat","text":"&LTBLUE>Initial reports suggest we may find an ingredient with a &eff5>Booster&LTBLUE> effect.\n\nThe following &W>catalyst&LTBLUE> is also present:"},
+	{"code":"boosterpreview","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингридиент с &eff5>Буст&LTBLUE>-эффектом."},
+	{"code":"boosterpreviewcat","text":"&LTBLUE>Предварительные отчёты показывают, что мы можем найти ингридиент с &eff5>Буст&LTBLUE>-эффектом.\n\nТакже существует вероятность обнаружить следующие &W>катализаторы&LTBLUE>:"},
 	// PRODUCTION TAB
 	{"code":"stockgate1","text":"Выберите продукт:"},
 	{"code":"stockgate2","text":"Линия будет запущена, если продукта на складе будет:"},
