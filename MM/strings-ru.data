@@ -1,23 +1,23 @@
 [
 	// Scenarios
-	{"code":"tutorial6-mm","text":"6. Sales and Marketing"},
-	{"code":"tutorial7-mm","text":"7. Upgrades and the Analyzer"},
+	{"code":"tutorial6-mm","text":"6. Продажи и маркетинг"},
+	{"code":"tutorial7-mm","text":"7. Улучшения и анализатор"},
 	
 	// COLOR
 	{"code":"GOLD","text":"^CFFF282FF"},
 
 	// NEW MACHINES
-	{"code":"booster","text":"Booster Mixer"},
-	{"code":"boosterdesc","text":"&GREY>Transfers &eff5>Booster&GREY> effects from one ingredient into another. Ingredient containing &eff5>Booster&GREY> effect(s) must enter through &eff5>orange&GREY> hatch."},
-	{"code":"stockgate","text":"Stock Gate"},
-	{"code":"stockgatedesc","text":"&GREY>Add-on for Belt. Use to control the flow of drugs in your factory based on current stock levels."},
+	{"code":"booster","text":"Буст-Миксер"},
+	{"code":"boosterdesc","text":"&GREY>Перемещает &eff5>Буст&GREY>-эффенкты из одного ингридиента в другой. Ингридиенты, содержащие &eff5>Буст&GREY>-эффекты должны поступать в &eff5>оранжевый&GREY> люк."},
+	{"code":"stockgate","text":"Складской контролеер"},
+	{"code":"stockgatedesc","text":"&GREY>Дополнение к конвейерной ленте. Используется, чтобы контролировать поток лекарств на вашей фабрике, в зависимости от текущего уровня запасов."},
 	
 	// GUI
 	// CHALLENGES
-	{"code":"operatingProfitMM","text":"Attain daily operating profit of &$>{0}."},
-	{"code":"operatingProfitHoverMM","text":"Daily operating profit: &$>{0}"},
-	{"code":"cureDemandMM","text":"Reduce demand for {0} to below {1}/d."},
-	{"code":"cureDemandHoverMM","text":"{0} demand currently at {1}/d."},
+	{"code":"operatingProfitMM","text":"Достичь дневной операционный доход до &$>{0}."},
+	{"code":"operatingProfitHoverMM","text":"Дневной операционный доход : &$>{0}"},
+	{"code":"cureDemandMM","text":"Снизить спроса на {0} ниже чем {1}/d."},
+	{"code":"cureDemandHoverMM","text":"Спрос на {0} сейчас составляет {1}/d."},
 	// COMPANY TAB
 	{"code":"revenuecolon","text":"Revenue:"},
 	{"code":"operatingprofitslashmargincolon","text":"Operating Profit / Margin:"},
