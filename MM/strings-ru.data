@@ -84,10 +84,10 @@
 	{"code":"sockettosockethover","text":"Нажмите, чтобы разъеденить"},
 	{"code":"stocklimitdrugbubble","text":"Достигнут предел склада."},
 	// TRIAL DIALOG
-	{"code":"trialinstructions","text":"Click on chart to disqualify results. May result in bad publicity."},
-	{"code":"trialinstructionsbriber","text":"Click on chart to disqualify results. Total cost to bribe participants: &$>{0}."},
-	{"code":"trialcomplete","text":"TRIAL COMPLETE"},
-	{"code":"submit","text":"SUBMIT"},
+	{"code":"trialinstructions","text":"Нажмите на диаграмму чтобы дисквалифицировать результаты. Может привести к ухудшению репутации."},
+	{"code":"trialinstructionsbriber","text":"Нажмите на диаграмму чтобы дисквалифицировать результаты. Общая стоимость подкупа участников: &$>{0}."},
+	{"code":"trialcomplete","text":"ИСПЫТАНИЯ ЗАВЕРШЕНЫ},
+	{"code":"submit","text":"ОТПРАВИТЬ"},
 	// INCORPORATION DIALOG
 	{"code":"perks","text":"PERKS"},
 	{"code":"perkslower","text":"Perks"},
