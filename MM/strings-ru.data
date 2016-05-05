@@ -89,11 +89,11 @@
 	{"code":"trialcomplete","text":"ИСПЫТАНИЯ ЗАВЕРШЕНЫ},
 	{"code":"submit","text":"ОТПРАВИТЬ"},
 	// INCORPORATION DIALOG
-	{"code":"perks","text":"PERKS"},
-	{"code":"perkslower","text":"Perks"},
-	{"code":"pickaperkcaps","text":"PICK A PERK"},
-	{"code":"noperkhover","text":"Click to select a perk!"},
-	{"code":"clicktochange","text":"Click to change!"},
+	{"code":"perks","text":"ЛЬГОТЫ"},
+	{"code":"perkslower","text":"Льготы"},
+	{"code":"pickaperkcaps","text":"ВЫБОР ЛЬГОТЫ"},
+	{"code":"noperkhover","text":"Нажмите, чтобы выбрать льготу!"},
+	{"code":"clicktochange","text":"Нажмите, чтобы изменить"},
 	// BAD PUBLICITY DIALOG
 	{"code":"badpublicity","text":"Bad Publicity"},
 	{"code":"badpublicitytitle","text":"BAD PUBLICITY"},
