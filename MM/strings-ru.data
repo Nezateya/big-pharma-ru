@@ -178,9 +178,9 @@
 	{"code":"lubricating","text":"смазочный"},
 	
 	// Booster criteria
-	{"code":"booster.typeCriteria","text":"&eff5>Booster Effect:&W> +{0}% sales bonus if this drug is a &FIN>{1}"},
-	{"code":"booster.familyCriteria","text":"&eff5>Booster Effect:&W> +{0}% sales bonus if this drug contains a cure from the &eff0>{1}&W> family."},
-	{"code":"booster.noCriteria","text":"&eff5>Booster Effect:&W> +{0}% sales bonus."},
+	{"code":"booster.typeCriteria","text":"&eff5>Буст-эффект:&W> +{0}% бонус продаж, если это лекарство является &FIN>{1}"},
+	{"code":"booster.familyCriteria","text":"&eff5>Буст-эффект:&W> +{0}% бонус продаж, если это лекарство относится к категории &eff0>{1}&W>."},
+	{"code":"booster.noCriteria","text":"&eff5>Буст-эффект:&W> +{0}% бонус продаж."},
 	
 	// Research
 	{"code":"research_sales_reps","text":"Sales Reps"},
