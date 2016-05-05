@@ -102,7 +102,7 @@
 	{"code":"badpublicity.gifts","text":"Журналисты узнали, что Вы давали подарки докторам, чтобы поднять продажи продукта. Они опубликовали статью, которая повлечёт следующие последствия:"},
 	{"code":"badpublicity.corporate_slander","text":"Журналисты узнали, что Вы распространяли клевету порочащую конкурентов по данному продукту. Они опубликовали статью, которая повлечёт следующие последствия:"},
 	// CURE Tab
-	{"code":"symptomawarenesscampaign","text":"Symptom awareness campaign"}, // on graph when symptom awareness campaign is active.
+	{"code":"symptomawarenesscampaign","text":"Компания осведомлённости о симптомах"}, // on graph when symptom awareness campaign is active.
 	
 	// PERKS
 	{"code":"perk.recycling_expert","text":"Recycling Expert"},
