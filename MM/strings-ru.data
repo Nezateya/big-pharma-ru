@@ -166,16 +166,16 @@
 	{"code":"perk.bannedProducts.req","text":"{0}/{1} продуктов заблокировано. Поучите ещё {2} заблокированных продукта, чтобы разблокировать этот бонус!"},
 	
 	// Booster effects
-	{"code":"easytoswallow","text":"Easy to swallow"},
-	{"code":"hypoallergenic","text":"Hypoallergenic"},
-	{"code":"fastacting","text":"Fast acting"},
-	{"code":"isotonic","text":"Isotonic"},
-	{"code":"neurotransmitters","text":"Neuro-regulator"},
-	{"code":"nondrowsy","text":"Non-drowsy"},
-	{"code":"expectorant","text":"Expectorant"},
-	{"code":"nongreasy","text":"Non greasy"},
-	{"code":"antiinflammatory","text":"Anti-inflammatory"},
-	{"code":"lubricating","text":"Lubricating"},
+	{"code":"easytoswallow","text":"Легко проглотить"},
+	{"code":"hypoallergenic","text":"Гипоаллергенный"},
+	{"code":"fastacting","text":"Быстродействующий"},
+	{"code":"isotonic","text":"Изотоник"},
+	{"code":"neurotransmitters","text":"Нейро-регулятор"},
+	{"code":"nondrowsy","text":"Не сонный"},
+	{"code":"expectorant","text":"Отхаркивающее"},
+	{"code":"nongreasy","text":"Не сальный"},
+	{"code":"antiinflammatory","text":"Противовоспалительный"},
+	{"code":"lubricating","text":"смазочный"},
 	
 	// Booster criteria
 	{"code":"booster.typeCriteria","text":"&eff5>Booster Effect:&W> +{0}% sales bonus if this drug is a &FIN>{1}"},
