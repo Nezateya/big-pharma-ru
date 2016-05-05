@@ -285,6 +285,6 @@
 	{"code":"tutorial7-mm-j","text":"Once you've finished your product, navigate to the &TAB>Company Tab&W> and study your new product's &LTBLUE>Cure Rating&W>. It takes time for the results to come in so speed up time and soon enough you will be rewarded with a Cure Rating of C+.\n\nYou are now ready to play Big Pharma. These tutorials only scratch the surface of all there is to see and explore in the game, so keep experimenting!"},
 	
 	// NEW STRINGS
-	{"code":"numberOfBoosters","text":"Number of booster effects:"},
-	{"code":"hovertext.numberOfBoosters","text":"Number of booster effects."}
+	{"code":"numberOfBoosters","text":"Количество буст-эффектов:"},
+	{"code":"hovertext.numberOfBoosters","text":"Количество буст-эффектов."}
 ]
