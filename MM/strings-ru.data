@@ -18,6 +18,9 @@
 	{"code":"operatingProfitHoverMM","text":"Дневной операционный доход : &$>{0}"},
 	{"code":"cureDemandMM","text":"Снизить спроса на {0} ниже чем {1}/д."},
 	{"code":"cureDemandHoverMM","text":"Спрос на {0} сейчас составляет {1}/д."},
+	{"code":"productValueMM","text":"Одновременно продайте {0} продуктов, лечащих различные заболевания по цене более &$>{1}."},
+	{"code":"productValueOneMM","text":"Продайте 1 продукт по цене более &$>{0}."},
+	{"code":"productValueHoverMM","text":"На текущий момент продано {0} продуктов с ценой более &$>{1}"},
 	// COMPANY TAB
 	{"code":"revenuecolon","text":"Доходы:"},
 	{"code":"operatingprofitslashmargincolon","text":"Операционный доход / Маржа:"},
@@ -86,7 +89,7 @@
 	// TRIAL DIALOG
 	{"code":"trialinstructions","text":"Нажмите на диаграмму чтобы дисквалифицировать результаты. Может привести к негативной публикации."},
 	{"code":"trialinstructionsbriber","text":"Нажмите на диаграмму чтобы дисквалифицировать результаты. Общая стоимость подкупа участников: &$>{0}."},
-	{"code":"trialcomplete","text":"ИСПЫТАНИЯ ЗАВЕРШЕНЫ},
+	{"code":"trialcomplete","text":"ИСПЫТАНИЯ ЗАВЕРШЕНЫ"},
 	{"code":"submit","text":"ОТПРАВИТЬ"},
 	// INCORPORATION DIALOG
 	{"code":"perks","text":"ЛЬГОТЫ"},
@@ -96,7 +99,7 @@
 	{"code":"clicktochange","text":"Нажмите, чтобы изменить"},
 	// BAD PUBLICITY DIALOG
 	{"code":"badpublicity","text":"Негативная публикация"},
-	{"code":"badpublicitytitle","text":"НЕГАТИВНАЯ ПУБЛИКАЦИЯ},
+	{"code":"badpublicitytitle","text":"НЕГАТИВНАЯ ПУБЛИКАЦИЯ"},
 	{"code":"productbanned","text":"ПРОДУКТ ЗАБЛОКИРОВАН"},
 	{"code":"badpublicity.trial","text":"Журналисты узнали, что Вы скрыли достоверные результаты испытания этого продукта. Они опубликовали статью, которая повлечёт следующие последствия:"},
 	{"code":"badpublicity.gifts","text":"Журналисты узнали, что Вы давали подарки докторам, чтобы поднять продажи продукта. Они опубликовали статью, которая повлечёт следующие последствия:"},
