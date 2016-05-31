@@ -178,7 +178,7 @@
 	{"code":"expectorant","text":"Отхаркивающее"},
 	{"code":"nongreasy","text":"Не сальный"},
 	{"code":"antiinflammatory","text":"Противовоспалительный"},
-	{"code":"lubricating","text":"смазочный"},
+	{"code":"lubricating","text":"Смазочный"},
 	
 	// Booster criteria
 	{"code":"booster.typeCriteria","text":"&eff5>Буст-эффект:&W> +{0}% бонус продаж, если это лекарство является &FIN>{1}"},
@@ -186,55 +186,55 @@
 	{"code":"booster.noCriteria","text":"&eff5>Буст-эффект:&W> +{0}% бонус продаж."},
 	
 	// Research
-	{"code":"research_sales_reps","text":"Sales Reps"},
-	{"code":"research_sales_reps_desc","text":"By sending our executives into hospitals as sales representatives we can explain to doctors why they should prescribe our products."},
+	{"code":"research_sales_reps","text":"Торговые представители"},
+	{"code":"research_sales_reps_desc","text":"Отправляя наше руководство в больницы в качестве торговых представителей, мы можем объяснить врачам, почему они должны выписывать наши лекарства."},
 	
-	{"code":"research_advertising","text":"Advertising"},
-	{"code":"research_advertising_desc","text":"Advertising research opens up the potential for various high-powered techniques to sell our products. Dedicating many Executives to Branding can bring huge returns on a large portfolio while Cross-Promotion can provide a more targeted effect. Social Media gives you the ability to shift large volumes of stock."},
+	{"code":"research_advertising","text":"Реклама"},
+	{"code":"research_advertising_desc","text":"Исследование рекламных технологий открывает потенциал для различны высокоэффективных техник продажи наших продуктов. Поручая руководителям работу над брэндом можно получить огромные доходы на всём множестве продуктов, в то время как Кросс-продвижение имеет более целенаправленный эффект. Социальные медиа дают возможность поднять объемы продаж."},
 	
-	{"code":"research_trials","text":"Trials"},
-	{"code":"research_trials_desc","text":"Trials are a great way to prove the effectiveness of a quality product in a short space of time. However, it can be a double-edged sword, leading to a drop in sales for poor products.\n\nIf the trial doesn't go well there is always the option to hide certain results but be prepared for some Bad Publicity if anyone finds out."},
+	{"code":"research_trials","text":"Испытания"},
+	{"code":"research_trials_desc","text":"Испытания - хороший способ доказать эффективность наших лекарств за короткое время. Однако это обоюдоострый меч However, который может привести к падению продаж если лекарство оказалось некачественным.\n\nЕсли испытания показали плохие результаты - всегда есть возможность скрыть их результаты, и быдь готовым к выходу разоблачающих публикаций, если это всплывёт."},
 	
-	{"code":"research_disease_awareness_campaigns","text":"Disease Awareness Campaigns"},
-	{"code":"research_disease_awareness_campaigns_desc","text":"Disease Awareness Campaigns allow us to fundamentally influence the pharmaceutical marketplace. With these campaigns we can increase the raw demand for cures, reduce the sales of competing products and force people to continue to take our drugs even after they're cured."},
+	{"code":"research_disease_awareness_campaigns","text":"Кампании осведомлённости о болезни"},
+	{"code":"research_disease_awareness_campaigns_desc","text":"Кампании осведомлённости о болезни оказывают фундаментальное влияние на рынок медикаментов. Они позволят увеличить спрос на наши лекарства, уменьшая продажи конкурирующих продуктов, и заставляя людей продолжать принимать лекарственные препараты, даже после того, как они вылечелись."},
 	
-	{"code":"research_suppress_the_press","text":"Suppress the Press"},
-	{"code":"research_suppress_the_press_desc","text":"This project involves digging up dirt on as many journalists as possible and paying off the rest. In the event of some sensitive information getting out, we can apply pressure to reduce the chance of Bad Publicity."},
+	{"code":"research_suppress_the_press","text":"Подавление прессы"},
+	{"code":"research_suppress_the_press_desc","text":"Этот проект позволяет накопать грязи на максимально возможное число журналистов и подку остальных. В случае нежелательного появления какой-либо конфиденциальной информации, мы сможем применить давление, чтобы снизить вероятность выхода негативной публикации."},
 	
-	{"code":"research_booster","text":"Booster Mixer"},
-	{"code":"research_booster_desc","text":"The Booster Mixer allows us to efficiently get Booster effects into our products.\n\nIt has a small footprint, low process time and low process cost, however it can't transfer anything but Boosters between drugs."},
+	{"code":"research_booster","text":"Буст-Миксер"},
+	{"code":"research_booster_desc","text":"Буст-Миксер позволяет эффективно добавлять Буст-эффекты к нашим продуктам. \n\nIУ него небольшой размер, малые время и стоимость обработки, но он может только перемещать Буст-эффекты между лекарствами."},
 	
-	{"code":"research_socket_to_socket","text":"Socket to Socket Transfer"},
-	{"code":"research_socket_to_socket_desc","text":"This technology will allow us to re-purpose standard sockets to transfer directly between themselves, rather than for importing ingredients or exporting finished products.\n\nAccess this ability via the Auxiliary menu on the Production Tab."},
+	{"code":"research_socket_to_socket","text":"Транспортировка между окнами"},
+	{"code":"research_socket_to_socket_desc","text":"Эта технология позволит использовать окна не только для импорта ингредиентов или экспорта лекарств , но и для перемещения продукции и компонентов между окнами.\n\nДоступ к этой возможности можно найти в меню Вспомогательные вкладки производства."},
 	
-	{"code":"research_stockgate","text":"Stock Gate"},
-	{"code":"research_stockgate_desc","text":"Stock Gates allow us to regulate the flow of drugs through our factory based on the current stock levels of products. This allows us to create adaptive production systems which can automatically adjust to demand."},
+	{"code":"research_stockgate","text":"Контроллер запасов"},
+	{"code":"research_stockgate_desc","text":"Контроллер запасов позволяет нам контролировать поток лекарств на нашей фабрике, в зависимости от текущего уровня запасов. Это позволит создавать адаптивные производственные линии, которые могут подстравиват к текущему уровню спроса."},
 	
-	{"code":"research.sales_reps","text":"Unlocks the ability to assign Sales Reps to a product."},
-	{"code":"research.gifts","text":"Unlocks Gifts for Sales Reps."},
-	{"code":"research.portfolio_presentations","text":"Unlocks Portfolio Presentations for Sales Reps"},
+	{"code":"research.sales_reps","text":"Разблокирует возможность назначать торговых представителей для продукта."},
+	{"code":"research.gifts","text":"Разблокирует подарки для торговых представителей."},
+	{"code":"research.portfolio_presentations","text":"Разблокирует презентацию портфолио для торговых представителей."},
 	
-	{"code":"research.advertising","text":"Unlocks the ability to run Advertising."},
-	{"code":"research.crosspromotion","text":"Unlocks Cross-Promotion."},
-	{"code":"research.branding","text":"Unlocks Branding"},
-	{"code":"research.social_media","text":"Unlocks Social Media"},
+	{"code":"research.advertising","text":"Разблокирует возможность запуска рекламной кампании."},
+	{"code":"research.crosspromotion","text":"Разблокирует Кросс-продвижение."},
+	{"code":"research.branding","text":"Разблокирует брэндинг."},
+	{"code":"research.social_media","text":"Разблокирует социальные-медиа."},
 	
-	{"code":"research.disease_awareness_campaigns","text":"Unlocks the ability to run Disease Awareness Campaigns."},
-	{"code":"research.symptom_awareness","text":"Unlocks Symptom Awareness Campaigns"},
-	{"code":"research.corporate_slander","text":"Unlocks Corporate Slander"},
-	{"code":"research.preventative_aftercare","text":"Unlocks Preventative Aftercare"},
+	{"code":"research.disease_awareness_campaigns","text":"Разблокирует возможност запуска кампании осведомлённости о болезни."},
+	{"code":"research.symptom_awareness","text":"Разблокирует возможност запуска кампании осведомлённости о симптомах."},
+	{"code":"research.corporate_slander","text":"Разблокирует корпоративную клевету."},
+	{"code":"research.preventative_aftercare","text":"Разблокирует превентивный уход за выздоравливающим."},
 	
-	{"code":"research.trials","text":"Unlocks the ability to run Clinical Trials."},
-	{"code":"research.trialAccuracy","text":"Trial accuracy:"},
+	{"code":"research.trials","text":"Разблокирует возможность проведения клинических испытаний."},
+	{"code":"research.trialAccuracy","text":"Точность испытания:"},
 	{"code":"tofrom.trialAccuracy","text":"{0}%"},
 	
-	{"code":"research.negativePressChance","text":"Bad Publicity chance:"},
+	{"code":"research.negativePressChance","text":"Шанс негативной публикации:"},
 	{"code":"tofrom.negativePressChance","text":"{0}%"},
 	
-	{"code":"research.numberOfExecutives","text":"Number of executives"},
+	{"code":"research.numberOfExecutives","text":"Количество руководителей"},
 	{"code":"tofrom.numberOfExecutives","text":"{0}"},
 	
-	{"code":"research.socket_to_socket","text":"Unlocks the Connect Sockets tool."},
+	{"code":"research.socket_to_socket","text":"UРазблокирует инструмент соединения окон."},
 	
 	// Marketing campaigns
 	{"code":"sales_reps","text":"Sales Reps"},
