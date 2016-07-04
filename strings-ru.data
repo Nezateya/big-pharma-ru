@@ -375,7 +375,7 @@
 	{"code":"display","text":"Режим экрана:"},
 	{"code":"fullscreen","text":"Полноэкранный"},
 	{"code":"windowed","text":"В окне"},
-	{"code":"borderless","text":"Без рамки"},
+	{"code":"borderless","text":"В окне без рамки"},
 	{"code":"customCursor","text":"Динамический курсор:"},
 	{"code":"animatedTabTransitions","text":"Анимированное переключение вкладок:"},
 	

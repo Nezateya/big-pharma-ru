@@ -10,6 +10,7 @@
 	{"code":"booster","text":"Буст-Миксер"},
 	{"code":"boosterdesc","text":"&GREY>Перемещает &eff5>Буст&GREY>-эффенкты из одного ингредиента в другой. Ингредиенты, содержащие &eff5>Буст&GREY>-эффекты должны поступать в &eff5>оранжевый&GREY> люк."},
 	{"code":"stockgate","text":"Контролеер запасов"},
+	{"code":"stockgatecaps","text":"КОНТРОЛЛЕР ЗАПАСОВ"},
 	{"code":"stockgatedesc","text":"&GREY>Дополнение к конвейерной ленте. Используется, чтобы контролировать поток лекарств на вашей фабрике, в зависимости от текущего уровня запасов произведённого лекарства."},
 	
 	// GUI
@@ -21,6 +22,7 @@
 	{"code":"productValueMM","text":"Одновременно продайте {0} продуктов, лечащих различные заболевания по цене более &$>{1}."},
 	{"code":"productValueOneMM","text":"Продайте 1 продукт по цене более &$>{0}."},
 	{"code":"productValueHoverMM","text":"На текущий момент продано {0} продуктов с ценой более &$>{1}"},
+
 	// COMPANY TAB
 	{"code":"revenuecolon","text":"Доходы:"},
 	{"code":"operatingprofitslashmargincolon","text":"Операционный доход / Маржа:"},
@@ -289,5 +291,6 @@
 	
 	// NEW STRINGS
 	{"code":"numberOfBoosters","text":"Количество буст-эффектов:"},
-	{"code":"hovertext.numberOfBoosters","text":"Количество буст-эффектов."}
+	{"code":"hovertext.numberOfBoosters","text":"Количество буст-эффектов."},
+	{"code":"clicktounlock","text":"НАЖМИТЕ ЧТОБЫ РАЗБЛОКИРОВАТЬ!"}
 ]
