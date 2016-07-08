@@ -77,7 +77,7 @@
 	{"code":"restarting","text":"Перезапуск..."},
 	
 	// MAIN MENU
-	{"code":"mainmenuversion","text":"Версия: {0} (перевод 0.80)"},
+	{"code":"mainmenuversion","text":"Версия: {0} (перевод 0.85)"},
 	{"code":"mainmenunewgame","text":"Новая игра"},
 	{"code":"mainmenuloadgame","text":"Загрузка"},
 	{"code":"mainmenuoptions","text":"Настройки"},
@@ -324,7 +324,7 @@
 	{"code":"invalidsave","text":"Это сохранение было сделано в старой версии игры и не может быть загружено. Извиняемся!"},
 	{"code":"hourabbreviation","text":"ч"},
 	{"code":"minuteabbreviation","text":"м"},
-	{"code":"changevideosettings","text":"Настройки графики можно изменить в главном меню"},
+	{"code":"changevideosettings","text":"Настраивается в главном меню"},
 	{"code":"invalidsavemodnone","text":"Для загрузки данного сохранения не требуется модов."},
 	{"code":"invalidsavemoddif","text":"Для загрузки данного сохранения требуется мод '{0}'."},
 	{"code":"errorloadingsavegame","text":"Ошибка при загрузке игры."},
