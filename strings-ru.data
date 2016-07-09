@@ -556,7 +556,7 @@
 	{"code":"anxiety","text":"Снижает тревожность"},
 	
 	{"code":"lungstitle","text":"Легкие"},
-	{"code":"cough","text":"Против кашеля"},
+	{"code":"cough","text":"Против кашля"},
 	{"code":"asthma","text":"От астмы"},
 	{"code":"bronchitis","text":"От бронхита"},
 	{"code":"tuberculosis","text":"От туберкулеза"},
